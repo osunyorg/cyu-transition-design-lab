@@ -21,4 +21,8 @@ items:
   target: "/programmes/"
   kind: page
   children: []
+- title: Publications HAL
+  target: "/publications/"
+  kind: page
+  children: []
 
