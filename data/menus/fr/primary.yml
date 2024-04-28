@@ -16,7 +16,11 @@ items:
 - title: Équipe
   target: "/equipe/"
   kind: page
-  children: []
+  children:
+  - title: Nous rejoindre
+    target: "/equipe/nous-rejoindre/"
+    kind: page
+    children: []
 - title: Organisations
   target: "/organisations/"
   kind: page
