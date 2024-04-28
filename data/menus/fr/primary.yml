@@ -17,12 +17,12 @@ items:
     target: "/equipe/nous-rejoindre/"
     kind: page
     children: []
-- title: Productions
-  target: "/productions/"
+- title: Projets
+  target: "/projets/"
   kind: page
   children:
   - title: Publications
-    target: "/productions/publications/"
+    target: "/projets/publications/"
     kind: page
     children: []
 - title: Programmes
