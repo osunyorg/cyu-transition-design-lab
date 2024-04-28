@@ -11,7 +11,7 @@ fr:
   permalinks:
     projects: /programmes/:year-:slug/
     projects_categories: /programmes/:slug/
-    publications: /publications/:year-:slug/
+    publications: /productions/publications/:year-:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/:slug/
     researchers: /equipe/:slug/publications/
