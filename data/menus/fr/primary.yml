@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: À propos
+  target: "/a-propos/"
+  kind: page
+  children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
@@ -23,10 +27,6 @@ items:
     children: []
 - title: Organisations
   target: "/organisations/"
-  kind: page
-  children: []
-- title: À propos
-  target: "/a-propos/"
   kind: page
   children: []
 
