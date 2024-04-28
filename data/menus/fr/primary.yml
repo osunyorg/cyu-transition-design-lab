@@ -13,10 +13,6 @@ items:
     target: "/equipe/nous-rejoindre/"
     kind: page
     children: []
-- title: Agenda
-  target: "/agenda/"
-  kind: page
-  children: []
 - title: Projets
   target: "/projets/"
   kind: page
