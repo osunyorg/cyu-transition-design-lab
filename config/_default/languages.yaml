@@ -13,6 +13,7 @@ fr:
     projects_categories: /projets/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/:slug/
+    researchers: /equipe/:slug/publications/
   taxonomies:
     administrator: administrators
     author: authors
