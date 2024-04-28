@@ -13,7 +13,7 @@ items:
     target: "/equipe/nous-rejoindre/"
     kind: page
     children: []
-- title: Projets
+- title: Programmes
   target: "/projets/"
   kind: page
   children: []
