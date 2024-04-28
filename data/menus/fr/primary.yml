@@ -17,7 +17,7 @@ items:
     target: "/equipe/nous-rejoindre/"
     kind: page
     children: []
-- title: Projets
+- title: Productions
   target: "/projets/"
   kind: page
   children:
