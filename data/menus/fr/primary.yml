@@ -2,35 +2,35 @@
 title: Menu principal
 items:
 - title: À propos
-  target: "/a-propos/"
+  target: "/fr/a-propos/"
   kind: page
   children: []
 - title: Équipe
-  target: "/equipe/membres/"
+  target: "/fr/equipe/membres/"
   kind: page
   children:
   - title: Membres
-    target: "/equipe/membres/"
+    target: "/fr/equipe/membres/"
     kind: page
     children: []
   - title: Partenaires
-    target: "/equipe/partenaires/"
+    target: "/fr/equipe/partenaires/"
     kind: page
     children: []
   - title: Nous rejoindre
-    target: "/equipe/nous-rejoindre/"
+    target: "/fr/equipe/nous-rejoindre/"
     kind: page
     children: []
 - title: Programmes
-  target: "/programmes/"
+  target: "/fr/programmes/"
   kind: page
   children: []
 - title: Publications
-  target: "/publications/"
+  target: "/fr/publications/"
   kind: page
   children: []
 - title: Outils
-  target: "/outils/"
+  target: "/fr/outils/"
   kind: page
   children: []
 

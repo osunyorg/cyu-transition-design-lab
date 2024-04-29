@@ -4,7 +4,7 @@ baseURL: https://transition-design-lab.cy.osuny.site
 
 ## LANGUAGE
 defaultContentLanguage: fr
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 
 ## CACHE
 deployment:
