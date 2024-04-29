@@ -37,4 +37,8 @@ items:
     target: "/projets/autres/"
     kind: page
     children: []
+- title: Programmes
+  target: "/programmes/"
+  kind: page
+  children: []
 
