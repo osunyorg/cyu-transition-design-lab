@@ -21,16 +21,16 @@ items:
     target: "/equipe/nous-rejoindre/"
     kind: page
     children: []
+- title: Publications
+  target: "/publications/"
+  kind: page
+  children: []
 - title: Outils
   target: "/outils/"
   kind: page
   children: []
 - title: Programmes
   target: "/programmes/"
-  kind: page
-  children: []
-- title: Publications
-  target: "/publications/"
   kind: page
   children: []
 
