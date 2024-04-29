@@ -17,6 +17,10 @@ items:
     target: "/equipe/nous-rejoindre/"
     kind: page
     children: []
+  - title: Organisations
+    target: "/equipe/organisations/"
+    kind: page
+    children: []
 - title: Productions
   target: "/projets/"
   kind: page
