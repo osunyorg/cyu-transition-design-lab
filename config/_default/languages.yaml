@@ -12,8 +12,8 @@ en:
     projects: /projects/:year-:slug/
     projects_categories: /projects/:slug/
     publications: /publications/:year-:slug/
-    organizations: /organizations/:slug/
-    organizations_categories: /organizations/:slug/
+    organizations: /team/partners/:slug/
+    organizations_categories: /team/partners/:slug/
     persons: /team/:slug/
     persons_categories: /team/:slug/
     researchers: /team/:slug/publications/
