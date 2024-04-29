@@ -29,8 +29,8 @@ items:
   target: "/en/publications/"
   kind: page
   children: []
-- title: Projects
-  target: "/en/projects/"
+- title: Tools
+  target: "/en/tools/"
   kind: page
   children: []
 
