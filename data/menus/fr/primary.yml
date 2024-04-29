@@ -21,6 +21,10 @@ items:
     target: "/equipe/nous-rejoindre/"
     kind: page
     children: []
+- title: Projets
+  target: "/productions/"
+  kind: page
+  children: []
 - title: Productions
   target: "/projets/"
   kind: page
@@ -39,10 +43,6 @@ items:
     children: []
 - title: Programmes
   target: "/programmes/"
-  kind: page
-  children: []
-- title: Agenda
-  target: "/agenda/"
   kind: page
   children: []
 - title: Nous rejoindre
