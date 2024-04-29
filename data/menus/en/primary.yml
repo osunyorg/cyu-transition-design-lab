@@ -17,4 +17,8 @@ items:
   target: "/en/organizations/"
   kind: page
   children: []
+- title: About
+  target: "/en/about/"
+  kind: page
+  children: []
 
