@@ -13,8 +13,8 @@ items:
     target: "/equipe/membres/"
     kind: page
     children: []
-  - title: Organisations
-    target: "/equipe/organisations/"
+  - title: Partenaires
+    target: "/equipe/partenaires/"
     kind: page
     children: []
   - title: Nous rejoindre
