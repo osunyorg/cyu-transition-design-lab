@@ -18,13 +18,13 @@ items:
     kind: page
     children: []
   - title: Nous rejoindre
+    target: ''
+    kind: blank
+    children: []
+  - title: Nous rejoindre
     target: "/equipe/nous-rejoindre/"
     kind: page
-    children:
-    - title: Nous rejoindre
-      target: ''
-      kind: blank
-      children: []
+    children: []
 - title: Productions
   target: "/projets/"
   kind: page
