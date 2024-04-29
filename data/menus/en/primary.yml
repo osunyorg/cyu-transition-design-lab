@@ -33,8 +33,4 @@ items:
   target: "/en/tools/"
   kind: page
   children: []
-- title: Calendar
-  target: "/en/calendar/"
-  kind: page
-  children: []
 
