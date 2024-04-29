@@ -25,12 +25,12 @@ items:
   target: "/en/programs/"
   kind: page
   children: []
-- title: Projects
-  target: "/en/projects/"
+- title: Publications
+  target: "/en/publications/"
   kind: page
   children: []
-- title: HAL publications
-  target: "/en/publications/"
+- title: Projects
+  target: "/en/projects/"
   kind: page
   children: []
 
