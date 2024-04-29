@@ -41,4 +41,8 @@ items:
   target: "/programmes/"
   kind: page
   children: []
+- title: Agenda
+  target: "/agenda/"
+  kind: page
+  children: []
 
