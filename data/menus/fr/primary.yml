@@ -37,10 +37,6 @@ items:
     target: "/projets/outils/"
     kind: page
     children: []
-  - title: Autres
-    target: "/projets/autres/"
-    kind: page
-    children: []
 - title: Programmes
   target: "/programmes/"
   kind: page
