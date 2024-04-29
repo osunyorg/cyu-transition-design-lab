@@ -5,16 +5,16 @@ items:
   target: "/en/about/"
   kind: page
   children: []
+- title: Team
+  target: "/en/team/"
+  kind: page
+  children: []
 - title: Projects
   target: "/en/projects/"
   kind: page
   children: []
 - title: HAL publications
   target: "/en/publications/"
-  kind: page
-  children: []
-- title: Team
-  target: "/en/team/"
   kind: page
   children: []
 - title: Organizations
