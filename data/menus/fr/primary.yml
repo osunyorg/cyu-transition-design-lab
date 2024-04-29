@@ -13,12 +13,12 @@ items:
     target: "/equipe/membres/"
     kind: page
     children: []
-  - title: Nous rejoindre
-    target: "/equipe/nous-rejoindre/"
-    kind: page
-    children: []
   - title: Organisations
     target: "/equipe/organisations/"
+    kind: page
+    children: []
+  - title: Nous rejoindre
+    target: "/equipe/nous-rejoindre/"
     kind: page
     children: []
 - title: Productions
