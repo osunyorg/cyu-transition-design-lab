@@ -30,7 +30,7 @@ items:
   kind: page
   children:
   - title: Publications
-    target: "/projets/publications/"
+    target: "/publications/"
     kind: page
     children: []
   - title: Outils
