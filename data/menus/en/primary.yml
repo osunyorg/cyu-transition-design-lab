@@ -21,8 +21,8 @@ items:
     target: "/en/team/join-us/"
     kind: page
     children: []
-- title: Programmes
-  target: "/en/programmes/"
+- title: Programs
+  target: "/en/programs/"
   kind: page
   children: []
 - title: Projects
