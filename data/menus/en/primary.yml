@@ -9,8 +9,8 @@ items:
   target: "/en/team/"
   kind: page
   children:
-  - title: Membres
-    target: "/en/team/membres/"
+  - title: Members
+    target: "/en/team/members/"
     kind: page
     children: []
 - title: Projects
