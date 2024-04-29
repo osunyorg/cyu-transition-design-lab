@@ -20,7 +20,11 @@ items:
   - title: Nous rejoindre
     target: "/equipe/nous-rejoindre/"
     kind: page
-    children: []
+    children:
+    - title: Nous rejoindre
+      target: ''
+      kind: blank
+      children: []
 - title: Productions
   target: "/projets/"
   kind: page
