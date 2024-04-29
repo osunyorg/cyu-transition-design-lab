@@ -195,6 +195,7 @@ contents:
       Équipe
     ranks:
       self: 2
+      children: 3
     data:
       page: 
         path: "/equipe/"
@@ -202,9 +203,13 @@ contents:
         file: "persons/_index.html"
       show_main_description: true
       show_descriptions: false
-      show_images: false
+      show_images: true
       layout: list
       pages:
+        - path: "/equipe/membres/"
+          slug: "membres"
+          file: "pages/equipe/membres/_index.html"
+          external: false
 
 
 
