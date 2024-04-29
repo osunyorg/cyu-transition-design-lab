@@ -9,8 +9,8 @@ en:
   params:
     social:
   permalinks:
-    projects: /projects/:year-:slug/
-    projects_categories: /projects/:slug/
+    projects: /tools/:year-:slug/
+    projects_categories: /tools/:slug/
     publications: /publications/:year-:slug/
     organizations: /team/partners/:slug/
     organizations_categories: /team/partners/:slug/
