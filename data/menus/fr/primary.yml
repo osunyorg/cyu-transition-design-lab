@@ -25,14 +25,6 @@ items:
   target: "/outils/"
   kind: page
   children: []
-- title: Productions
-  target: "/projets/"
-  kind: page
-  children:
-  - title: Publications
-    target: "/publications/"
-    kind: page
-    children: []
 - title: Programmes
   target: "/programmes/"
   kind: page
