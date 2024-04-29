@@ -33,8 +33,4 @@ items:
   target: "/en/tools/"
   kind: page
   children: []
-- title: News
-  target: "/en/news/"
-  kind: page
-  children: []
 
