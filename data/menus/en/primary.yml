@@ -17,6 +17,10 @@ items:
     target: "/en/team/partners/"
     kind: page
     children: []
+  - title: Nous rejoindre
+    target: "/en/team/nous-rejoindre/"
+    kind: page
+    children: []
 - title: Projects
   target: "/en/projects/"
   kind: page
