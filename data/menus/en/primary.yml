@@ -13,16 +13,16 @@ items:
     target: "/en/team/members/"
     kind: page
     children: []
+  - title: Partners
+    target: "/en/team/partners/"
+    kind: page
+    children: []
 - title: Projects
   target: "/en/projects/"
   kind: page
   children: []
 - title: HAL publications
   target: "/en/publications/"
-  kind: page
-  children: []
-- title: Organizations
-  target: "/en/organizations/"
   kind: page
   children: []
 
