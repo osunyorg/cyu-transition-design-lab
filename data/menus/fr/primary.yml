@@ -22,7 +22,7 @@ items:
     kind: page
     children: []
 - title: Projets
-  target: "/productions/"
+  target: "/outils/"
   kind: page
   children: []
 - title: Productions
