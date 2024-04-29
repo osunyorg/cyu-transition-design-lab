@@ -33,8 +33,8 @@ items:
   target: "/en/tools/"
   kind: page
   children: []
-- title: Agenda
-  target: "/en/agenda/"
+- title: Calendar
+  target: "/en/calendar/"
   kind: page
   children: []
 
