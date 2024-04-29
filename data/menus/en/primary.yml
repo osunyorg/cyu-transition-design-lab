@@ -1,6 +1,10 @@
 ---
 title: Main menu
 items:
+- title: About
+  target: "/en/about/"
+  kind: page
+  children: []
 - title: Projects
   target: "/en/projects/"
   kind: page
@@ -15,10 +19,6 @@ items:
   children: []
 - title: Organizations
   target: "/en/organizations/"
-  kind: page
-  children: []
-- title: About
-  target: "/en/about/"
   kind: page
   children: []
 
