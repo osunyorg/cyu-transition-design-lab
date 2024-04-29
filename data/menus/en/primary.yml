@@ -24,7 +24,11 @@ items:
 - title: Programs
   target: "/en/programs/"
   kind: page
-  children: []
+  children:
+  - title: Decision design
+    target: "/en/programs/decision-design/"
+    kind: page
+    children: []
 - title: Publications
   target: "/en/publications/"
   kind: page
