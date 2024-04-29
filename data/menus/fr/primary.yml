@@ -29,8 +29,4 @@ items:
   target: "/programmes/"
   kind: page
   children: []
-- title: Nous rejoindre
-  target: ''
-  kind: blank
-  children: []
 
