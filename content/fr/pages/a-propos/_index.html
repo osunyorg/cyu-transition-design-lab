@@ -217,17 +217,25 @@ contents:
       children: 4
     data:
       page: 
-        path: "/fr/equipe/membres/"
-        slug: "membres"
-        file: "persons/_index.html"
+        path: "/fr/equipe/"
+        slug: "equipe"
+        file: "pages/equipe/_index.html"
       show_main_description: true
-      show_descriptions: false
+      show_descriptions: true
       show_images: true
       layout: list
       pages:
-        - path: "/fr/equipe/"
-          slug: "equipe"
-          file: "pages/equipe/_index.html"
+        - path: "/fr/equipe/membres/"
+          slug: "membres"
+          file: "persons/_index.html"
+          external: false
+        - path: "/fr/equipe/partenaires/"
+          slug: "partenaires"
+          file: "organizations/_index.html"
+          external: false
+        - path: "/fr/equipe/nous-rejoindre/"
+          slug: "nous-rejoindre"
+          file: "pages/equipe/nous-rejoindre/_index.html"
           external: false
 
 
