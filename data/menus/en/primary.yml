@@ -6,7 +6,7 @@ items:
   kind: page
   children: []
 - title: Team
-  target: "/en/team/"
+  target: "/en/members/team/"
   kind: page
   children:
   - title: Members
@@ -14,11 +14,11 @@ items:
     kind: page
     children: []
   - title: Partners
-    target: "/en/partners/"
+    target: "/en/members/partners/"
     kind: page
     children: []
   - title: Join us
-    target: "/en/join-us/"
+    target: "/en/members/join-us/"
     kind: page
     children: []
 - title: Programs
