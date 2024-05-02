@@ -29,6 +29,10 @@ items:
     target: "/fr/programmes/design-de-la-decision/"
     kind: page
     children: []
+  - title: Lindda
+    target: "/fr/programmes/lindda/"
+    kind: page
+    children: []
 - title: Publications
   target: "/fr/publications/"
   kind: page
