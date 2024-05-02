@@ -12,11 +12,11 @@ en:
     projects: /tools/:year-:slug/
     projects_categories: /tools/:slug/
     publications: /publications/:year-:slug/
-    organizations: /team-1/partners/:slug/
-    organizations_categories: /team-1/partners/:slug/
-    persons: /team-1/members/:slug/
-    persons_categories: /team-1/members/:slug/
-    researchers: /team-1/members/:slug/publications/
+    organizations: /team/partners/:slug/
+    organizations_categories: /team/partners/:slug/
+    persons: /team/members/:slug/
+    persons_categories: /team/members/:slug/
+    researchers: /team/members/:slug/publications/
   taxonomies:
     administrator: administrators
     author: authors
