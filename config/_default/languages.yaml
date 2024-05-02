@@ -2,12 +2,24 @@
 
 en:
   title: >-
-    Transition Design Lab
+    Transition design lab
   contentDir: content/en
   languageCode: en
   languageName: English
   params:
     social:
+      email: >-
+        annie.gentes@cyu.fr
+      x: >-
+        https://twitter.com/CyEcoledeDesign
+      linkedin: >-
+        https://www.linkedin.com/company/cy-ecole-de-design/
+      youtube: >-
+        https://www.youtube.com/channel/UCw_1kcvK37TZs-vqKd-t-MQ
+      instagram: >-
+        https://www.instagram.com/cyecolededesign/
+      facebook: >-
+        https://www.facebook.com/cyecolededesign
   permalinks:
     projects: /tools/:year-:slug/
     projects_categories: /tools/:slug/
@@ -32,12 +44,24 @@ en:
     volume: volumes
 fr:
   title: >-
-    Transition Design Lab
+    Transition design lab
   contentDir: content/fr
   languageCode: fr
   languageName: Français
   params:
     social:
+      email: >-
+        annie.gentes@cyu.fr
+      x: >-
+        https://twitter.com/CyEcoledeDesign
+      linkedin: >-
+        https://www.linkedin.com/company/cy-ecole-de-design/
+      youtube: >-
+        https://www.youtube.com/channel/UCw_1kcvK37TZs-vqKd-t-MQ
+      instagram: >-
+        https://www.instagram.com/cyecolededesign/
+      facebook: >-
+        https://www.facebook.com/cyecolededesign
   permalinks:
     projects: /outils/:year-:slug/
     projects_categories: /outils/:slug/
