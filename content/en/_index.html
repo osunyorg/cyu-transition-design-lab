@@ -103,21 +103,18 @@ contents:
 
 
   - kind: block
-    template: pages
+    template: projects
     title: >-
-      Latest tools
+      
     ranks:
-      self: 2
+      self: false
+      children: 2
     data:
-      page: 
-        path: "/en/tools/"
-        slug: "tools"
-        file: "projects/_index.html"
-      show_main_description: true
-      show_descriptions: true
-      show_images: true
-      layout: cards
-      pages:
+      mode: all
+      layout: grid
+      projects:
+        - slug: "quadractic-voting"
+          file: "projects/2024-quadractic-voting.html"
 
 
 
