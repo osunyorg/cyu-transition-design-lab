@@ -14,11 +14,11 @@ items:
     kind: page
     children: []
   - title: Partenaires
-    target: "/fr/equipe-1/membres/partenaires/"
+    target: "/fr/equipe-1/partenaires/"
     kind: page
     children: []
   - title: Nous rejoindre
-    target: "/fr/equipe-1/membres/nous-rejoindre/"
+    target: "/fr/equipe-1/nous-rejoindre/"
     kind: page
     children: []
 - title: Programmes
