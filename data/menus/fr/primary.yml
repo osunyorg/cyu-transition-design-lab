@@ -33,6 +33,10 @@ items:
     target: "/fr/programmes/lindda/"
     kind: page
     children: []
+  - title: Erasmus +
+    target: "/fr/programmes/erasmus/"
+    kind: page
+    children: []
 - title: Publications
   target: "/fr/publications/"
   kind: page
