@@ -35,7 +35,7 @@ weight: 2
 translation_key: communication-website-page-d1707795-e461-4c8b-ae83-1915b5c636c9
 
 bodyclass: >-
-  ancestor-home-page
+  page-team ancestor-home-page
 
 children:
   - "persons/_index.html"
@@ -54,31 +54,24 @@ header_text: >-
 header_cta:
   display: true
   label: Join us
-  target: team/join-us
+  target: ../join-us
 contents_reading_time:
-  seconds: 13
+  seconds: 0
   text: >-
     less than a minute
 contents:
   - kind: block
-    template: persons
+    template: pages
     title: >-
-      Associates
+      
     ranks:
-      self: 2
-      children: 3
+      self: false
     data:
-      description: >-
-        <p>Phasellus orci cras mattis dolor congue si arcu accumsan laoreet pretium. Libero eros commodo leo adipiscing id. Maecenas praesent dapibus fermentum sociosqu pharetra nisi ad nam tortor. Ex bibendum nostra fringilla eros vitae dignissim facilisis. Netus felis hendrerit iaculis dictum tempor. Erat eros hendrerit magnis condimentum pretium porta sem.<br></p>
-
-      with_link: true
-      with_photo: true
-      persons:
-        - slug: "anthony-ferretti"
-          external: false
-          role: >-
-            Associate designer
-
+      show_main_description: false
+      show_descriptions: false
+      show_images: false
+      layout: grid
+      pages:
 
 
 
