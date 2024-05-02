@@ -66,11 +66,11 @@ fr:
     projects: /outils/:year-:slug/
     projects_categories: /outils/:slug/
     publications: /publications/:year-:slug/
-    organizations: /equipe-1/partenaires/:slug/
-    organizations_categories: /equipe-1/partenaires/:slug/
-    persons: /equipe-1/membres/:slug/
-    persons_categories: /equipe-1/membres/:slug/
-    researchers: /equipe-1/membres/:slug/publications/
+    organizations: /equipe/partenaires/:slug/
+    organizations_categories: /equipe/partenaires/:slug/
+    persons: /equipe/membres/:slug/
+    persons_categories: /equipe/membres/:slug/
+    researchers: /equipe/membres/:slug/publications/
   taxonomies:
     administrator: administrators
     author: authors
