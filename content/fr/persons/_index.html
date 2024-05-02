@@ -60,22 +60,34 @@ header_cta:
   label: Nous rejoindre
   target: ../nous-joindre
 contents_reading_time:
-  seconds: 0
+  seconds: 7
   text: >-
     moins d'une minute
 contents:
   - kind: block
-    template: pages
+    template: persons
     title: >-
-      
+      Chercheur·e·s associé·e·s
     ranks:
-      self: false
+      self: 2
+      children: 3
     data:
-      show_main_description: false
-      show_descriptions: false
-      show_images: false
-      layout: grid
-      pages:
+      description: >-
+        <p>Senectus tempus fermentum ac aliquam phasellus. Augue etiam vestibulum quisque semper luctus sagittis tristique primis integer. Eros vulputate dignissim posuere fermentum id eu vitae.<br></p>
+
+      with_link: true
+      with_photo: true
+      persons:
+        - slug: "annie-gentes"
+          external: false
+          role: >-
+            Directrice du laboratoire
+
+        - slug: "justine-peneau"
+          external: false
+          role: >-
+            Chercheuse post-doctorale
+
 
 
   - kind: block
