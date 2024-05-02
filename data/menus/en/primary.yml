@@ -10,15 +10,15 @@ items:
   kind: page
   children:
   - title: Members
-    target: "/en/team/members/"
+    target: "/en/members/"
     kind: page
     children: []
   - title: Partners
-    target: "/en/team/partners/"
+    target: "/en/partners/"
     kind: page
     children: []
   - title: Join us
-    target: "/en/team/join-us/"
+    target: "/en/join-us/"
     kind: page
     children: []
 - title: Programs
