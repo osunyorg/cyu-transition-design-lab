@@ -207,7 +207,7 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Team
+      Members
     ranks:
       self: 3
       children: 4
@@ -217,13 +217,17 @@ contents:
         slug: "members"
         file: "persons/_index.html"
       show_main_description: true
-      show_descriptions: false
+      show_descriptions: true
       show_images: true
       layout: list
       pages:
         - path: "/en/team/members/"
           slug: "members"
           file: "persons/_index.html"
+          external: false
+        - path: "/en/team/partners/"
+          slug: "partners"
+          file: "organizations/_index.html"
           external: false
 
 
