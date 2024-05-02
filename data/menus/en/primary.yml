@@ -22,11 +22,11 @@ items:
     kind: page
     children: []
 - title: Programs
-  target: "/en/research-programs/"
+  target: "/en/programs/"
   kind: page
   children:
   - title: Decision design
-    target: "/en/research-programs/decision-design/"
+    target: "/en/programs/decision-design/"
     kind: page
     children: []
 - title: Publications
