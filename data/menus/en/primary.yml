@@ -6,19 +6,19 @@ items:
   kind: page
   children: []
 - title: Team
-  target: "/en/team-1/"
+  target: "/en/team/"
   kind: page
   children:
   - title: Members
-    target: "/en/team-1/members/"
+    target: "/en/team/members/"
     kind: page
     children: []
   - title: Partners
-    target: "/en/team-1/partners/"
+    target: "/en/team/partners/"
     kind: page
     children: []
   - title: Join us
-    target: "/en/team-1/join-us/"
+    target: "/en/team/join-us/"
     kind: page
     children: []
 - title: Programs
