@@ -6,7 +6,7 @@ items:
   kind: page
   children: []
 - title: Équipe
-  target: "/fr/membres/"
+  target: "/fr/equipe-1/membres/"
   kind: page
   children:
   - title: Membres
@@ -14,11 +14,11 @@ items:
     kind: page
     children: []
   - title: Partenaires
-    target: "/fr/membres/partenaires/"
+    target: "/fr/equipe-1/membres/partenaires/"
     kind: page
     children: []
   - title: Nous rejoindre
-    target: "/fr/membres/nous-rejoindre/"
+    target: "/fr/equipe-1/membres/nous-rejoindre/"
     kind: page
     children: []
 - title: Programmes
