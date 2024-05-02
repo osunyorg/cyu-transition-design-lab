@@ -10,7 +10,7 @@ items:
   kind: page
   children:
   - title: Membres
-    target: "/fr/equipe/"
+    target: "/fr/equipe/membres/"
     kind: page
     children: []
   - title: Partenaires
