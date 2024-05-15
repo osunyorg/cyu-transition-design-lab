@@ -2,13 +2,19 @@
 // Variables disponibles : https://github.com/noesya/osuny-hugo-theme-AAA/blob/main/assets/sass/_theme/_configuration.sass
 // Documentation sur : https://developers.osuny.org/docs/theme/theme-aaa/
 
-// TYPOGRAPHY
-// Fonts family
-$body-font-family: "Albert Sans"
+// TYPOGRAPHY ------------
+
+// FONT VARIABLES
+
+// Font family
+$body-font-family: "Albert Sans", "Helvetica", "Arial", sans-serif
 $heading-font-family: $body-font-family
 
-// Heading
+// Font weight
+$body-font-weight: 400 // new variable
 $heading-font-weight: 500
+
+// HEADINGS
 
 // h1
 $h1-size-desktop: pxToRem(64)
@@ -34,14 +40,57 @@ $h4-size: pxToRem(18)
 $h4-line-height: 130%
 $h4-weight: $heading-font-weight
 
-// h5
+// h5 or Section
 $h5-size-desktop: pxToRem(22)
 $h5-size: pxToRem(16)
 $h5-line-height: 130%
 $h5-weight: $heading-font-weight
 
-// h6
+// h6 or Tab
 $h6-size-desktop: pxToRem(20)
 $h6-size: pxToRem(14)
 $h6-line-height: 130%
 $h6-weight: $heading-font-weight
+
+// TEXTS
+
+// Lead
+$lead-size-desktop: pxToRem(48)
+$lead-size: pxToRem(24)
+$lead-line-height: 130%
+$lead-weight: $body-font-weight
+
+$lead-sidebar-size-desktop: pxToRem(32)
+$lead-sidebar-line-height: 140%
+
+// Body
+$body-size-desktop: pxToRem(22)
+$body-size: pxToRem(18)
+$body-line-height: 160%
+$body-weight: $body-font-weight
+
+// Small
+$small-size-desktop: pxToRem(18)
+$small-size: pxToRem(14)
+$small-line-height: 150%
+$small-weight: $body-font-weight
+
+// Signature
+$signature-size-desktop: pxToRem(24)
+$signature-size: pxToRem(18)
+$signature-line-height: 140%
+$signature-weight: $body-font-weight
+
+// Meta
+$meta-size-desktop: pxToRem(16)
+$meta-size: pxToRem(14)
+$meta-line-height: 150%
+$meta-weight: 500
+
+// Quotes
+$quote-size-desktop-short: pxToRem(48)
+$quote-size-desktop-long: pxToRem(32)
+$quote-size-desktop: pxToRem(32)
+$quote-size: pxToRem(24)
+$quote-line-height: 130%
+$quote-weight: $body-font-weight
