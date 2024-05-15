@@ -1,0 +1,86 @@
+// LOGO
+
+// TODO : faire le hover du logo
+
+
+// HEADER
+
+.has-menu-opened header
+  border-bottom: $border-width solid $color-accent !important
+
+.dropdown-menu
+  margin-top: 2rem !important
+
+// LINKS
+
+.menu a,
+.breadcrumb a,
+.toc a
+  text-decoration-color: transparent !important
+  text-decoration-line: underline
+  text-underline-offset: 40% !important
+  text-decoration-thickness: .07em !important
+
+
+.menu a:hover,
+.menu a:active,
+.menu a:active:hover,
+.breadcrumb a:hover,
+.breadcrumb a:active,
+.breadcrumb a:active:hover,
+.toc a:hover
+  text-decoration-color: $color-accent !important
+
+.page-title
+  font-weight: $heading-font-weight !important
+
+// BUTTONS
+
+.btn
+  font-weight: $meta-font-weight !important
+
+.btn:active,
+.btn:focus
+  box-shadow: none
+  background: $color-background-alt-accent
+
+// HERO
+
+.hero
+  margin-bottom: 0
+
+.document-content > .container,
+.blocks > .block:first-child:not(.block-call_to_action),
+.blocks > .heading:first-child
+  padding-top: var(--grid-gutter) !important
+
+.block-key_figures
+  margin: 0 !important
+
+// TABLE OF CONTENT
+
+.toc-container
+  margin: 0 !important
+  padding-left: var(--grid-gutter)
+  background: $color-background-reverse
+  width: calc( (var(--column-width) * 4) + var(--grid-gutter) * 4) !important
+
+.toc-title
+  color: $color-text-alt-reverse !important
+
+.toc-content
+  padding-top: 2rem !important
+  padding-right:var(--grid-gutter) !important
+
+.toc .active
+  color: $color-accent !important
+
+// CALL TO ACTION
+
+.actions > a:first-child
+  border: $border-width solid $color-text !important
+
+// FOOTER
+
+footer
+  border-top: $border-width solid $border-color
