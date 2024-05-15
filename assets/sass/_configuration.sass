@@ -12,6 +12,7 @@ $heading-font-family: $body-font-family
 
 // Font weight
 $body-font-weight: 400 // new variable
+$meta-font-weight: 500 // new variable
 $heading-font-weight: 500
 
 // HEADINGS
@@ -85,7 +86,7 @@ $signature-weight: $body-font-weight
 $meta-size-desktop: pxToRem(16)
 $meta-size: pxToRem(14)
 $meta-line-height: 150%
-$meta-weight: 500
+$meta-weight: $meta-font-weight
 
 // Quotes
 $quote-size-desktop-short: pxToRem(48)
@@ -94,3 +95,112 @@ $quote-size-desktop: pxToRem(32)
 $quote-size: pxToRem(24)
 $quote-line-height: 130%
 $quote-weight: $body-font-weight
+
+// COLORS ------------
+
+// MAIN COLORS
+
+$color-accent: #66FFE0
+$color-primary: #1A1A1A // new variable
+$color-secondary: #FFFFFF // new variable
+
+$color-text: $color-primary
+$color-text-reverse : $color-secondary
+
+$color-text-alt: rgba(0, 0, 0, 0.70)
+$color-text-alt-reverse : rgba(255, 255, 255, 0.70)
+
+$color-border: $color-accent
+
+$color-background: $color-secondary
+$color-background-alt: rgba(0, 0, 0, 0.05)
+
+$color-background-reverse: $color-primary
+$color-background-alt-reverse: rgba(255, 255, 255, 0.05)
+
+$color-selection: $color-text
+$color-selection-background: $color-accent
+
+$body-color: $color-text
+$body-background-color: $color-background
+$link-color: $color-text
+
+// COMPONENTS ------------
+
+// COMPONENT VARIABLES
+$border-width: pxToRem(2) // new variable
+$border-color: var(--color-border);
+$border-radius: pxToRem(0)
+
+// Buttons
+$btn-font-size: $meta-font-weight
+$btn-color: $color-text-reverse
+$btn-hover-color: $color-text
+$btn-hover-background: $color-accent
+$btn-border: $border-width solid $border-color
+$btn-border-radius: $border-radius
+$btn-padding: pxToRem(16) pxToRem(32)
+$btn-padding-desktop: pxToRem(18) pxToRem(64)
+$btn-min-width: pxToRem(120)
+$btn-min-width-desktop: pxToRem(200)
+
+// Chip
+$chip-color: $color-text
+$chip-background: transparent !default
+$chip-background-hover: $color-accent
+$chip-border: $border-width solid $border-color
+
+// Form
+$form-btn-color: $color-text
+$form-btn-background-color: $color-accent
+$form-input-border-radius: $border-radius
+
+// Header
+$header-color: $color-text-reverse
+$header-background: $color-background-reverse
+$header-border-bottom-width: $border-width solid $border-color
+$header-sticky-background: $header-background
+
+// Navs
+$body-overlat-color: rgba(0, 0, 0, 0.7)
+
+// Footer
+$footer-color: $header-color
+$footer-background-color: $header-background
+
+// Hero
+$hero-color: $color-text-reverse
+$hero-background-color: $color-background-reverse
+$hero-credit-color: $color-text-alt-reverse
+
+// Breadcrumb
+$breadcrumb-color-active: $color-text-alt-reverse
+$breadcrumb-icon-color: $color-accent
+
+// Table of content
+$toc-color: $color-text-reverse
+$toc-active-color: $toc-color
+$toc-background-color: $color-background-reverse
+
+// SECTIONS ------------
+
+// Person
+$person-avatar-background-color: $color-background
+
+// Organization
+$organization-background-color: $person-avatar-background-color
+
+// Project
+$project-infos-color-text: $color-text-reverse
+$project-infos-color-text-alt: $color-text-alt-reverse
+
+// BLOCKS ------------
+
+// Call to action
+
+$block-call-to-action-color: $color-text
+$block-call-to-action-button-color: $color-text
+$block-call-to-action-button-background: transparent !default
+$block-call-to-action-button-hover-background: $color-background-reverse
+$block-call-to-action-button-hover-color: $color-accent
+$block-call-to-action-button-border: $border-width solid $block-call-to-action-button-color // TODO : à voir avec Alexis
