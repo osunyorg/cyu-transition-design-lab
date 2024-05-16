@@ -34,7 +34,7 @@ items:
     kind: page
     children: []
   - title: Erasmus +
-    target: "/en/programs/erasmus/"
+    target: "/en/programs/eco-schools/"
     kind: page
     children: []
 - title: Publications
