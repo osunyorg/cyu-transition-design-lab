@@ -1,44 +1,111 @@
-// LOGO
+// HEADER ------------
+
+// Menu
+
+.has-menu-opened
+  header#document-header:not(.hero)
+    border-bottom: $border-width solid $color-accent
+  .menu .has-children .dropdown-menu
+    margin-top: pxToRem(31)
+    & .active
+      color: $color-accent
+
+header#document-header .menu,
+.has-menu-opened header#document-header .menu
+  & a,
+  & a:active,
+  & a:focus
+    text-decoration-line: $text-decoration-line
+    text-underline-offset: $text-underline-offset
+    text-decoration-thickness: $text-decoration-thickness
+    &:hover
+      text-decoration-color: $color-accent
+  & .active,
+  & ul .has-children .dropdown-menu ul li .active
+    color: $color-accent
+
+// Logo
 
 .logo
   filter: brightness(0) saturate(100%) invert(88%)
-  transition: filter 0.35s ease
+  transition: filter 0.3s ease
 
 .logo:hover
   filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(888%) hue-rotate(101deg) brightness(101%) contrast(102%)
 
-// HEADER
 
-.has-menu-opened header
-  border-bottom: $border-width solid $color-accent !important
+// TYPOGRAPHY ------------
 
-.dropdown-menu
-  margin-top: 2rem !important
+// HEADINGS
 
-// LINKS
+// Page title
 
-.menu a,
-.breadcrumb a,
-.toc a
-  text-decoration-color: transparent !important
-  text-decoration-line: underline
-  text-underline-offset: 40% !important
-  text-decoration-thickness: .07em !important
+.block-pages--large
+  @include in-page-without-sidebar
+    .page
+      & .page-title a
+        font-weight: $heading-font-weight
+        text-decoration-line: none
+      & .page-title a:after
+        display: inline-block
+        content: " ！"
+        position: relative
+        font-family: 'Icon'
+        vertical-align: middle
+        transition: transform 0.55s $arrow-ease-transition
+        transform: translateX(0)
+      &:hover .page-title a:after
+        transform: translateX(0.625rem)
 
+.more
+  display: none
 
-.menu a:hover,
-.menu a:active,
-.menu a:active:hover,
-.breadcrumb a:hover,
-.breadcrumb a:active,
-.breadcrumb a:active:hover,
-.toc a:hover
-  text-decoration-color: $color-accent !important
+.project // TODO [BUG] cela enleve le clic sur l'element entier
+  & .project-title
+    margin-bottom: $spacing-2
+    & a:after
+      display: inline-block
+      content: " ！"
+      position: relative
+      font-family: 'Icon'
+      vertical-align: middle
+      transition: transform 0.55s $arrow-ease-transition
+      transform: translateX(0)
+  &:hover .project-title a:after
+    transform: translateX(0.625rem)
 
-.page-title
-  font-weight: $heading-font-weight !important
+// TEXTS
 
-// BUTTONS
+// Lead description
+
+.block-pages--list
+    @include in-page-without-sidebar
+      .top .description p
+        font-weight: $body-font-weight
+
+// ICONS ------------
+
+p:after,
+a:after
+  font-weight: inherit !important
+
+// COMPONENTS ------------
+
+// Breadcrumb
+
+.breadcrumb li
+  & a,
+  & a:active,
+  & a:focus
+    text-decoration-line: $text-decoration-line
+    text-underline-offset: $text-underline-offset
+    text-decoration-thickness: $text-decoration-thickness
+    &:hover
+      text-decoration-color: $color-accent
+  & .active
+    color: $color-accent
+
+// Buttons
 
 .btn
   font-weight: $meta-font-weight !important
@@ -48,43 +115,119 @@
   box-shadow: none
   background: $color-background-alt-accent
 
-// HERO
+// Hero
 
 .hero
   margin-bottom: 0
+  border-bottom: 8rem solid $border-color
+
+// PAGES
 
 .document-content > .container,
 .blocks > .block:first-child:not(.block-call_to_action),
 .blocks > .heading:first-child
   padding-top: var(--grid-gutter) !important
 
+.block:last-child:not(.block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards)
+  padding-bottom: $spacing-5
+
+// NUMBER KEYS
+
 .block-key_figures
   margin: 0 !important
 
-// TABLE OF CONTENT
+// Table of content
 
-.toc-container
-  margin: 0 !important
-  padding-left: var(--grid-gutter)
-  background: $color-background-reverse
-  width: calc( (var(--column-width) * 4) + var(--grid-gutter) * 4) !important
-
+#toc-title,
 .toc-title
-  color: $color-text-alt-reverse !important
+  color: $color-text-alt-reverse
 
 .toc-content
-  padding-top: 2rem !important
-  padding-right:var(--grid-gutter) !important
+  @include in-page-with-sidebar
+    padding-top: var(--grid-gutter)
+    padding-right: var(--grid-gutter)
 
-.toc .active
-  color: $color-accent !important
+.toc-container
+  @include in-page-with-sidebar
+    margin: 0
+    padding-left: var(--grid-gutter)
+    background: $color-background-reverse
+    width: calc( (var(--column-width) * 4) + var(--grid-gutter) * 4)
+    .toc ol li a
+      text-decoration-color: transparent
+      text-decoration-line: $text-decoration-line
+      text-underline-offset: $text-underline-offset
+      text-decoration-thickness: $text-decoration-thickness
+      &:hover
+        text-decoration-color: $color-accent
 
-// CALL TO ACTION
+// Footer
+
+footer
+  border-top: $border-width solid $border-color
+
+// SECTIONS ------------
+
+// Person & organization
+
+.person,
+.organization
+  transition: all 0.3s ease
+
+.person:hover .avatar,
+.organization:hover .media
+  box-shadow: 0px 0px 0px $border-width $color-accent
+
+
+// BLOCKS ------------
+
+// Call to action
 
 .actions > a:first-child
   border: $border-width solid $color-text !important
 
-// FOOTER
+// PAGES ------------
 
-footer
-  border-top: $border-width solid $border-color
+// PROGRAM 01 - Decision design
+
+.page-program-01
+  .hero
+    border-bottom: 8rem solid $color-program-01
+  .toc .active,
+  .breadcrumb li
+    & a:hover
+      text-decoration-color: $color-program-01
+    &:before,
+    &.active
+	    color: $color-program-01
+  & .person:hover .avatar,
+  & .organization:hover .media
+    box-shadow: 0px 0px 0px $border-width $color-program-01
+  footer
+    border-top: $border-width solid $color-program-01
+
+// Header
+
+.page-program-01
+  header#document-header .menu,
+  .has-menu-opened header#document-header .menu
+    & a,
+    & a:active,
+    & a:focus
+      &:hover
+        text-decoration-color: $color-program-01
+    & .active,
+    & ul .has-children .dropdown-menu ul li .active,
+      color: $color-program-01
+
+.has-menu-opened
+  .page-program-01
+    header#document-header:not(.hero)
+      border-color: $color-program-01
+    .menu .has-children .dropdown-menu .active
+      color: $color-program-01
+
+// Table of content
+
+.page-program-01 .toc-container .toc ol li a:hover
+  text-decoration-color: $color-program-01 !important

@@ -12,8 +12,8 @@ $heading-font-family: $body-font-family
 
 // Font weight
 $body-font-weight: 400 // new variable
-$meta-font-weight: 500 // new variable
-$heading-font-weight: 500
+$meta-font-weight: 600 // new variable
+$heading-font-weight: 600
 
 // HEADINGS
 
@@ -96,6 +96,12 @@ $quote-size: pxToRem(24)
 $quote-line-height: 130%
 $quote-weight: $body-font-weight
 
+// Links (new variable)
+
+$text-underline-offset: 40%
+$text-decoration-thickness: pxToEm(0.07)
+$text-decoration-line: underline !default
+
 // COLORS ------------
 
 // MAIN COLORS
@@ -103,6 +109,26 @@ $quote-weight: $body-font-weight
 $color-accent: #66FFE0
 $color-primary: #1A1A1A // new variable
 $color-secondary: #FFFFFF // new variable
+
+$color-red: #FF6666
+$color-orange: #FFA366
+$color-yellow: #FFE066 //used for program-01 : Decision design
+$color-lime: #E0FF66
+$color-apple: #A3FF66
+$color-green: #66FF66
+$color-emerald: #66FFA3 //used for program-02 : PEPR LInda
+$color-teal: #66FFE0 //used for color-accent
+$color-cyan: #66E0FF
+$color-sky: #66A3FF //used for program-03 : Eco schools
+$color-blue: #6666FF
+$color-indigo: #A366FF
+$color-purple: #E066FF
+$color-magenta: #FF66E0
+$color-pink: #FF66A3
+
+$color-program-01: $color-yellow
+$color-program-02: $color-emerald
+$color-program-03: $color-sky
 
 $color-text: $color-primary
 $color-text-reverse : $color-secondary
@@ -130,7 +156,7 @@ $link-color: $color-text
 // COMPONENTS ------------
 
 // COMPONENT VARIABLES
-$border-width: pxToRem(2) // new variable
+$border-width: pxToRem(1) // new variable
 $border-color: var(--color-border);
 $border-radius: pxToRem(0)
 
@@ -161,7 +187,7 @@ $form-input-border-radius: $border-radius
 $header-color: $color-text-reverse
 $header-background: $color-background-reverse
 $header-sticky-background: $header-background
-$header-border-bottom-width: transparent !default
+$header-border-bottom-width: none !default
 
 // Navs
 $body-overlat-color: rgba(0, 0, 0, 0.7)
@@ -176,18 +202,18 @@ $hero-background-color: $color-background-reverse
 $hero-credit-color: $color-text-alt-reverse
 
 // Breadcrumb
-$breadcrumb-color-active: $color-text-alt-reverse
+$breadcrumb-color-active: $color-accent
 $breadcrumb-icon-color: $color-accent
 
 // Table of content
 $toc-color: $color-text-reverse
-$toc-active-color: $toc-color
+$toc-active-color: $color-accent
 $toc-background-color: $color-background-reverse
 
 // SECTIONS ------------
 
 // Person
-$person-avatar-background-color: $color-background
+$person-avatar-background-color: $color-background-alt
 
 // Organization
 $organization-background-color: $person-avatar-background-color
