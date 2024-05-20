@@ -3,26 +3,30 @@
 // Menu
 
 .has-menu-opened
-  header#document-header:not(.hero)
-    border-bottom: $border-width solid $color-accent
-  .menu .has-children .dropdown-menu
-    margin-top: pxToRem(31)
-    & .active
-      color: $color-accent
+  @include media-breakpoint-down(desktop)
+  @include media-breakpoint-up(desktop)
+    header#document-header:not(.hero)
+      border-bottom: $border-width solid $color-accent
+    .menu .has-children .dropdown-menu
+      margin-top: pxToRem(31)
+      & .active
+        color: $color-accent
 
 header#document-header .menu,
 .has-menu-opened header#document-header .menu
-  & a,
-  & a:active,
-  & a:focus
-    text-decoration-line: $text-decoration-line
-    text-underline-offset: $text-underline-offset
-    text-decoration-thickness: $text-decoration-thickness
-    &:hover
-      text-decoration-color: $color-accent
-  & .active,
-  & ul .has-children .dropdown-menu ul li .active
-    color: $color-accent
+  @include media-breakpoint-down(desktop)
+  @include media-breakpoint-up(desktop)
+    & a,
+    & a:active,
+    & a:focus
+      text-decoration-line: $text-decoration-line
+      text-underline-offset: $text-underline-offset
+      text-decoration-thickness: $text-decoration-thickness
+      &:hover
+        text-decoration-color: $color-accent
+    & .active,
+    & ul .has-children .dropdown-menu ul li .active
+      color: $color-accent
 
 // Logo
 
@@ -42,6 +46,8 @@ header#document-header .menu,
 
 .block-pages--large
   @include in-page-without-sidebar
+  @include media-breakpoint-down(desktop)
+  @include media-breakpoint-up(desktop)
     .page
       & .page-title a
         font-weight: $heading-font-weight
@@ -59,6 +65,29 @@ header#document-header .menu,
 
 .more
   display: none
+
+.block-pages--cards
+  @include grid(2, desktop)
+  @include grid(3, desktop)
+  @include in-page-without-sidebar
+  @include media-breakpoint-down(desktop)
+  @include media-breakpoint-up(desktop)
+    .cards .card
+      & .more
+        display: none
+      & .page-title a
+        font-weight: $heading-font-weight
+        text-decoration-line: none
+        &:after
+          display: inline-block
+          content: " ！"
+          position: relative
+          font-family: 'Icon'
+          vertical-align: middle
+          transition: transform 0.55s $arrow-ease-transition
+          transform: translateX(0)
+      &:hover .page-title a:after
+        transform: translateX(0.625rem)
 
 .project // TODO [BUG] cela enleve le clic sur l'element entier
   & .project-title
@@ -120,6 +149,20 @@ a:after
 .hero
   margin-bottom: 0
   border-bottom: 8rem solid $border-color
+
+.hero
+  @include media-breakpoint-up(desktop)
+  @include media-breakpoint-down(desktop)
+  .hero-text
+    padding-right: var(--grid-gutter)
+
+.hero
+  &--image-square,
+  &--image-portrait
+    @include media-breakpoint-up(desktop)
+    @include media-breakpoint-down(desktop)
+    .content figure
+      width: calc( (var(--column-width) * 6) + var(--grid-gutter) * ( 5 - 1 ))
 
 // PAGES
 
@@ -183,8 +226,21 @@ footer
 
 // Call to action
 
-.actions > a:first-child
-  border: $border-width solid $color-text !important
+body.full-width .block-call_to_action:first-child
+  @include media-breakpoint-down(desktop)
+  @include in-page-with-sidebar
+  @include in-page-without-sidebar
+  @include in-page-with-or-without-sidebar
+  .block-content
+    padding-top: 0
+
+.block-call_to_action
+  @include media-breakpoint-down(desktop)
+  @include in-page-with-sidebar
+  @include in-page-without-sidebar
+  @include in-page-with-or-without-sidebar
+  .call_to_action .actions a:first-child
+    border: $border-width solid $color-text
 
 // PAGES ------------
 
