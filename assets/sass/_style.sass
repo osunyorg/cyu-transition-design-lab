@@ -61,7 +61,7 @@
       &:hover .page-title a:after
         transform: translateX(0.625rem)
 
-.project // TODO [BUG] cela enleve le clic sur l'element entier
+.project
   & .project-title
     margin-bottom: $spacing-2
     a
@@ -218,6 +218,43 @@ abbr
       &:hover
         text-decoration-color: $color-accent
 
+// Pagination
+
+.siblings-navigation ul a
+  padding: var(--grid-gutter)
+  min-height: pxToRem(218)
+  transition: all 0.3s ease
+  &:hover
+    color: $color-text
+    background: $color-accent
+
+.publications__page main > .container
+  padding-right: 0 !important
+  padding-left: 0 !important
+
+.projects__page main
+  .document-content .block-siblings-navigation .container
+    padding-right: 0
+    padding-left: 0
+
+.siblings-navigation
+  background: $color-background-alt
+
+.publications__page,
+.projects__page
+  main
+    padding-bottom: 0
+  .block-siblings-navigation
+    margin-bottom: 0
+
+.siblings-navigation ul
+  padding-top: 0
+  gap: 0
+
+.pagination li.active
+  color: $color-text
+  background: $color-accent
+
 // Footer
 
 footer#document-footer
@@ -285,7 +322,12 @@ body:not(.full-width) .block-call_to_action
 .blocks > .heading:first-child
   padding-top: var(--grid-gutter)
 
-.block:last-child:not(.block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures)
+.pages__section
+  @include in-page-with-sidebar
+  .block:last-child
+    margin-bottom: 0
+
+.block:last-child:not(.block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures, .block-siblings-navigation, .block-siblings-navigation)
   padding-bottom: $spacing-5
 
 // PUBLICATIONS
