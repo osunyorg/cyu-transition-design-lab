@@ -82,6 +82,18 @@
       .top .description p
         font-weight: $body-font-weight
 
+.rich-text ul,
+.rich-text ol,
+.description ul,
+.description ol
+  margin-top: 1rem
+  margin-left: 2rem
+  list-style-position: initial
+  & li
+    margin-top: 0.5rem
+    &::marker
+      font-weight: $meta-font-weight
+
 // ICONS ------------
 
 p:after,
@@ -265,7 +277,7 @@ body:not(.full-width) .block-call_to_action
 .blocks > .heading:first-child
   padding-top: var(--grid-gutter) !important
 
-.block:last-child:not(.block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards)
+.block:last-child:not(.block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures)
   padding-bottom: $spacing-5
 
 // PROGRAM 01 - Decision design
