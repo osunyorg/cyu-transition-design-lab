@@ -16,33 +16,52 @@
 
 .block-pages--large
   @include in-page-without-sidebar
-  @include media-breakpoint-down(desktop)
-  @include media-breakpoint-up(desktop)
-    .page
-      & .page-title a
-        @include stretched-link(before)
-      & .page-title a
-        font-weight: $heading-font-weight
-        text-decoration-line: none
-      & .page-title a:after
-        display: inline-block
-        content: " ！"
-        position: relative
-        font-family: 'Icon'
-        vertical-align: middle
-        transition: transform 0.55s $arrow-ease-transition
-        transform: translateX(0)
-      &:hover .page-title a:after
-        transform: translateX(0.625rem)
+  .page
+    & .page-title a
+      @include stretched-link(before)
+    & .page-title a
+      font-weight: $heading-font-weight
+      text-decoration-line: none
+    & .page-title a:after
+      display: inline-block
+      content: " ！"
+      position: relative
+      font-family: 'Icon'
+      vertical-align: middle
+      transition: transform 0.55s $arrow-ease-transition
+      transform: translateX(0)
+    &:hover .page-title a:after
+      transform: translateX(0.625rem)
 
 .more
   display: none
 
 .block-pages--cards
-  @include grid(2, desktop)
-  @include grid(3, desktop)
+  @include grid(2)
+  @include grid(3)
   @include in-page-without-sidebar
   @include media-breakpoint-down(desktop)
+    .cards .card
+      & .more
+        display: none
+      & .page-title a
+        font-weight: $heading-font-weight
+        text-decoration-line: none
+        &:after
+          display: inline-block
+          content: " ！"
+          position: relative
+          font-family: 'Icon'
+          vertical-align: middle
+          transition: transform 0.55s $arrow-ease-transition
+          transform: translateX(0)
+      &:hover .page-title a:after
+        transform: translateX(0.625rem)
+
+.block-pages--cards // TODO à améliorer avec Noesya
+  @include grid(2)
+  @include grid(3)
+  @include in-page-without-sidebar
   @include media-breakpoint-up(desktop)
     .cards .card
       & .more
@@ -141,33 +160,38 @@ header#document-header li
 
 // Breadcrumb
 
+.page-illustration
+  @include media-breakpoint-down(desktop)
+  & .breadcrumb-nav
+    margin-left: 0
+    margin-right: 0
+
 .breadcrumb li
-  & a,
-  & a:active,
-  & a:focus
-    text-decoration-line: $text-decoration-line
-    text-underline-offset: $text-underline-offset
-    text-decoration-thickness: $text-decoration-thickness
-    &:hover
-      text-decoration-color: $color-accent
-  & .active
-    color: $color-accent
+    & a,
+    & a:active,
+    & a:focus
+      text-decoration-line: $text-decoration-line
+      text-underline-offset: $text-underline-offset
+      text-decoration-thickness: $text-decoration-thickness
+      &:hover
+        text-decoration-color: $color-accent
+    & .active
+      color: $color-accent
 
 // Hero
 
 .hero
   @include media-breakpoint-up(desktop)
-  @include media-breakpoint-down(desktop)
-  margin-bottom: 0
-  border-bottom: $border-hero solid $border-color
-  & .content .btn
-    margin-top: $spacing-4
-  & .hero-text
-    padding-right: var(--grid-gutter)
-  &--image-square,
-  &--image-portrait
-    .content figure
-      width: calc( (var(--column-width) * 6) + var(--grid-gutter) * ( 5 - 1 ))
+    margin-bottom: 0
+    border-bottom: $border-hero solid $border-color
+    & .content .btn
+      margin-top: $spacing-4
+    & .hero-text
+      padding-right: var(--grid-gutter)
+    &--image-square,
+    &--image-portrait
+      .content figure
+        width: calc( (var(--column-width) * 6) + var(--grid-gutter) * ( 5 - 1 ))
 
 // Buttons
 
@@ -222,11 +246,19 @@ abbr
 
 .siblings-navigation ul a
   padding: var(--grid-gutter)
-  min-height: pxToRem(218)
   transition: all 0.3s ease
   &:hover
     color: $color-text
-    background: $color-accent
+
+.siblings-navigation ul
+  & .previous,
+  & .next
+    &:hover
+      background: $color-accent
+
+.siblings-navigation ul a
+  @include media-breakpoint-up(desktop)
+    min-height: pxToRem(218)
 
 .publications__page main > .container
   padding-right: 0 !important
@@ -254,6 +286,14 @@ abbr
 .pagination li.active
   color: $color-text
   background: $color-accent
+
+.siblings-navigation
+  @include media-breakpoint-down(desktop)
+    ul .next
+      padding-right: var(--grid-gutter)
+    ul .previous
+      padding-left: var(--grid-gutter)
+
 
 // Footer
 
@@ -310,17 +350,19 @@ body.full-width .block-call_to_action:first-child
 
 body:not(.full-width) .block-call_to_action
   @include in-page-with-sidebar
-  .call_to_action > div
-    padding-left: var(--grid-gutter)
-  .container .block-content
-    padding-left: calc( calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 4 - 1 )))
+  @include media-breakpoint-up(desktop)
+    .call_to_action > div
+      padding-left: var(--grid-gutter)
+    .container .block-content
+      padding-left: calc( calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 4 - 1 )))
 
 // PAGES ------------
 
 .document-content > .container,
 .blocks > .block:first-child:not(.block-call_to_action),
 .blocks > .heading:first-child
-  padding-top: var(--grid-gutter)
+  @include media-breakpoint-up(desktop)
+    padding-top: var(--grid-gutter)
 
 .pages__section
   @include in-page-with-sidebar
@@ -353,6 +395,48 @@ body:not(.full-width) .block-call_to_action
   &:hover
     background: $color-accent
 
+.publications__section
+  @include media-breakpoint-down(desktop)
+    .hero
+      margin-bottom: 0
+    .publications-statistics
+      padding-top: var(--grid-gutter)
+      padding-bottom: var(--grid-gutter)
+
+
+// ILLUSTRATION
+
+.page-illustration
+  @include media-breakpoint-up(desktop)
+    .hero
+      padding-bottom: 0
+      & .container
+        padding-right: 0
+      & .hero-text
+        padding-bottom: $spacing-5
+      & .content figure
+        position: absolute
+        bottom: 0
+        right: 0
+        pointer-events: none
+        & picture img
+          max-height: pxToRem(538)
+          max-width: pxToRem(538)
+          float: right
+  @include media-breakpoint-down(desktop)
+    .hero
+      & .container
+        padding-left: 0
+        padding-right: 0
+      & .hero-text
+        padding-left: var(--grid-gutter)
+        padding-right: var(--grid-gutter)
+      & .content figure
+        background: $color-background-reverse
+        box-sizing: border-box
+        pointer-events: none
+        & picture img
+          pointer-events: none
 
 // PROGRAM 01 - Decision design
 
@@ -406,13 +490,21 @@ body:not(.full-width) .block-call_to_action
 
 .page-program-01 .toc-container
   @include in-page-with-sidebar
+  @include in-page-without-sidebar
   @include media-breakpoint-down(desktop)
-  @include media-breakpoint-up(desktop)
     .toc ol li a:hover
       text-decoration-color: $color-program-01 !important
     & .active
       color: $color-program-01
+    & .toc-title,
+    & button
+      border-color: $color-program-01
 
+.page-program-01
+  @include media-breakpoint-down(desktop)
+  .toc-cta
+    border-color: $color-program-01
+  .toc-container
 
 // Footer
 
