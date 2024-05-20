@@ -20,6 +20,8 @@
   @include media-breakpoint-up(desktop)
     .page
       & .page-title a
+        @include stretched-link(before)
+      & .page-title a
         font-weight: $heading-font-weight
         text-decoration-line: none
       & .page-title a:after
@@ -62,6 +64,8 @@
 .project // TODO [BUG] cela enleve le clic sur l'element entier
   & .project-title
     margin-bottom: $spacing-2
+    a
+      @include stretched-link(before)
     & a:after
       display: inline-block
       content: " ！"
@@ -279,10 +283,18 @@ body:not(.full-width) .block-call_to_action
 .document-content > .container,
 .blocks > .block:first-child:not(.block-call_to_action),
 .blocks > .heading:first-child
-  padding-top: var(--grid-gutter) !important
+  padding-top: var(--grid-gutter)
 
 .block:last-child:not(.block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures)
   padding-bottom: $spacing-5
+
+// PUBLICATIONS
+
+.publications__section .ancestor-home-page .full-width .offcanvas-toc .is-loaded
+  main > .document-content > .container
+    padding-right: 0 !important
+    padding-left: 0 !important
+
 
 // PROGRAM 01 - Decision design
 
