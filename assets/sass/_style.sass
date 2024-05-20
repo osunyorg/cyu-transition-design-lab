@@ -1,33 +1,3 @@
-// HEADER ------------
-
-// Menu
-
-.has-menu-opened
-  @include media-breakpoint-down(desktop)
-  @include media-breakpoint-up(desktop)
-    header#document-header:not(.hero)
-      border-bottom: $border-width solid $color-accent
-    .menu .has-children .dropdown-menu
-      margin-top: pxToRem(31)
-      & .active
-        color: $color-accent
-
-header#document-header .menu,
-.has-menu-opened header#document-header .menu
-  @include media-breakpoint-down(desktop)
-  @include media-breakpoint-up(desktop)
-    & a,
-    & a:active,
-    & a:focus
-      text-decoration-line: $text-decoration-line
-      text-underline-offset: $text-underline-offset
-      text-decoration-thickness: $text-decoration-thickness
-      &:hover
-        text-decoration-color: $color-accent
-    & .active,
-    & ul .has-children .dropdown-menu ul li .active
-      color: $color-accent
-
 // Logo
 
 .logo
@@ -120,6 +90,38 @@ a:after
 
 // COMPONENTS ------------
 
+// Header
+
+.has-menu-opened
+  @include media-breakpoint-down(desktop)
+  @include media-breakpoint-up(desktop)
+    header#document-header:not(.hero)
+      border-bottom: $border-width solid $color-accent
+    .menu .has-children .dropdown-menu
+      margin-top: pxToRem(31)
+      & .active
+        color: $color-accent
+
+header#document-header .menu,
+.has-menu-opened header#document-header .menu
+  @include media-breakpoint-down(desktop)
+  @include media-breakpoint-up(desktop)
+    & a,
+    & a:active,
+    & a:focus
+      text-decoration-line: $text-decoration-line
+      text-underline-offset: $text-underline-offset
+      text-decoration-thickness: $text-decoration-thickness
+      &:hover
+        text-decoration-color: $color-accent
+    & .active,
+    & ul .has-children .dropdown-menu ul li .active
+      color: $color-accent
+
+header#document-header li
+  a:after
+    color: $color-accent
+
 // Breadcrumb
 
 .breadcrumb li
@@ -133,16 +135,6 @@ a:after
       text-decoration-color: $color-accent
   & .active
     color: $color-accent
-
-// Buttons
-
-.btn
-  font-weight: $meta-font-weight !important
-
-.btn:active,
-.btn:focus
-  box-shadow: none
-  background: $color-background-alt-accent
 
 // Hero
 
@@ -164,17 +156,17 @@ a:after
     .content figure
       width: calc( (var(--column-width) * 6) + var(--grid-gutter) * ( 5 - 1 ))
 
-// PAGES
+// Buttons
 
-.document-content > .container,
-.blocks > .block:first-child:not(.block-call_to_action),
-.blocks > .heading:first-child
-  padding-top: var(--grid-gutter) !important
+.btn
+  font-weight: $meta-font-weight !important
 
-.block:last-child:not(.block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards)
-  padding-bottom: $spacing-5
+.btn:active,
+.btn:focus
+  box-shadow: none
+  background: $color-background-alt-accent
 
-// NUMBER KEYS
+// Number keys
 
 .block-key_figures
   margin: 0 !important
@@ -209,6 +201,23 @@ a:after
 footer
   border-top: $border-width solid $border-color
 
+footer#document-footer li
+  & a,
+  & a:active,
+  & a:focus
+    text-decoration-line: $text-decoration-line
+    text-underline-offset: $text-underline-offset
+    text-decoration-thickness: $text-decoration-thickness
+    &:hover
+      text-decoration-color: $color-accent
+  & .active
+    color: $color-accent
+  &:after
+    color: $color-accent
+
+footer#document-footer button:after
+  color: $color-accent
+
 // SECTIONS ------------
 
 // Person & organization
@@ -242,7 +251,22 @@ body.full-width .block-call_to_action:first-child
   .call_to_action .actions a:first-child
     border: $border-width solid $color-text
 
+body:not(.full-width) .block-call_to_action
+  @include in-page-with-sidebar
+  .call_to_action > div
+    padding-left: var(--grid-gutter)
+  .container .block-content
+    padding-left: calc( calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 4 - 1 )))
+
 // PAGES ------------
+
+.document-content > .container,
+.blocks > .block:first-child:not(.block-call_to_action),
+.blocks > .heading:first-child
+  padding-top: var(--grid-gutter) !important
+
+.block:last-child:not(.block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards)
+  padding-bottom: $spacing-5
 
 // PROGRAM 01 - Decision design
 
