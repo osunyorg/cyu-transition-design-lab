@@ -86,11 +86,12 @@
 .rich-text ol,
 .description ul,
 .description ol
-  margin-top: 1rem
-  margin-left: 2rem
-  list-style-position: initial
+  margin: $spacing-3 0
+  margin-left: $spacing-3
+  list-style-position: $list-style-position
+  line-height: $list-line-height
   & li
-    margin-top: 0.5rem
+    margin-bottom: $spacing-2
     &::marker
       font-weight: $meta-font-weight
 
@@ -151,20 +152,16 @@ header#document-header li
 // Hero
 
 .hero
-  margin-bottom: 0
-  border-bottom: 8rem solid $border-color
-
-.hero
   @include media-breakpoint-up(desktop)
   @include media-breakpoint-down(desktop)
-  .hero-text
+  margin-bottom: 0
+  border-bottom: $border-hero solid $border-color
+  & .content .btn
+    margin-top: $spacing-4
+  & .hero-text
     padding-right: var(--grid-gutter)
-
-.hero
   &--image-square,
   &--image-portrait
-    @include media-breakpoint-up(desktop)
-    @include media-breakpoint-down(desktop)
     .content figure
       width: calc( (var(--column-width) * 6) + var(--grid-gutter) * ( 5 - 1 ))
 
@@ -177,6 +174,15 @@ header#document-header li
 .btn:focus
   box-shadow: none
   background: $color-background-alt-accent
+
+// Files
+
+.block-files .files li::before
+  border: $border-width solid $color-primary
+
+abbr
+  @include in-page-with-sidebar
+    text-decoration: none
 
 // Number keys
 
@@ -210,25 +216,23 @@ header#document-header li
 
 // Footer
 
-footer
+footer#document-footer
   border-top: $border-width solid $border-color
-
-footer#document-footer li
-  & a,
-  & a:active,
-  & a:focus
-    text-decoration-line: $text-decoration-line
-    text-underline-offset: $text-underline-offset
-    text-decoration-thickness: $text-decoration-thickness
-    &:hover
-      text-decoration-color: $color-accent
-  & .active
+  li
+    & a,
+    & a:active,
+    & a:focus
+      text-decoration-line: $text-decoration-line
+      text-underline-offset: $text-underline-offset
+      text-decoration-thickness: $text-decoration-thickness
+      &:hover
+        text-decoration-color: $color-accent
+    & .active
+      color: $color-accent
+    &:after
+      color: $color-accent
+  button:after
     color: $color-accent
-  &:after
-    color: $color-accent
-
-footer#document-footer button:after
-  color: $color-accent
 
 // SECTIONS ------------
 
@@ -283,9 +287,6 @@ body:not(.full-width) .block-call_to_action
 // PROGRAM 01 - Decision design
 
 .page-program-01
-  .hero
-    border-bottom: 8rem solid $color-program-01
-  .toc .active,
   .breadcrumb li
     & a:hover
       text-decoration-color: $color-program-01
@@ -298,28 +299,63 @@ body:not(.full-width) .block-call_to_action
   footer
     border-top: $border-width solid $color-program-01
 
+//Hero
+
+.page-program-01 .hero
+  border-color: $color-program-01
+
 // Header
 
 .page-program-01
   header#document-header .menu,
   .has-menu-opened header#document-header .menu
+    @include media-breakpoint-down(desktop)
+    @include media-breakpoint-up(desktop)
+      & a,
+      & a:active,
+      & a:focus
+        &:hover
+          text-decoration-color: $color-program-01
+      & .active,
+      & ul .has-children .dropdown-menu ul li .active,
+        color: $color-program-01
+  header#document-header li
+    a:after
+      color: $color-program-01
+
+.has-menu-opened
+  @include media-breakpoint-down(desktop)
+  @include media-breakpoint-up(desktop)
+    .page-program-01
+      header#document-header:not(.hero)
+        border-color: $color-program-01
+      .menu .has-children .dropdown-menu .active
+        color: $color-program-01
+
+// Table of content
+
+.page-program-01 .toc-container
+  @include in-page-with-sidebar
+  @include media-breakpoint-down(desktop)
+  @include media-breakpoint-up(desktop)
+    .toc ol li a:hover
+      text-decoration-color: $color-program-01 !important
+    & .active
+      color: $color-program-01
+
+
+// Footer
+
+.page-program-01 footer#document-footer
+  border-color: $color-program-01
+  & button:after
+    color: $color-program-01
+  & li
     & a,
     & a:active,
     & a:focus
       &:hover
         text-decoration-color: $color-program-01
-    & .active,
-    & ul .has-children .dropdown-menu ul li .active,
+    & .active
+    &:after
       color: $color-program-01
-
-.has-menu-opened
-  .page-program-01
-    header#document-header:not(.hero)
-      border-color: $color-program-01
-    .menu .has-children .dropdown-menu .active
-      color: $color-program-01
-
-// Table of content
-
-.page-program-01 .toc-container .toc ol li a:hover
-  text-decoration-color: $color-program-01 !important
