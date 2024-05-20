@@ -182,7 +182,7 @@ header#document-header li
 // Files
 
 .block-files .files li::before
-  border: $border-width solid $color-primary
+  border: $border-width solid $color-text
 
 abbr
   @include in-page-with-sidebar
@@ -290,10 +290,26 @@ body:not(.full-width) .block-call_to_action
 
 // PUBLICATIONS
 
-.publications__section .ancestor-home-page .full-width .offcanvas-toc .is-loaded
-  main > .document-content > .container
-    padding-right: 0 !important
-    padding-left: 0 !important
+.publications__section
+  .document-content .container
+    padding-right: 0
+    padding-left: 0
+  .publications-statistics,
+  .block
+    padding-right: var(--grid-gutter)
+    padding-left: var(--grid-gutter)
+
+.publications__section .publication
+  padding-right: var(--grid-gutter)
+  padding-left: var(--grid-gutter)
+  border-bottom: none
+  transition: all 0.3s ease
+  &::before
+    right: var(--grid-gutter)
+  & .publication-title a:hover
+    color: $color-text
+  &:hover
+    background: $color-accent
 
 
 // PROGRAM 01 - Decision design
