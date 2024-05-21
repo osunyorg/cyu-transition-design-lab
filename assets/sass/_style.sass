@@ -1,9 +1,5 @@
 // Logo
 
-.logo
-  filter: brightness(0) saturate(100%) invert(88%)
-  transition: filter 0.3s ease
-
 .logo:hover
   filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(888%) hue-rotate(101deg) brightness(101%) contrast(102%)
 
@@ -96,17 +92,21 @@
   &:hover .project-title a:after
     transform: translateX(0.625rem)
 
-.block-pages .media img
-  aspect-ratio: 0 !important
+.block-pages
+  @include in-page-with-sidebar
+    .block-content article .media
+      background-color: $color-background-reverse
+      & img
+        height: 100%
 
 // TEXTS
 
 // Lead description
 
 .block-pages--list
-    @include in-page-without-sidebar
-      .top .description p
-        font-weight: $body-font-weight
+  @include in-page-without-sidebar
+    .top .description p
+      font-weight: $body-font-weight
 
 .rich-text ul,
 .rich-text ol,
@@ -192,7 +192,8 @@ header#document-header li
   @include media-breakpoint-up(desktop)
     margin-bottom: 0
     border-bottom: $border-hero solid $border-color
-    & .content .btn
+    & .content .btn:not(.dropdown-share button),
+    & .dropdown-share
       margin-top: $spacing-4
     & .hero-text
       padding-right: var(--grid-gutter)
@@ -210,6 +211,22 @@ header#document-header li
 .btn:focus
   box-shadow: none
   background: $color-background-alt-accent
+
+.projects__page .hero .dropdown-share
+  position: initial
+  display: flex
+  flex-direction: row
+  & button
+    width: 100%
+  & .dropdown-menu
+    border: $border-width solid $color-accent
+    position: initial
+    & a
+      padding: 0.75rem 1.5rem
+    & a:hover
+      color: $color-text
+      opacity: 100%
+      background-color: $color-background-alt-accent
 
 // Files
 
@@ -381,7 +398,7 @@ body:not(.full-width) .block-call_to_action
   .block:last-child
     margin-bottom: 0
 
-.block:last-child:not(.logos-partners .block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures, .block-siblings-navigation, .block-siblings-navigation)
+.block:last-child:not(.logos-partners, .block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures, .block-siblings-navigation, .block-siblings-navigation)
   padding-bottom: $spacing-5
 
 // LOGOS PARTNERS (NEW STYLE)
@@ -406,6 +423,14 @@ body:not(.full-width) .block-call_to_action
 // PUBLICATIONS
 
 .publications__section
+  @include media-breakpoint-down(desktop)
+    .hero
+      margin-bottom: 0
+    .publications-statistics
+      padding-top: var(--grid-gutter)
+      padding-bottom: var(--grid-gutter)
+
+.publications__section
   .document-content .container
     padding-right: 0
     padding-left: 0
@@ -425,14 +450,6 @@ body:not(.full-width) .block-call_to_action
     color: $color-text
   &:hover
     background: $color-accent
-
-.publications__section
-  @include media-breakpoint-down(desktop)
-    .hero
-      margin-bottom: 0
-    .publications-statistics
-      padding-top: var(--grid-gutter)
-      padding-bottom: var(--grid-gutter)
 
 
 // ILLUSTRATION
