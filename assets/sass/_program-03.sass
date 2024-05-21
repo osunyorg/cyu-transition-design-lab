@@ -1,0 +1,86 @@
+// PROGRAM 02 - Lindda
+
+.page-program-03
+  .logo:hover
+    filter: $filter-program-03
+  .breadcrumb li
+    & a:hover
+      text-decoration-color: $color-program-03
+    &:before,
+    &.active
+	    color: $color-program-03
+  & .person:hover .avatar,
+  & .organization:hover .media
+    box-shadow: 0px 0px 0px $border-width $color-program-03
+  footer
+    border-top: $border-width solid $color-program-03
+
+// Header
+
+.page-program-03
+  header#document-header .menu,
+  .has-menu-opened header#document-header .menu
+    @include media-breakpoint-up(desktop)
+      & a,
+      & a:active,
+      & a:focus
+        &:hover
+          text-decoration-color: $color-program-03 !important
+      & .active,
+      & ul .has-children .dropdown-menu ul li .active,
+        color: $color-program-03
+  header#document-header li
+    a:after
+      color: $color-program-03
+
+.has-menu-opened
+  @include media-breakpoint-up(desktop)
+    .page-program-03
+      header#document-header:not(.hero)
+        border-color: $color-program-03
+      .menu .has-children .dropdown-menu .active
+        color: $color-program-03 !important
+
+//Hero
+
+.page-program-03 .hero
+  border-color: $color-program-03
+
+// Table of content
+
+.page-program-03 .toc-container
+  @include in-page-with-sidebar
+  @include in-page-without-sidebar
+  @include media-breakpoint-down(desktop)
+  .toc ol
+    & li a:hover
+      text-decoration-color: $color-program-03 !important
+    & .active
+      color: $color-program-03
+  & .toc-title,
+  & button
+    border-color: $color-program-03
+
+.page-program-03
+  @include media-breakpoint-down(desktop)
+  .toc-cta
+    border-color: $color-program-03
+  .toc-container
+
+// Footer
+
+.page-program-03 footer#document-footer
+  border-color: $color-program-03
+  & button:after
+    color: $color-program-03
+  & li
+    & a,
+    & a:active,
+    & a:focus
+      &:hover
+        text-decoration-color: $color-program-03
+    & .active
+    &:after
+      color: $color-program-03
+  & .logo-partner:hover
+    filter: $filter-program-03

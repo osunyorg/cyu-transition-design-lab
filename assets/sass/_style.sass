@@ -1,7 +1,11 @@
+@import "_program-01.sass"
+@import "_program-02.sass"
+@import "_program-03.sass"
+
 // Logo
 
 .logo:hover
-  filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(888%) hue-rotate(101deg) brightness(101%) contrast(102%)
+  filter: $filter-accent
 
 
 // TYPOGRAPHY ------------
@@ -93,11 +97,10 @@
     transform: translateX(0.625rem)
 
 .block-pages
-  @include in-page-with-sidebar
-    .block-content article .media
-      background-color: $color-background-reverse
-      & img
-        height: 100%
+  .block-content article .media
+    background-color: $color-background-reverse
+    & img
+      height: 100%
 
 // TEXTS
 
@@ -136,19 +139,8 @@ a:after
 
 // Header
 
-.has-menu-opened
-  @include media-breakpoint-down(desktop)
-  @include media-breakpoint-up(desktop)
-    header#document-header:not(.hero)
-      border-bottom: $border-width solid $color-accent
-    .menu .has-children .dropdown-menu
-      margin-top: pxToRem(31)
-      & .active
-        color: $color-accent
-
 header#document-header .menu,
 .has-menu-opened header#document-header .menu
-  @include media-breakpoint-down(desktop)
   @include media-breakpoint-up(desktop)
     & a,
     & a:active,
@@ -161,6 +153,15 @@ header#document-header .menu,
     & .active,
     & ul .has-children .dropdown-menu ul li .active
       color: $color-accent
+
+.has-menu-opened
+  @include media-breakpoint-up(desktop)
+    header#document-header:not(.hero)
+      border-bottom: $border-width solid $color-accent
+    .menu .has-children .dropdown-menu
+      margin-top: pxToRem(31)
+      & .active
+        color: $color-accent
 
 header#document-header li
   a:after
@@ -201,6 +202,15 @@ header#document-header li
     &--image-portrait
       .content figure
         width: calc( (var(--column-width) * 6) + var(--grid-gutter) * ( 5 - 1 ))
+
+.projects__page .hero
+  .hero-text
+    padding-bottom: 0
+  .content figure figcaption,
+  &:hover
+    color: $color-text-reverse
+
+
 
 // Buttons
 
@@ -399,6 +409,16 @@ body:not(.full-width) .block-call_to_action
   .projects:first-child
     padding-top: var(--grid-gutter)
 
+.projects__page
+  @include in-page-without-sidebar
+  .heading:first-child
+    padding-top: var(--grid-gutter)
+
+.publications__page
+  @include in-page-without-sidebar
+  .document-content > .container
+    padding-top: var(--grid-gutter)
+
 .pages__section
   @include in-page-with-sidebar
   .blocks > .block:first-child:not(.block-call_to_action),
@@ -427,7 +447,7 @@ body:not(.full-width) .block-call_to_action
       &::after
         display: none
       &:hover
-        filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(888%) hue-rotate(101deg) brightness(101%) contrast(102%)
+        filter: $filter-accent
 
 // PUBLICATIONS
 
@@ -520,87 +540,3 @@ body:not(.full-width) .block-call_to_action
         pointer-events: none
         & picture img
           pointer-events: none
-
-// PROGRAM 01 - Decision design
-
-.page-program-01
-  .breadcrumb li
-    & a:hover
-      text-decoration-color: $color-program-01
-    &:before,
-    &.active
-	    color: $color-program-01
-  & .person:hover .avatar,
-  & .organization:hover .media
-    box-shadow: 0px 0px 0px $border-width $color-program-01
-  footer
-    border-top: $border-width solid $color-program-01
-
-//Hero
-
-.page-program-01 .hero
-  border-color: $color-program-01
-
-// Header
-
-.page-program-01
-  header#document-header .menu,
-  .has-menu-opened header#document-header .menu
-    @include media-breakpoint-down(desktop)
-    @include media-breakpoint-up(desktop)
-      & a,
-      & a:active,
-      & a:focus
-        &:hover
-          text-decoration-color: $color-program-01
-      & .active,
-      & ul .has-children .dropdown-menu ul li .active,
-        color: $color-program-01
-  header#document-header li
-    a:after
-      color: $color-program-01
-
-.has-menu-opened
-  @include media-breakpoint-down(desktop)
-  @include media-breakpoint-up(desktop)
-    .page-program-01
-      header#document-header:not(.hero)
-        border-color: $color-program-01
-      .menu .has-children .dropdown-menu .active
-        color: $color-program-01
-
-// Table of content
-
-.page-program-01 .toc-container
-  @include in-page-with-sidebar
-  @include in-page-without-sidebar
-  @include media-breakpoint-down(desktop)
-    .toc ol li a:hover
-      text-decoration-color: $color-program-01 !important
-    & .active
-      color: $color-program-01
-    & .toc-title,
-    & button
-      border-color: $color-program-01
-
-.page-program-01
-  @include media-breakpoint-down(desktop)
-  .toc-cta
-    border-color: $color-program-01
-  .toc-container
-
-// Footer
-
-.page-program-01 footer#document-footer
-  border-color: $color-program-01
-  & button:after
-    color: $color-program-01
-  & li
-    & a,
-    & a:active,
-    & a:focus
-      &:hover
-        text-decoration-color: $color-program-01
-    & .active
-    &:after
-      color: $color-program-01
