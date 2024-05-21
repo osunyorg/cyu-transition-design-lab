@@ -118,6 +118,11 @@
     &::marker
       font-weight: $meta-font-weight
 
+// Selection
+
+.block-call_to_action p::selection
+  background-color: $color-selection-background-accent
+
 // ICONS ------------
 
 p:after,
@@ -369,24 +374,42 @@ body:not(.full-width) .block-call_to_action
   .block:last-child
     margin-bottom: 0
 
-.block:last-child:not(.block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures, .block-siblings-navigation, .block-siblings-navigation)
+.block:last-child:not(.block-logos-partners .block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures, .block-siblings-navigation, .block-siblings-navigation)
   padding-bottom: $spacing-5
 
 // HOME PAGE
 
-// .page__home .hero .container::after
-//   content: ""
-//   display: block
-//   height: $spacing-5
-//   background-size: contain !important
-//   background-repeat: no-repeat !important
-//   background: url(../images/cy-ecole-design.png)
-//   margin-bottom: $spacing-5
-//   pointer-events: none
+.page__home .hero
+  border-bottom: none
 
-// .page__home .hero .container:hover:after
-//   filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(888%) hue-rotate(101deg) brightness(101%) contrast(102%)
+.page__home .hero .container
+  @include media-breakpoint-down(desktop)
+    margin-bottom: $spacing-6
 
+.page__home .block-logos-partners
+  display: flex
+  flex-wrap: wrap
+  column-gap: var(--grid-gutter)
+  row-gap: $spacing-4
+  padding: 0 var(--grid-gutter)
+  background-color: $color-background-reverse
+  border-bottom: $border-hero solid $border-color
+
+.page__home .logo-partner-link
+  content: ""
+  display: block
+  height: $spacing-4
+  width: 100%
+  background-size: contain !important
+  background-repeat: no-repeat !important
+  &::after
+    display: none !important
+
+.page__home .logo-partner-01
+  background: url(../images/cy-ecole-design.png)
+
+.page__home .logo-partner-link:hover
+  filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(888%) hue-rotate(101deg) brightness(101%) contrast(102%)
 
 // PUBLICATIONS
 
