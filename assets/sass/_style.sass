@@ -382,24 +382,18 @@ body:not(.full-width) .block-call_to_action
   @include media-breakpoint-down(desktop)
     margin-bottom: $spacing-6
 
-// .page__home .block-logos-partners
-//   display: flex
-//   flex-wrap: wrap
-//   column-gap: var(--grid-gutter)
-//   row-gap: $spacing-4
-//   padding: 0 var(--grid-gutter)
-//   background-color: $color-background-reverse
-//   border-bottom: $border-hero solid $border-color
+.page__home .logo-partner-link
+  content: ""
+  display: block
+  height: $spacing-4
+  width: 100%
+  background-size: contain !important
+  background-repeat: no-repeat !important
+  &::after
+    display: none !important
 
-.page__home 
-  .block-logos-partners
-    display: flex
-    gap: var(--grid-gutter)
-    .logo-partner-link
-      display: block
-      width: columns(2)
-      &:hover
-        filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(888%) hue-rotate(101deg) brightness(101%) contrast(102%)
+.page__home .logo-partner-link:hover
+  filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(888%) hue-rotate(101deg) brightness(101%) contrast(102%)
 
 // PUBLICATIONS
 
