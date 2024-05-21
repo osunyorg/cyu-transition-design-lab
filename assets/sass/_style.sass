@@ -14,6 +14,9 @@
 
 // Page title
 
+.more
+  display: none
+
 .block-pages--large
   @include in-page-without-sidebar
   .page
@@ -32,9 +35,6 @@
       transform: translateX(0)
     &:hover .page-title a:after
       transform: translateX(0.625rem)
-
-.more
-  display: none
 
 .block-pages--cards
   @include grid(2)
@@ -80,21 +80,24 @@
       &:hover .page-title a:after
         transform: translateX(0.625rem)
 
-.project
+.project .project-content
   & .project-title
     margin-bottom: $spacing-2
-    a
+    & a
       @include stretched-link(before)
-    & a:after
-      display: inline-block
-      content: " ！"
-      position: relative
-      font-family: 'Icon'
-      vertical-align: middle
-      transition: transform 0.55s $arrow-ease-transition
-      transform: translateX(0)
+      &:after
+        display: inline-block
+        content: " ！"
+        position: relative
+        font-family: 'Icon'
+        vertical-align: middle
+        transition: transform 0.55s $arrow-ease-transition
+        transform: translateX(0)
   &:hover .project-title a:after
     transform: translateX(0.625rem)
+
+.block-pages .media img
+  aspect-ratio: 0 !important
 
 // TEXTS
 
@@ -320,6 +323,10 @@ footer#document-footer
   button:after
     color: $color-accent
 
+footer#document-footer .logo img
+  @include media-breakpoint-up(desktop)
+    height: $header-logo-height-desktop
+
 // SECTIONS ------------
 
 // Person & organization
@@ -374,26 +381,27 @@ body:not(.full-width) .block-call_to_action
   .block:last-child
     margin-bottom: 0
 
-.block:last-child:not(.block-logos-partners .block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures, .block-siblings-navigation, .block-siblings-navigation)
+.block:last-child:not(.logos-partners .block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures, .block-siblings-navigation, .block-siblings-navigation)
   padding-bottom: $spacing-5
 
-// HOME PAGE
-.page__home .hero .container
-  @include media-breakpoint-down(desktop)
-    margin-bottom: $spacing-6
+// LOGOS PARTNERS (NEW STYLE)
 
-.page__home .logo-partner-link
-  content: ""
-  display: block
-  height: $spacing-4
-  width: 100%
-  background-size: contain !important
-  background-repeat: no-repeat !important
-  &::after
-    display: none !important
-
-.page__home .logo-partner-link:hover
-  filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(888%) hue-rotate(101deg) brightness(101%) contrast(102%)
+.hero,
+.footer-logo
+  & .logos-partners
+    display: flex
+    flex-wrap: wrap
+    column-gap: var(--grid-gutter)
+    row-gap: $spacing-5
+    margin-top: $spacing-5
+    & .logo-partner
+      height: $spacing-4
+      & img
+        height: 100%
+      &::after
+        display: none
+      &:hover
+        filter: brightness(0) saturate(100%) invert(88%) sepia(24%) saturate(888%) hue-rotate(101deg) brightness(101%) contrast(102%)
 
 // PUBLICATIONS
 
