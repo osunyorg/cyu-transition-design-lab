@@ -387,14 +387,23 @@ body:not(.full-width) .block-call_to_action
 
 // PAGES ------------
 
-.document-content > .container,
-.blocks > .block:first-child:not(.block-call_to_action),
-.blocks > .heading:first-child
-  @include media-breakpoint-up(desktop)
+.page__home,
+.persons__section,
+.organizations__section
+  @include in-page-without-sidebar
+  .blocks > .block:first-child:not(.block-call_to_action)
+    padding-top: var(--grid-gutter)
+
+.projects__section
+  @include in-page-without-sidebar
+  .projects:first-child
     padding-top: var(--grid-gutter)
 
 .pages__section
   @include in-page-with-sidebar
+  .blocks > .block:first-child:not(.block-call_to_action),
+  .blocks > .heading:first-child
+    padding-top: var(--grid-gutter)
   .block:last-child
     margin-bottom: 0
 
@@ -423,7 +432,7 @@ body:not(.full-width) .block-call_to_action
 // PUBLICATIONS
 
 .publications__section
-  @include media-breakpoint-down(desktop)
+  @include media-breakpoint-up(desktop)
     .hero
       margin-bottom: 0
     .publications-statistics
@@ -451,6 +460,32 @@ body:not(.full-width) .block-call_to_action
   &:hover
     background: $color-accent
 
+// Person publication
+
+
+.persons__page main .document-content > .person-objects
+  padding-left: 0 !important
+  padding-right: 0 !important
+
+.persons__page main > .document-content > .container:first-child
+  padding-top: var(--grid-gutter)
+
+.person-publications
+  & .top,
+  & .publication
+    padding-left: var(--grid-gutter)
+    padding-right: var(--grid-gutter)
+  & .publication
+    border-bottom: none
+    padding-top: $spacing-3
+    padding-bottom: $spacing-3
+    transition: all 0.3s ease
+    &::before
+      right: var(--grid-gutter)
+    & .publication-title a:hover
+      color: $color-text
+    &:hover
+      background: $color-accent
 
 // ILLUSTRATION
 
