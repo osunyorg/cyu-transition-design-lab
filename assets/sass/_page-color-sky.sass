@@ -1,6 +1,6 @@
 // PROGRAM 02 - Lindda
 
-.page-program-03
+.page-color-sky
   .logo:hover
     filter: $filter-sky
   .breadcrumb li
@@ -17,7 +17,7 @@
 
 // Header
 
-.page-program-03
+.page-color-sky
   header#document-header .menu,
   .has-menu-opened header#document-header .menu
     @include media-breakpoint-up(desktop)
@@ -35,7 +35,7 @@
 
 .has-menu-opened
   @include media-breakpoint-up(desktop)
-    .page-program-03
+    .page-color-sky
       header#document-header:not(.hero)
         border-color: $color-sky
       .menu .has-children .dropdown-menu .active
@@ -43,12 +43,12 @@
 
 //Hero
 
-.page-program-03 .hero
+.page-color-sky .hero
   border-color: $color-sky
 
 // Table of content
 
-.page-program-03 .toc-container
+.page-color-sky .toc-container
   @include in-page-with-sidebar
   @include in-page-without-sidebar
   @include media-breakpoint-down(desktop)
@@ -61,7 +61,7 @@
   & button
     border-color: $color-sky
 
-.page-program-03
+.page-color-sky
   @include media-breakpoint-down(desktop)
   .toc-cta
     border-color: $color-sky
@@ -69,7 +69,7 @@
 
 // Footer
 
-.page-program-03 footer#document-footer
+.page-color-sky footer#document-footer
   border-color: $color-sky
   & button:after
     color: $color-sky

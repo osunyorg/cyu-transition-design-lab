@@ -1,6 +1,6 @@
 // PROGRAM 01 - Decision design
 
-.page-program-01
+.page-color-yellow
   .logo:hover
     filter: $filter-yellow
   .breadcrumb li
@@ -17,7 +17,7 @@
 
 // Header
 
-.page-program-01
+.page-color-yellow
   & header#document-header .menu,
   & .has-menu-opened header#document-header .menu
     @include media-breakpoint-up(desktop)
@@ -34,7 +34,7 @@
       color: $color-yellow
 
 .has-menu-opened
-  & .page-program-01
+  & .page-color-yellow
     @include media-breakpoint-up(desktop)
       header#document-header:not(.hero)
         border-color: $color-yellow
@@ -43,12 +43,12 @@
 
 //Hero
 
-.page-program-01 .hero
+.page-color-yellow .hero
   border-color: $color-yellow
 
 // Table of content
 
-.page-program-01 .toc-container
+.page-color-yellow .toc-container
   @include in-page-with-sidebar
   @include in-page-without-sidebar
   @include media-breakpoint-down(desktop)
@@ -61,7 +61,7 @@
   & button
     border-color: $color-yellow
 
-.page-program-01
+.page-color-yellow
   @include media-breakpoint-down(desktop)
   .toc-cta
     border-color: $color-yellow
@@ -69,7 +69,7 @@
 
 // Footer
 
-.page-program-01 footer#document-footer
+.page-color-yellow footer#document-footer
   border-color: $color-yellow
   & button:after
     color: $color-yellow
