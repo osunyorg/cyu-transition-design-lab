@@ -2,18 +2,18 @@
 
 .page-program-01
   .logo:hover
-    filter: $filter-program-01
+    filter: $filter-yellow
   .breadcrumb li
     & a:hover
-      text-decoration-color: $color-program-01
+      text-decoration-color: $color-yellow
     &:before,
     &.active
-	    color: $color-program-01
+	    color: $color-yellow
   & .person:hover .avatar,
   & .organization:hover .media
-    box-shadow: 0px 0px 0px $border-width $color-program-01
+    box-shadow: 0px 0px 0px $border-width $color-yellow
   footer
-    border-top: $border-width solid $color-program-01
+    border-top: $border-width solid $color-yellow
 
 // Header
 
@@ -25,26 +25,26 @@
       & a:active,
       & a:focus
         &:hover
-          text-decoration-color: $color-program-01 !important
+          text-decoration-color: $color-yellow !important
       & .active,
       & ul .has-children .dropdown-menu ul li .active,
-        color: $color-program-01
+        color: $color-yellow
   & header#document-header li
     & a:after
-      color: $color-program-01
+      color: $color-yellow
 
 .has-menu-opened
   & .page-program-01
     @include media-breakpoint-up(desktop)
       header#document-header:not(.hero)
-        border-color: $color-program-01
+        border-color: $color-yellow
       .menu ul .has-children .dropdown-menu .active
-        color: $color-program-01 !important
+        color: $color-yellow !important
 
 //Hero
 
 .page-program-01 .hero
-  border-color: $color-program-01
+  border-color: $color-yellow
 
 // Table of content
 
@@ -54,33 +54,33 @@
   @include media-breakpoint-down(desktop)
   .toc ol
     & li a:hover
-      text-decoration-color: $color-program-01 !important
+      text-decoration-color: $color-yellow !important
     & .active
-      color: $color-program-01
+      color: $color-yellow
   & .toc-title,
   & button
-    border-color: $color-program-01
+    border-color: $color-yellow
 
 .page-program-01
   @include media-breakpoint-down(desktop)
   .toc-cta
-    border-color: $color-program-01
+    border-color: $color-yellow
   .toc-container
 
 // Footer
 
 .page-program-01 footer#document-footer
-  border-color: $color-program-01
+  border-color: $color-yellow
   & button:after
-    color: $color-program-01
+    color: $color-yellow
   & li
     & a,
     & a:active,
     & a:focus
       &:hover
-        text-decoration-color: $color-program-01
+        text-decoration-color: $color-yellow
     & .active
     &:after
-      color: $color-program-01
+      color: $color-yellow
   & .logo-partner:hover
-    filter: $filter-program-01
+    filter: $filter-yellow
