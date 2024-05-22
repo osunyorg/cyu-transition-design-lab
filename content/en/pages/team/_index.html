@@ -91,15 +91,11 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Members
+      
     ranks:
-      self: 2
-      children: 3
+      self: false
+      children: 2
     data:
-      page: 
-        path: "/en/team/members/"
-        slug: "members"
-        file: "persons/_index.html"
       show_main_description: false
       show_descriptions: true
       show_images: false
@@ -108,6 +104,14 @@ contents:
         - path: "/en/team/members/"
           slug: "members"
           file: "persons/_index.html"
+          external: false
+        - path: "/en/team/partners/"
+          slug: "partners"
+          file: "organizations/_index.html"
+          external: false
+        - path: "/en/team/join-us/"
+          slug: "join-us"
+          file: "pages/team/join-us/_index.html"
           external: false
 
 
