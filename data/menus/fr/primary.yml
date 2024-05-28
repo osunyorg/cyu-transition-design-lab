@@ -17,10 +17,6 @@ items:
     target: "/fr/equipe/partenaires/"
     kind: page
     children: []
-  - title: Nous rejoindre
-    target: "/fr/equipe/nous-rejoindre/"
-    kind: page
-    children: []
 - title: Programmes
   target: "/fr/programmes/"
   kind: page
