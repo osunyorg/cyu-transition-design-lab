@@ -92,12 +92,21 @@ contents:
       
     ranks:
       self: false
+      children: 2
     data:
       show_main_description: false
-      show_descriptions: false
-      show_images: false
+      show_descriptions: true
+      show_images: true
       layout: grid
       pages:
+        - path: "/fr/equipe/membres/"
+          slug: "membres"
+          file: "persons/_index.html"
+          external: false
+        - path: "/fr/equipe/partenaires/"
+          slug: "partenaires"
+          file: "organizations/_index.html"
+          external: false
 
 
 
