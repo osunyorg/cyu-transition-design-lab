@@ -1,6 +1,7 @@
 // PROGRAM 01 - Decision design
 
 .page-color-yellow
+  --color-accent: #{$color-yellow}
   .logo:hover
     filter: $filter-yellow
   .breadcrumb li
@@ -12,6 +13,10 @@
   & .person:hover .avatar,
   & .organization:hover .media
     box-shadow: 0px 0px 0px $border-width $color-yellow
+  & .block-call_to_action
+    --cta-background-color: #{$color-yellow}
+    & .actions a:first-child:hover
+      color: $color-yellow
   footer
     border-top: $border-width solid $color-yellow
 

@@ -1,6 +1,7 @@
 // PROGRAM 02 - Lindda
 
 .page-color-sky
+  --color-accent: #{$color-sky}
   .logo:hover
     filter: $filter-sky
   .breadcrumb li
@@ -12,6 +13,10 @@
   & .person:hover .avatar,
   & .organization:hover .media
     box-shadow: 0px 0px 0px $border-width $color-sky
+  & .block-call_to_action
+  --cta-background-color: #{$color-sky}
+  & .actions a:first-child:hover
+    color: $color-sky
   footer
     border-top: $border-width solid $color-sky
 
