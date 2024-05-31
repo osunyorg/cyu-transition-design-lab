@@ -438,7 +438,7 @@ body:not(.full-width) .block-call_to_action
   .block:last-child
     margin-bottom: 0
 
-.block:last-child:not(.logos-partners, .block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures, .block-siblings-navigation, .block-siblings-navigation)
+.block:last-child:not(.block-links, .logos-partners, .block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures, .block-siblings-navigation, .block-siblings-navigation)
   padding-bottom: $spacing-5
 
 // LOGOS PARTNERS (NEW STYLE)
@@ -471,7 +471,7 @@ body:not(.full-width) .block-call_to_action
       padding-bottom: var(--grid-gutter)
 
 .publications__section
-  .document-content .container
+  .document-content .container,
     padding-right: 0
     padding-left: 0
   .publications-statistics,
@@ -479,7 +479,15 @@ body:not(.full-width) .block-call_to_action
     padding-right: var(--grid-gutter)
     padding-left: var(--grid-gutter)
 
-.publications__section .publication
+.researchers__term > main > .container
+  padding-right: 0
+  padding-left: 0
+
+.researchers__term .publication
+  padding-bottom: $spacing-4
+  padding-top: $spacing-4
+
+.publications .publication
   padding-right: var(--grid-gutter)
   padding-left: var(--grid-gutter)
   border-bottom: none
@@ -497,15 +505,22 @@ body:not(.full-width) .block-call_to_action
 
 // Person publication
 
+.persons__page main
+  padding-bottom: 0
 
 .persons__page main .document-content > .person-objects
+  margin-top: 0
   padding-left: 0 !important
   padding-right: 0 !important
 
 .persons__page main > .document-content > .container:first-child
   padding-top: var(--grid-gutter)
 
+.persons__page #shadow-host-companion
+  padding-bottom: 0
+
 .person-publications
+  padding-top: $spacing-5
   & .top,
   & .publication
     padding-left: var(--grid-gutter)
