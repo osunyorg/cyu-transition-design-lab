@@ -477,7 +477,7 @@ body:not(.full-width) .block-call_to_action
   .publications-statistics,
   .block
     padding-right: var(--grid-gutter)
-    padding-left: var(--grid-gutter)
+    padding-left: var(--grid-gutter)    
 
 .researchers__term > main > .container
   padding-right: 0
@@ -499,9 +499,10 @@ body:not(.full-width) .block-call_to_action
   &:hover
     background: $color-accent
 
-.publication-title
+.publication-title,
+.publications__section .publication p
   @include media-breakpoint-up(desktop)
-  padding-right: var(--column-width)
+    padding-right: calc(var(--column-width) + var(--grid-gutter)
 
 // Person publication
 
