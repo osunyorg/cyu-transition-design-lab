@@ -494,8 +494,12 @@ body:not(.full-width) .block-call_to_action
   transition: all 0.3s ease
   &::before
     right: var(--grid-gutter)
-  & .publication-title a:hover
-    color: $color-text
+  & .publication-title 
+    & a
+      font-size: var(--h4-size)
+      font-weight: $heading-font-weight
+    & a:hover
+      color: $color-text
   &:hover
     background: $color-accent
 
