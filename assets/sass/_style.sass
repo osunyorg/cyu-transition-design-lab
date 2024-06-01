@@ -496,10 +496,11 @@ body:not(.full-width) .block-call_to_action
     right: var(--grid-gutter)
   & .publication-title 
     & a
+      color: $color-text
       font-size: var(--h4-size)
       font-weight: $heading-font-weight
-    & a:hover
-      color: $color-text
+      &:hover
+        color: $color-text
   &:hover
     background: $color-accent
 
@@ -537,8 +538,13 @@ body:not(.full-width) .block-call_to_action
     transition: all 0.3s ease
     &::before
       right: var(--grid-gutter)
-    & .publication-title a:hover
-      color: $color-text
+    & .publication-title
+      & a
+        color: $color-text
+        font-size: var(--h5-size)
+        font-weight: $heading-font-weight
+        &:hover
+          color: inherit
     &:hover
       background: $color-accent
 
