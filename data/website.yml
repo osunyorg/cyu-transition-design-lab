@@ -1,6 +1,10 @@
 title: >-
   Transition design lab
 default:
+  image:
+    id: af9c76bc-9656-40ad-8fba-94517a95b35a
+  shared_image:
+    id: 3c0e70d6-4a51-48a8-b058-0912abe50707
 social:
   email: >-
     annie.gentes@cyu.fr
