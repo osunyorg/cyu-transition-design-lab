@@ -10,7 +10,7 @@ items:
   kind: page
   children:
   - title: Partenaires
-    target: "/fr/equipe/partenaires/"
+    target: "/fr/organisations/"
     kind: page
     children: []
 - title: Programmes
