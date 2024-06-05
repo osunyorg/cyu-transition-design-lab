@@ -8,7 +8,11 @@ items:
 - title: Équipe
   target: "/fr/equipe/"
   kind: page
-  children: []
+  children:
+  - title: Membres
+    target: "/fr/equipe/membres/"
+    kind: page
+    children: []
 - title: Programmes
   target: "/fr/programmes/"
   kind: page
