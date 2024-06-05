@@ -10,7 +10,7 @@ items:
   kind: page
   children:
   - title: Members
-    target: "/en/members/"
+    target: "/en/team/"
     kind: page
     children: []
   - title: Partners
