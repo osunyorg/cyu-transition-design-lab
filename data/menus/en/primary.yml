@@ -14,7 +14,7 @@ items:
     kind: page
     children: []
   - title: Partners
-    target: "/en/team/partners/"
+    target: "/en/partners/"
     kind: page
     children: []
 - title: Programs
