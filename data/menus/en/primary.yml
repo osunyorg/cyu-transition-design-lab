@@ -17,10 +17,6 @@ items:
     target: "/en/team/partners/"
     kind: page
     children: []
-  - title: Join us
-    target: "/en/team/join-us/"
-    kind: page
-    children: []
 - title: Programs
   target: "/en/programs/"
   kind: page
