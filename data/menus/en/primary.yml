@@ -8,15 +8,7 @@ items:
 - title: Team
   target: "/en/team/"
   kind: page
-  children:
-  - title: Members
-    target: "/en/team/"
-    kind: page
-    children: []
-  - title: Partners
-    target: "/en/partners/"
-    kind: page
-    children: []
+  children: []
 - title: Programs
   target: "/en/programs/"
   kind: page
