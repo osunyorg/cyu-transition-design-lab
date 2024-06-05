@@ -40,6 +40,8 @@ image:
 shared_image:
   id: "65ac6924-44dd-4c51-9f48-2c91f3c561e1"
 
+children:
+  - "pages/equipe/membres/_index.html"
 meta_description: >
   
 description: >
@@ -89,12 +91,17 @@ contents:
       
     ranks:
       self: false
+      children: 2
     data:
       show_main_description: false
       show_descriptions: true
       show_images: true
       layout: grid
       pages:
+        - path: "/fr/equipe/membres/"
+          slug: "membres"
+          file: "pages/equipe/membres/_index.html"
+          external: false
 
 
 
