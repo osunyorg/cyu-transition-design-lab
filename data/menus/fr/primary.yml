@@ -6,7 +6,7 @@ items:
   kind: page
   children: []
 - title: Équipe
-  target: "/fr/equipe/"
+  target: "/fr/equipe-old/"
   kind: page
   children:
   - title: Partenaires
