@@ -5,18 +5,6 @@ items:
   target: "/en/about/"
   kind: page
   children: []
-- title: Team
-  target: "/en/team/"
-  kind: page
-  children:
-  - title: Members
-    target: "/en/team/members/"
-    kind: page
-    children: []
-  - title: Partners
-    target: "/en/team/partners/"
-    kind: page
-    children: []
 - title: Programs
   target: "/en/programs/"
   kind: page
