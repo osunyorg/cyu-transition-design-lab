@@ -433,10 +433,13 @@ body:not(.full-width) .block-call_to_action
 .pages__section
   @include in-page-with-sidebar
   .blocks > .block:first-child:not(.block-call_to_action),
+  .block-sitemap,
   .blocks > .heading:first-child
+    margin-top: 0
     padding-top: var(--grid-gutter)
   .block:last-child
     margin-bottom: 0
+
 
 .block:last-child:not(.block-links, .logos-partners, .block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures, .block-siblings-navigation, .block-siblings-navigation)
   padding-bottom: $spacing-5
