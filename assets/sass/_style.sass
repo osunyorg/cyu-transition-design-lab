@@ -360,6 +360,20 @@ footer#document-footer .logo img
   @include media-breakpoint-up(desktop)
     height: $header-logo-height-desktop
 
+footer#document-footer .footer-i18n
+  & button[aria-expanded="true"]
+    min-width: pxToRem(150)
+    outline-color: var(--color-accent)
+    background: var(--color-accent)
+    padding-right: 0
+    &::after
+      color: var(--color-text)
+  & .dropdown-menu a,
+  & .dropdown-menu a.is-checked
+    padding-top: $spacing-2
+    &:hover
+      text-decoration-color: var(--color-text)
+
 // SECTIONS ------------
 
 // Person & organization
