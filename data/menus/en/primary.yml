@@ -13,6 +13,10 @@ items:
     target: "/en/team/members/"
     kind: page
     children: []
+  - title: Partners
+    target: "/en/team/partners/"
+    kind: page
+    children: []
 - title: Programs
   target: "/en/programs/"
   kind: page
