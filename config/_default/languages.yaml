@@ -25,9 +25,9 @@ en:
     projects_categories: /tools/:slug/
     publications: /publications/:year-:slug/
     organizations: /organizations/:slug/
-    organizations_categories: /organizations/:slug/
+    organizations_categories: /organizations/categories/:slug/
     persons: /people/:slug/
-    persons_categories: /people/:slug/
+    persons_categories: /people/categories/:slug/
     researchers: /people/:slug/publications/
   taxonomies:
     administrator: administrators
@@ -67,9 +67,9 @@ fr:
     projects_categories: /outils/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
-    organizations_categories: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
     persons: /personnes/:slug/
-    persons_categories: /personnes/:slug/
+    persons_categories: /personnes/categories/:slug/
     researchers: /personnes/:slug/publications/
   taxonomies:
     administrator: administrators
