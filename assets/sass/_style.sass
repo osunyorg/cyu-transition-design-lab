@@ -13,6 +13,13 @@
 // HEADINGS
 
 // Page title
+@mixin page-arrow
+  @include icon(arrow-right-line, after)
+    display: inline-block
+    position: relative
+    transition: transform 0.55s $arrow-ease-transition
+    transform: translateX(0)
+    font-size: 0.9em
 
 .more
   display: none
@@ -25,14 +32,8 @@
     & .page-title a
       font-weight: $heading-font-weight
       text-decoration-line: none
-    & .page-title a:after
-      display: inline-block
-      content: " ！"
-      position: relative
-      font-family: 'Icon'
-      vertical-align: middle
-      transition: transform 0.55s $arrow-ease-transition
-      transform: translateX(0)
+    & .page-title a
+      @include page-arrow
     &:hover .page-title a:after
       transform: translateX(0.625rem)
 
@@ -47,14 +48,7 @@
       & .page-title a
         font-weight: $heading-font-weight
         text-decoration-line: none
-        &:after
-          display: inline-block
-          content: " ！"
-          position: relative
-          font-family: 'Icon'
-          vertical-align: middle
-          transition: transform 0.55s $arrow-ease-transition
-          transform: translateX(0)
+        @include page-arrow
       &:hover .page-title a:after
         transform: translateX(0.625rem)
 
@@ -69,14 +63,7 @@
       & .page-title a
         font-weight: $heading-font-weight
         text-decoration-line: none
-        &:after
-          display: inline-block
-          content: " ！"
-          position: relative
-          font-family: 'Icon'
-          vertical-align: middle
-          transition: transform 0.55s $arrow-ease-transition
-          transform: translateX(0)
+        @include page-arrow
       &:hover .page-title a:after
         transform: translateX(0.625rem)
 
@@ -85,14 +72,7 @@
     margin-bottom: $spacing-2
     & a
       @include stretched-link(before)
-      &:after
-        display: inline-block
-        content: " ！"
-        position: relative
-        font-family: 'Icon'
-        vertical-align: middle
-        transition: transform 0.55s $arrow-ease-transition
-        transform: translateX(0)
+      @include page-arrow
   &:hover .project-title a:after
     transform: translateX(0.625rem)
 
