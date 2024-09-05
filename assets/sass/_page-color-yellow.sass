@@ -27,10 +27,12 @@
   & header#document-header .menu,
   & .has-menu-opened header#document-header .menu
     @include media-breakpoint-up(desktop)
-      & a,
-      & a:active,
-      & a:focus
-        &:hover
+      & a
+        &:hover,
+        &:active,
+        &:active:hover,
+        &:focus,
+        &:focus:hover
           text-decoration-color: $color-yellow !important
       & .active,
       & ul .has-children .dropdown-menu ul li .active,

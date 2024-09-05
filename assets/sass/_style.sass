@@ -122,14 +122,19 @@ a:after
 header#document-header .menu,
 .has-menu-opened header#document-header .menu
   @include media-breakpoint-up(desktop)
-    & a,
-    & a:active,
-    & a:focus
-      text-decoration-line: $text-decoration-line
-      text-underline-offset: $text-underline-offset
-      text-decoration-thickness: $text-decoration-thickness
-      &:hover
+    & a
+      text-decoration-line: none
+      text-decoration-color: transparent
+      &:hover,
+      &:active,
+      &:active:hover,
+      &:focus,
+      &:focus:hover
+        text-decoration-line: $text-decoration-line
         text-decoration-color: $color-accent
+        text-underline-offset: $text-underline-offset
+        text-decoration-thickness: $text-decoration-thickness
+        transition: text-decoration-color 0.55s ease
     & .active,
     & ul .has-children .dropdown-menu ul li .active
       color: $color-accent
