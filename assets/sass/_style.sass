@@ -492,15 +492,18 @@ body:not(.full-width) .block-call_to_action
 .publications .publication
   padding-right: var(--grid-gutter)
   padding-left: var(--grid-gutter)
+  padding-top: $spacing-4
+  padding-bottom: $spacing-4
   border-bottom: none
   transition: all 0.3s ease
   &::before
     right: var(--grid-gutter)
     color: inherit
-  & .publication-title 
+  & .publication-title
+    font-size: var(--h4-size)
+    line-height: var(--h4-line-height)
     & a
       color: $color-text
-      font-size: var(--h4-size)
       font-weight: $heading-font-weight
       &:hover
         color: $color-text
