@@ -60,19 +60,27 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 224
+  seconds: 225
   text: >-
     4 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       À propos
-    slug: "a-propos"
-    position: 1
-    rank: 2
+    slug: >-
+      a-propos
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -93,16 +101,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Notre approche
-    slug: "notre-approche"
-    position: 2
-    rank: 2
+    slug: >-
+      notre-approche
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -130,6 +145,8 @@ contents:
     template: chapter
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -149,16 +166,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Responsable de programme
-    slug: "responsable-de-programme"
-    position: 3
-    rank: 2
+    slug: >-
+      responsable-de-programme
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: persons
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -179,16 +203,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Bibliographie
-    slug: "bibliographie"
-    position: 4
-    rank: 2
+    slug: >-
+      bibliographie
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -209,16 +240,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Partenaires
-    slug: "partenaires"
-    position: 5
-    rank: 2
+    slug: >-
+      partenaires
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: organizations
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -246,6 +284,8 @@ contents:
     template: pages
     title: >-
       Other programs
+    slug: >-
+      other-programs
     ranks:
       self: 3
       children: 4
@@ -265,7 +305,6 @@ contents:
           slug: "lindda"
           file: "pages/programmes/lindda/_index.html"
           external: false
-
 
 
 

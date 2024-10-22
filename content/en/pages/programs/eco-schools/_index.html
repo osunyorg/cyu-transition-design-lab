@@ -58,19 +58,27 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 211
+  seconds: 212
   text: >-
     4 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       About
-    slug: "about"
-    position: 1
-    rank: 2
+    slug: >-
+      about
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -91,16 +99,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Our approach
-    slug: "our-approach"
-    position: 2
-    rank: 2
+    slug: >-
+      our-approach
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -128,6 +143,8 @@ contents:
     template: chapter
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -147,16 +164,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Program manager
-    slug: "program-manager"
-    position: 3
-    rank: 2
+    slug: >-
+      program-manager
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: persons
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -177,16 +201,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Bibliography
-    slug: "bibliography"
-    position: 4
-    rank: 2
+    slug: >-
+      bibliography
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -207,16 +238,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Partners
-    slug: "partners"
-    position: 5
-    rank: 2
+    slug: >-
+      partners
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: organizations
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -245,6 +283,8 @@ contents:
     template: pages
     title: >-
       Other programs
+    slug: >-
+      other-programs
     ranks:
       self: 3
       children: 4
@@ -264,7 +304,6 @@ contents:
           slug: "lindda"
           file: "pages/programs/lindda/_index.html"
           external: false
-
 
 
 

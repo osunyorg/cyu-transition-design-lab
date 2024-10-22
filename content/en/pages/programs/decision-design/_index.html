@@ -64,15 +64,23 @@ contents_reading_time:
   text: >-
     2 minutes
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       About the Chair
-    slug: "about-the-chair"
-    position: 1
-    rank: 2
+    slug: >-
+      about-the-chair
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: organizations
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -95,16 +103,23 @@ contents:
         - slug: "federation-nationale-des-cuma"
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Our mission
-    slug: "our-mission"
-    position: 2
-    rank: 2
+    slug: >-
+      our-mission
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -129,6 +144,8 @@ contents:
     template: chapter
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -152,6 +169,8 @@ contents:
     template: chapter
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -171,16 +190,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Productions and audiences of the Chair
-    slug: "productions-and-audiences-of-the-chair"
-    position: 3
-    rank: 2
+    slug: >-
+      productions-and-audiences-of-the-chair
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: image
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -200,16 +226,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Program managers
-    slug: "program-managers"
-    position: 4
-    rank: 2
+    slug: >-
+      program-managers
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: persons
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -238,6 +271,8 @@ contents:
     template: call_to_action
     title: >-
       Interested ?
+    slug: >-
+      interested
     ranks:
       self: 3
     data:
@@ -267,6 +302,8 @@ contents:
     template: pages
     title: >-
       Other programs
+    slug: >-
+      other-programs
     ranks:
       self: 3
       children: 4
@@ -286,7 +323,6 @@ contents:
           slug: "eco-schools"
           file: "pages/programs/eco-schools/_index.html"
           external: false
-
 
 
 
