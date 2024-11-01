@@ -13,4 +13,28 @@ city: >-
   Saint-Germain-en-Laye
 country: >-
   France
+contact_details:
+  postal_address:
+    data:
+      address: >-
+        34 rue de la Croix de Fer
+      address_additional: >-
+        
+      zipcode: >-
+        78100
+      city: >-
+        Saint-Germain-en-Laye
+      country: >-
+        name: >-
+          France
+        alpha2: >-
+          FR
+        alpha3: >-
+          FRA
+      country: >-
+        France
+    text: >-
+      34 rue de la Croix de Fer 78100 Saint-Germain-en-Laye FRANCE
+    html: >-
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">34 rue de la Croix de Fer</span> <span itemprop="postalCode">78100</span> <span itemprop="addressLocality">Saint-Germain-en-Laye</span> <span itemprop="addressCountry">FRANCE</span></address>
 ---
