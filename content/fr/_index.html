@@ -4,13 +4,14 @@ breadcrumb_title: >-
 title: >-
   Accueil
 url: "/fr/"
+slug: ""
 date: 2024-04-27T07:36:25+02:00
 lastmod: 2024-10-08T15:02:20+02:00
 meta:
   hugo:
     permalink: "/fr/"
+    path: "/"
     file: "content/fr/_index.html"
-    path: ""
     slug: ""
   dates:
     created_at: 2024-04-27T07:36:25+02:00
@@ -78,9 +79,10 @@ contents:
       children: 3
     data:
       page:
-        path: "/fr/programmes/"
+        permalink: "/fr/programmes/"
+        path: "/pages/programmes"
         slug: "programmes"
-        file: "pages/programmes/_index.html"
+        file: "content/fr/pages/programmes/_index.html"
       options:
         image: true
         main_summary: true
@@ -88,18 +90,19 @@ contents:
 
       layout: large
       pages:
-        - path: "/fr/programmes/design-de-la-decision/"
+        - permalink: "/fr/programmes/design-de-la-decision/"
+          path: "/pages/programmes/design-de-la-decision"
           slug: "design-de-la-decision"
-          file: "pages/programmes/design-de-la-decision/_index.html"
-          external: false
-        - path: "/fr/programmes/lindda/"
+          file: "content/fr/pages/programmes/design-de-la-decision/_index.html"
+        - permalink: "/fr/programmes/lindda/"
+          path: "/pages/programmes/lindda"
           slug: "lindda"
-          file: "pages/programmes/lindda/_index.html"
-          external: false
-        - path: "/fr/programmes/eco-schools/"
+          file: "content/fr/pages/programmes/lindda/_index.html"
+        - permalink: "/fr/programmes/eco-schools/"
+          path: "/pages/programmes/eco-schools"
           slug: "eco-schools"
-          file: "pages/programmes/eco-schools/_index.html"
-          external: false
+          file: "content/fr/pages/programmes/eco-schools/_index.html"
+
 
 
   - kind: block
@@ -112,9 +115,10 @@ contents:
       self: 2
     data:
       page:
-        path: "/fr/publications/"
+        permalink: "/fr/publications/"
+        path: "/publications"
         slug: "publications"
-        file: "publications/_index.html"
+        file: "content/fr/publications/_index.html"
       options:
         image: true
         main_summary: true
@@ -122,6 +126,7 @@ contents:
 
       layout: grid
       pages:
+
 
 
   - kind: block
@@ -145,12 +150,18 @@ contents:
         year: true
 
       projects:
-        - slug: "quadractic-voting"
-          file: "projects/2024-quadractic-voting.html"
-        - slug: "significance-prober-process"
-          file: "projects/2024-significance-prober-process.html"
-        - slug: "fresque-tous-rse"
-          file: "projects/2023-fresque-tous-rse.html"
+        - permalink: "/fr/outils/2024-quadractic-voting/"
+          path: "/projects/2024-quadractic-voting"
+          slug: "quadractic-voting"
+          file: "content/fr/projects/2024-quadractic-voting.html"
+        - permalink: "/fr/outils/2024-significance-prober-process/"
+          path: "/projects/2024-significance-prober-process"
+          slug: "significance-prober-process"
+          file: "content/fr/projects/2024-significance-prober-process.html"
+        - permalink: "/fr/outils/2023-fresque-tous-rse/"
+          path: "/projects/2023-fresque-tous-rse"
+          slug: "fresque-tous-rse"
+          file: "content/fr/projects/2023-fresque-tous-rse.html"
 
 
 
