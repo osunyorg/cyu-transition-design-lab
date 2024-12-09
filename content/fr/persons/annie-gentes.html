@@ -14,8 +14,8 @@ aliases:
 meta:
   hugo:
     permalink: "/fr/personnes/annie-gentes/"
+    path: "/persons/annie-gentes"
     file: "content/fr/persons/annie-gentes.html"
-    path: "annie-gentes"
     slug: "annie-gentes"
   dates:
     created_at: 2024-04-28T13:22:23+02:00
@@ -115,17 +115,25 @@ backlinks:
   current_website:
     name: "Transition design lab"
     pages:
-      - path: "/fr/equipe/membres/"
-        file: "pages/equipe/membres/_index.html"
-      - path: "/fr/programmes/design-de-la-decision/"
-        file: "pages/programmes/design-de-la-decision/_index.html"
-      - path: "/fr/programmes/lindda/"
-        file: "pages/programmes/lindda/_index.html"
+      - permalink: "/fr/equipe/membres/"
+        path: "/pages/equipe/membres"
+        slug: "membres"
+        file: "content/fr/pages/equipe/membres/_index.html"
+      - permalink: "/fr/programmes/design-de-la-decision/"
+        path: "/pages/programmes/design-de-la-decision"
+        slug: "design-de-la-decision"
+        file: "content/fr/pages/programmes/design-de-la-decision/_index.html"
+      - permalink: "/fr/programmes/lindda/"
+        path: "/pages/programmes/lindda"
+        slug: "lindda"
+        file: "content/fr/pages/programmes/lindda/_index.html"
     posts:
     events:
     projects:
-      - path: "/fr/outils/2024-quadractic-voting/"
-        file: "projects/2024-quadractic-voting.html"
+      - permalink: "/fr/outils/2024-quadractic-voting/"
+        path: "/projects/2024-quadractic-voting"
+        slug: "quadractic-voting"
+        file: "content/fr/projects/2024-quadractic-voting.html"
 
 persons_categories:
   - "chercheurs"
