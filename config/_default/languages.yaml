@@ -7,19 +7,40 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      email: >-
-        annie.gentes@cyu.fr
-      x: >-
-        https://twitter.com/CyEcoledeDesign
-      linkedin: >-
-        https://www.linkedin.com/company/cy-ecole-de-design/
-      youtube: >-
-        https://www.youtube.com/channel/UCw_1kcvK37TZs-vqKd-t-MQ
-      instagram: >-
-        https://www.instagram.com/cyecolededesign/
-      facebook: >-
-        https://www.facebook.com/cyecolededesign
+    contact_details:
+      emails:
+        email:
+          label: >-
+            annie.gentes@cyu.fr
+          value: >-
+            mailto:annie.gentes@cyu.fr
+      social_networks:
+        facebook:
+          label: >-
+            cyecolededesign
+          value: >-
+            https://www.facebook.com/cyecolededesign
+        instagram:
+          label: >-
+            cyecolededesign
+          value: >-
+            https://instagram.com/cyecolededesign
+        linkedin:
+          label: >-
+            cy-ecole-de-design
+          value: >-
+            https://www.linkedin.com/company/cy-ecole-de-design/
+        x:
+          label: >-
+            CyEcoledeDesign
+          value: >-
+            https://x.com/CyEcoledeDesign
+        youtube:
+          label: >-
+            channelUCw_1kcvK37TZs-vqKd-t-MQ
+          value: >-
+            https://www.youtube.com/@channelUCw_1kcvK37TZs-vqKd-t-MQ
+
   permalinks:
     projects: /outils/:year-:slug/
     projects_categories: /outils/:slug/
@@ -49,19 +70,40 @@ en:
   languageCode: en
   languageName: English
   params:
-    social:
-      email: >-
-        annie.gentes@cyu.fr
-      x: >-
-        https://twitter.com/CyEcoledeDesign
-      linkedin: >-
-        https://www.linkedin.com/company/cy-ecole-de-design/
-      youtube: >-
-        https://www.youtube.com/channel/UCw_1kcvK37TZs-vqKd-t-MQ
-      instagram: >-
-        https://www.instagram.com/cyecolededesign/
-      facebook: >-
-        https://www.facebook.com/cyecolededesign
+    contact_details:
+      emails:
+        email:
+          label: >-
+            annie.gentes@cyu.fr
+          value: >-
+            mailto:annie.gentes@cyu.fr
+      social_networks:
+        facebook:
+          label: >-
+            cyecolededesign
+          value: >-
+            https://www.facebook.com/cyecolededesign
+        instagram:
+          label: >-
+            cyecolededesign
+          value: >-
+            https://instagram.com/cyecolededesign
+        linkedin:
+          label: >-
+            cy-ecole-de-design
+          value: >-
+            https://www.linkedin.com/company/cy-ecole-de-design/
+        x:
+          label: >-
+            CyEcoledeDesign
+          value: >-
+            https://x.com/CyEcoledeDesign
+        youtube:
+          label: >-
+            channelUCw_1kcvK37TZs-vqKd-t-MQ
+          value: >-
+            https://www.youtube.com/@channelUCw_1kcvK37TZs-vqKd-t-MQ
+
   permalinks:
     projects: /tools/:year-:slug/
     projects_categories: /tools/:slug/
