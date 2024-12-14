@@ -5,6 +5,7 @@ items:
   target: "/en/about/"
   kind: page
   children: []
+  path: "/pages/about"
   file: content/en/pages/about/_index.html
 - title: Team
   target: "/en/team/"
@@ -14,12 +15,15 @@ items:
     target: "/en/team/members/"
     kind: page
     children: []
+    path: "/pages/team/members"
     file: content/en/pages/team/members/_index.html
   - title: Partners
     target: "/en/team/partners/"
     kind: page
     children: []
+    path: "/pages/team/partners"
     file: content/en/pages/team/partners/_index.html
+  path: "/pages/team"
   file: content/en/pages/team/_index.html
 - title: Programs
   target: "/en/programs/"
@@ -29,26 +33,32 @@ items:
     target: "/en/programs/decision-design/"
     kind: page
     children: []
+    path: "/pages/programs/decision-design"
     file: content/en/pages/programs/decision-design/_index.html
   - title: Lindda
     target: "/en/programs/lindda/"
     kind: page
     children: []
+    path: "/pages/programs/lindda"
     file: content/en/pages/programs/lindda/_index.html
   - title: Eco² Schools
     target: "/en/programs/eco-schools/"
     kind: page
     children: []
+    path: "/pages/programs/eco-schools"
     file: content/en/pages/programs/eco-schools/_index.html
+  path: "/pages/programs"
   file: content/en/pages/programs/_index.html
 - title: Publications
   target: "/en/publications/"
   kind: page
   children: []
+  path: "/publications"
   file: content/en/publications/_index.html
 - title: Tools
   target: "/en/tools/"
   kind: page
   children: []
+  path: "/projects"
   file: content/en/projects/_index.html
 
