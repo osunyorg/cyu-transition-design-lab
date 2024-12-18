@@ -4,22 +4,26 @@ items:
 - title: À propos
   target: "/fr/a-propos/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Équipe
   target: "/fr/equipe/"
   kind: page
+  new_tab: false
   children:
   - title: Membres
     target: "/fr/equipe/membres/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/equipe/membres"
     file: content/fr/pages/equipe/membres/_index.html
   - title: Partenaires
     target: "/fr/equipe/partenaires/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/equipe/partenaires"
     file: content/fr/pages/equipe/partenaires/_index.html
@@ -28,22 +32,26 @@ items:
 - title: Programmes
   target: "/fr/programmes/"
   kind: page
+  new_tab: false
   children:
   - title: Design de la décision
     target: "/fr/programmes/design-de-la-decision/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/programmes/design-de-la-decision"
     file: content/fr/pages/programmes/design-de-la-decision/_index.html
   - title: Lindda
     target: "/fr/programmes/lindda/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/programmes/lindda"
     file: content/fr/pages/programmes/lindda/_index.html
   - title: Eco² Schools
     target: "/fr/programmes/eco-schools/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/programmes/eco-schools"
     file: content/fr/pages/programmes/eco-schools/_index.html
@@ -52,12 +60,14 @@ items:
 - title: Publications
   target: "/fr/publications/"
   kind: page
+  new_tab: false
   children: []
   path: "/publications"
   file: content/fr/publications/_index.html
 - title: Outils
   target: "/fr/outils/"
   kind: page
+  new_tab: false
   children: []
   path: "/projects"
   file: content/fr/projects/_index.html
