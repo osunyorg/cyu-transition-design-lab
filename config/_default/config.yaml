@@ -1,8 +1,11 @@
 theme: osuny
-paginate: 18
+_merge: deep
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  home:
+    head:
+      title: site
   summary:
     position: hero
   search:
