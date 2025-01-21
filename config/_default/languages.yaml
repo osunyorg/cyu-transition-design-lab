@@ -42,6 +42,7 @@ fr:
             https://www.youtube.com/@channelUCw_1kcvK37TZs-vqKd-t-MQ
 
   permalinks:
+    pages_categories: /:slug/
     projects: /outils/:year-:slug/
     projects_categories: /outils/:slug/
     publications: /publications/:year-:slug/
@@ -57,6 +58,7 @@ fr:
     events_category: events_categories
     location: locations
     organizations_category: organizations_categories
+    pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
@@ -105,6 +107,7 @@ en:
             https://www.youtube.com/@channelUCw_1kcvK37TZs-vqKd-t-MQ
 
   permalinks:
+    pages_categories: /:slug/
     projects: /tools/:year-:slug/
     projects_categories: /tools/:slug/
     publications: /publications/:year-:slug/
@@ -120,6 +123,7 @@ en:
     events_category: events_categories
     location: locations
     organizations_category: organizations_categories
+    pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
     projects_category: projects_categories
