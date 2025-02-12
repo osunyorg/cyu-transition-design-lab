@@ -2,6 +2,11 @@
 
 baseURL: https://transitiondesign.labo.cyu.fr
 
+## OSUNY
+osuny:
+  website:
+    id: 51711a84-5827-4a1d-8a17-30d928894ce1
+
 ## LANGUAGE
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
