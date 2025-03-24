@@ -65,7 +65,7 @@ items:
   path: "/publications"
   file: content/fr/publications/_index.html
 - title: Outils
-  target: "/fr/outils/"
+  target: "/fr/productions/"
   kind: page
   new_tab: false
   children: []

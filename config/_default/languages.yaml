@@ -44,8 +44,8 @@ fr:
 
   permalinks:
     pages_categories: /:slug/
-    projects: /outils/:year-:slug/
-    projects_categories: /outils/:slug/
+    projects: /productions/:year-:slug/
+    projects_categories: /productions/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
     organizations_categories: /organisations/categories/:slug/
