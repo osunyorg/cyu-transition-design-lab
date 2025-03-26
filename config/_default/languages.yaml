@@ -46,6 +46,8 @@ fr:
     pages_categories: /:slug/
     projects: /productions/:year-:slug/
     projects_categories: /productions/:slug/
+    posts: /ressources/:year-:month-:day-:slug/
+    posts_categories: /ressources/:slug/
     publications: /publications/:year-:slug/
     organizations: /organisations/:slug/
     organizations_categories: /organisations/categories/:slug/
@@ -113,6 +115,8 @@ en:
     pages_categories: /:slug/
     projects: /tools/:year-:slug/
     projects_categories: /tools/:slug/
+    posts: /news/:year-:month-:day-:slug/
+    posts_categories: /news/:slug/
     publications: /publications/:year-:slug/
     organizations: /organizations/:slug/
     organizations_categories: /organizations/categories/:slug/
