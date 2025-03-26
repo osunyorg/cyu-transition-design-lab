@@ -53,6 +53,7 @@ fr:
     organizations_categories: /organisations/categories/:slug/
     persons: /personnes/:slug/
     persons_categories: /personnes/categories/:slug/
+    authors: /personnes/:slug/ressources/
     researchers: /personnes/:slug/publications/
   taxonomies:
     administrator: administrators
@@ -122,6 +123,7 @@ en:
     organizations_categories: /organizations/categories/:slug/
     persons: /people/:slug/
     persons_categories: /people/categories/:slug/
+    authors: /people/:slug/news/
     researchers: /people/:slug/publications/
   taxonomies:
     administrator: administrators
