@@ -10,7 +10,7 @@ slug: "about"
 aliases:
   - /about/
 date: 2024-04-28T15:45:05+02:00
-lastmod: 2025-03-28T00:04:33+01:00
+lastmod: 2025-03-28T00:05:19+01:00
 meta:
   hugo:
     permalink: "/en/about/"
@@ -19,7 +19,7 @@ meta:
     slug: "about"
   dates:
     created_at: 2024-04-29T17:50:18+02:00
-    updated_at: 2025-03-28T00:04:33+01:00
+    updated_at: 2025-03-28T00:05:19+01:00
     published_at: 2024-04-28T15:45:05+02:00
 search:
   id: "14d28d4d-3870-4335-b1e6-324c5fe74104"
@@ -782,6 +782,53 @@ contents:
 
 
   - kind: block
+    template: pages
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Programs
+        heading: 3
+        link: "/en/programs/"
+      description: >-
+        <p>CY Transition Design Research supports Sustainable Development Goals and follows the New European Bauhaus policy. Design as a field of research and practices, is challenged by these new goals and we want to  observe, analyze but also invent new tools, services, mediations, that support these goals.</p>
+    data:
+      page:
+        permalink: "/en/programs/"
+        path: "/pages/programs"
+        slug: "programs"
+        file: "content/en/pages/programs/_index.html"
+      category: "program"
+      options:
+        image: true
+        main_summary: true
+        summary: true
+
+      layout: cards
+      pages:
+        - permalink: "/en/programs/decision-design/"
+          path: "/pages/programs/decision-design"
+          slug: "decision-design"
+          file: "content/en/pages/programs/decision-design/_index.html"
+        - permalink: "/en/programs/lindda/"
+          path: "/pages/programs/lindda"
+          slug: "lindda"
+          file: "content/en/pages/programs/lindda/_index.html"
+        - permalink: "/en/programs/eco-schools/"
+          path: "/pages/programs/eco-schools"
+          slug: "eco-schools"
+          file: "content/en/pages/programs/eco-schools/_index.html"
+
+
+
+  - kind: block
     template: call_to_action
     title: >-
       
@@ -816,24 +863,35 @@ contents:
 
 
   - kind: block
-    template: pages
+    template: projects
     title: >-
       
     slug: >-
       
     ranks:
       base: 3
+      children: 3
     top:
       active: false
     data:
-      options:
-        image: true
-        main_summary: true
-        summary: true
-
+      mode: all
       layout: grid
-      pages:
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: false
+        year: true
 
+      projects:
+        - permalink: "/en/tools/2024-quadractic-voting/"
+          path: "/projects/2024-quadractic-voting"
+          slug: "quadractic-voting"
+          file: "content/en/projects/2024-quadractic-voting.html"
+        - permalink: "/en/tools/2023-fresque-tous-rse/"
+          path: "/projects/2023-fresque-tous-rse"
+          slug: "fresque-tous-rse"
+          file: "content/en/projects/2023-fresque-tous-rse.html"
 
 
 
