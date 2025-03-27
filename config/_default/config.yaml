@@ -9,4 +9,8 @@ params:
   summary:
     position: hero
   search:
-    active: false  
+    active: false
+  default:
+    single:
+      taxonomies:
+        display: false
