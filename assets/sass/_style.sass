@@ -641,6 +641,7 @@ main.page-with-blocks
 .persons__page main
   padding-bottom: 0
 
+// Enlever les marges pour le hover des publications
 .persons__page main .document-content > .person-objects
   margin-top: 0
   padding-left: 0 !important
@@ -652,12 +653,14 @@ main.page-with-blocks
 .persons__page #shadow-host-companion
   padding-bottom: 0
 
-.person-publications
+.person-publications,
+.person-posts
   padding-top: $spacing-5
   & .top
     margin-bottom: calc(#{$spacing-3} + #{$spacing-2})
   & .top,
   & .publication,
+  & .posts,
   & .more
     padding-left: var(--grid-gutter)
     padding-right: var(--grid-gutter)
@@ -678,6 +681,12 @@ main.page-with-blocks
           color: inherit
     &:hover
       background: $color-accent
+
+.person-posts .posts .post .post-content
+  @include media-breakpoint-up(desktop)
+    display: flex
+    flex-direction: column
+    gap: $spacing-2
 
 
 // ILLUSTRATION
