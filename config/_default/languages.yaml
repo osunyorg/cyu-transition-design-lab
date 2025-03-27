@@ -116,14 +116,14 @@ en:
     pages_categories: /:slug/
     projects: /tools/:year-:slug/
     projects_categories: /tools/:slug/
-    posts: /news/:year-:month-:day-:slug/
-    posts_categories: /news/:slug/
+    posts: /resources/:year-:month-:day-:slug/
+    posts_categories: /resources/:slug/
     publications: /publications/:year-:slug/
     organizations: /organizations/:slug/
     organizations_categories: /organizations/categories/:slug/
     persons: /people/:slug/
     persons_categories: /people/categories/:slug/
-    authors: /people/:slug/news/
+    authors: /people/:slug/resources/
     researchers: /people/:slug/publications/
   taxonomies:
     administrator: administrators
