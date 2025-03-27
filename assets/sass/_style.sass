@@ -257,6 +257,9 @@ li.terms > a
     transition: all 0.3s ease
     &:hover
       border: $color-primary $border-width solid
+
+.pages_categories__term .document-content .container
+    padding-top: $spacing-5
   
 // Files
 
@@ -280,13 +283,16 @@ abbr
   background: $color-background-reverse !important
   width: calc( (var(--column-width) * 4) + var(--grid-gutter) * 4)
 
+.posts__page .blocks
+  margin-left: var(--grid-gutter)
+
 .blocks .container
   @include in-page-with-sidebar
     padding-left: 0
 
-.pages:not(.publicaitons__sections) .document-content > .container
+.pages:not(.publications__sections) .document-content > .container
   @include in-page-without-sidebar
-    padding-top: var(--grid-gutter) !important
+    padding-top: var(--grid-gutter)
 
 
 // Infos
@@ -307,7 +313,7 @@ abbr
   @include in-page-with-sidebar
     border-top: 0 !important
     margin: 0
-    padding: calc(var(--grid-gutter)/2) var(--grid-gutter) !important
+    padding: $spacing-5 var(--grid-gutter) !important
     background: $color-background-reverse
     .toc ol li a
       text-decoration-color: transparent
