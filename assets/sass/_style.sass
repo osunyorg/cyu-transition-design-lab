@@ -21,6 +21,12 @@
     transform: translateX(0)
     font-size: 0.9em
 
+// Page sub-title
+.hero .content h1 > span
+    color: $color-text-alt-reverse
+
+// Page content
+
 .more
   display: none
 
@@ -36,6 +42,11 @@
       @include page-arrow
     &:hover .page-title a:after
       transform: translateX(0.625rem)
+
+.block-pages--large .page-content
+  font-size: $signature-size-desktop !important
+  line-height: $signature-line-height
+
 
 .block-pages--cards
   @include grid(2)
@@ -198,7 +209,7 @@ header#document-header li
 // Buttons
 
 .btn
-  font-weight: $meta-font-weight !important
+  font-weight: $btn-font-weight !important
 
 .btn:active,
 .btn:focus
@@ -221,6 +232,32 @@ header#document-header li
       opacity: 100%
       background-color: $color-background-alt-accent
 
+// Categories
+
+.document-content .taxonomies-container
+  margin-bottom: 0px !important
+  padding-left: 0
+  @include media-breakpoint-down(desktop)
+  @include in-page-with-sidebar
+    .taxonomies-single
+      padding-top: var(--block-space-y)
+      margin-bottom: 0px !important
+      & .organizations-taxonomies
+      & .pages-taxonomies
+      & .projects-taxonomies
+          margin-bottom: 0px !important
+
+li.terms > a
+    background: var(--color-accent)
+    text-decoration: none;
+    font-weight: $meta-weight
+    font-size: $meta-size-desktop
+    padding: $category-padding
+    border: var(--color-accent) $border-width solid
+    transition: all 0.3s ease
+    &:hover
+      border: $color-primary $border-width solid
+  
 // Files
 
 .block-files .files li::before
@@ -235,23 +272,43 @@ abbr
 .block-key_figures
   margin: 0 !important
 
+// SIDEBAR
+
+.posts__page:not(.full-width) .post-sidebar
+  margin-left: 0px !important
+  padding-top: calc(var(--grid-gutter)/2)
+  background: $color-background-reverse !important
+  width: calc( (var(--column-width) * 4) + var(--grid-gutter) * 4)
+
+.blocks .container
+  @include in-page-with-sidebar
+    padding-left: 0
+
+.document-content > .container
+  @include in-page-without-sidebar
+    padding-top: var(--grid-gutter) !important
+
+
+// Infos
+
+.post-infos
+  padding: calc(var(--grid-gutter)/2) var(--grid-gutter)
+  color: $color-text-reverse
+  & > li > span
+    color: $color-text-alt-reverse
+  
 // Table of content
 
 #toc-title,
 .toc-title
   color: $color-text-alt-reverse
 
-.toc-content
-  @include in-page-with-sidebar
-    padding-top: var(--grid-gutter)
-    padding-right: var(--grid-gutter)
-
 .toc-container
   @include in-page-with-sidebar
+    border-top: 0 !important
     margin: 0
-    padding-left: var(--grid-gutter)
+    padding: calc(var(--grid-gutter)/2) var(--grid-gutter) !important
     background: $color-background-reverse
-    width: calc( (var(--column-width) * 4) + var(--grid-gutter) * 4)
     .toc ol li a
       text-decoration-color: transparent
       text-decoration-line: $text-decoration-line
@@ -260,6 +317,12 @@ abbr
       &:hover
         text-decoration-color: $color-accent
 
+// Figcaption
+
+figcaption
+  color: $color-text-alt
+
+  
 // Pagination
 
 .siblings-navigation ul a
