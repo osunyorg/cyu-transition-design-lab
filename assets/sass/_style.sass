@@ -44,8 +44,12 @@
       transform: translateX(0.625rem)
 
 .block-pages--large .page-content
-  font-size: $signature-size-desktop !important
-  line-height: $signature-line-height
+  display: flex
+  flex-direction: column
+  gap: $spacing-2
+  @include media-breakpoint-up(desktop)
+    font-size: $signature-size-desktop !important
+    line-height: $signature-line-height
 
 
 .block-pages--cards
@@ -198,6 +202,17 @@ header#document-header li
     &--image-portrait
       .content figure
         width: calc( (var(--column-width) * 6) + var(--grid-gutter) * ( 5 - 1 ))
+  @include media-breakpoint-down(desktop)
+    padding-bottom: $spacing-4
+
+.hero-text .has-lead a, .link
+  color: $color-text-reverse !important
+  text-decoration-line: $text-decoration-line
+  text-decoration-color: $color-text-alt-reverse
+  text-underline-offset: $text-underline-offset
+  text-decoration-thickness: $text-decoration-thickness
+  &:hover
+    text-decoration-color: $color-accent
 
 .projects__page .hero
   .hero-text
@@ -205,6 +220,16 @@ header#document-header li
   .content figure figcaption,
   &:hover
     color: $color-text-reverse
+
+.projects__page .hero--with-image
+  margin-bottom: 0px
+
+.full-width:not(.page-illustration) 
+  .hero--image-portrait:where(:not(.has-breadcrumb-hero-end)),
+  .hero--image-square:where(:not(.has-breadcrumb-hero-end))
+    @include media-breakpoint-down(desktop)
+      padding-bottom: $spacing-7
+      margin-bottom: 0px
 
 // Buttons
 
@@ -258,7 +283,10 @@ li.terms > a
     &:hover
       border: $color-primary $border-width solid
 
-.pages_categories__term .document-content .container
+.pages_categories__term,
+.persons_categories__term,
+.organizations_categories__term
+  .document-content .container
     padding-top: $spacing-5
   
 // Files
@@ -280,9 +308,13 @@ abbr
 .section-sidebar
   background: $color-background-reverse !important
   margin-left: 0 !important
+  @include media-breakpoint-down(desktop)
+    padding-bottom: $spacing-4 !important
 
-.posts__page:not(.full-width) .post-sidebar
+.posts__page:not(.full-width) .post-sidebar,
+.projects__page:not(.full-width) .project-sidebar
   margin-left: 0px !important
+  margin-bottom: 0px !important
   padding-top: calc(var(--grid-gutter)/2)
   background: $color-background-reverse !important
 
@@ -297,15 +329,18 @@ abbr
 
 // Infos
 
-.post-infos
-  padding: calc(var(--grid-gutter)/2) var(--grid-gutter)
+.post-infos,
+.project-infos
+  margin-top: 0px !important
+  padding: calc(var(--grid-gutter)/2) var(--grid-gutter) !important
   color: $color-text-reverse
   & > li > span
-    color: $color-text-alt-reverse
+    color: $color-text-alt-reverse !important
 
 .post-infos,
-.toc-container
-  width: calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 4 - 1 ))
+.project-infos
+  .toc-container
+    width: calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 4 - 1 ))
   
 // Table of content
 
@@ -332,6 +367,10 @@ abbr
 figcaption
   color: $color-text-alt
 
+.projects__page,
+.posts__page
+   .hero .content figure figcaption
+    background: $color-background-reverse !important
   
 // Pagination
 
@@ -352,6 +391,10 @@ figcaption
 .siblings-navigation ul a
   @include media-breakpoint-up(desktop)
     min-height: pxToRem(218)
+
+.projects__page:not(.full-width) .block-siblings-navigation .container .block-content
+  @include media-breakpoint-up(desktop)
+    padding-left: calc( calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 3 - 1 )) + var(--grid-gutter)) !important
 
 .publications__page main > .container
   padding-right: 0 !important
@@ -590,6 +633,10 @@ main.page-with-blocks
     padding-right: calc(var(--column-width) + var(--grid-gutter))
 
 // Person publication
+
+.persons__page .hero--with-image
+  @include media-breakpoint-down(desktop)
+    padding-bottom: 0px !important
 
 .persons__page main
   padding-bottom: 0
