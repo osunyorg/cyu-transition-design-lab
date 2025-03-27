@@ -277,14 +277,14 @@ abbr
 
 // SIDEBAR
 
+.section-sidebar
+  background: $color-background-reverse !important
+  margin-left: 0 !important
+
 .posts__page:not(.full-width) .post-sidebar
   margin-left: 0px !important
   padding-top: calc(var(--grid-gutter)/2)
   background: $color-background-reverse !important
-  width: calc( (var(--column-width) * 4) + var(--grid-gutter) * 4)
-
-.posts__page .blocks
-  margin-left: var(--grid-gutter)
 
 .blocks .container
   @include in-page-with-sidebar
@@ -302,6 +302,10 @@ abbr
   color: $color-text-reverse
   & > li > span
     color: $color-text-alt-reverse
+
+.post-infos,
+.toc-container
+  width: calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 4 - 1 ))
   
 // Table of content
 
@@ -312,7 +316,7 @@ abbr
 .toc-container
   @include in-page-with-sidebar
     border-top: 0 !important
-    margin: 0
+    margin: 0 !important
     padding: $spacing-5 var(--grid-gutter) !important
     background: $color-background-reverse
     .toc ol li a
