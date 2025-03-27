@@ -284,7 +284,7 @@ abbr
   @include in-page-with-sidebar
     padding-left: 0
 
-.document-content > .container
+.pages:not(.publicaitons__sections) .document-content > .container
   @include in-page-without-sidebar
     padding-top: var(--grid-gutter) !important
 
@@ -330,6 +330,8 @@ figcaption
   transition: all 0.3s ease
   &:hover
     color: $color-text
+  span
+    font-weight: $btn-font-weight
 
 .siblings-navigation ul
   & .previous,
