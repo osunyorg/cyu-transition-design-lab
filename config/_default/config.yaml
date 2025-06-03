@@ -3,6 +3,8 @@ _merge: deep
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  debug:
+    productionUrl: "https://transitiondesign.labo.cyu.fr"
   home:
     head:
       title: site
@@ -13,4 +15,4 @@ params:
   default:
     single:
       taxonomies:
-        display: false
+        show_name: false
