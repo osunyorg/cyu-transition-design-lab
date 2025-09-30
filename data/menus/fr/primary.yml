@@ -8,46 +8,25 @@ items:
   children: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
-- title: Équipe
-  target: "/fr/equipe/"
+- title: Membres
+  target: "/fr/equipe/membres/"
   kind: page
   new_tab: false
-  children:
-  - title: Membres
-    target: "/fr/equipe/membres/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/persons"
-    file: content/fr/persons/_index.html
-  - title: Partenaires
-    target: "/fr/equipe/partenaires/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/organizations"
-    file: content/fr/organizations/_index.html
-  path: "/pages/equipe"
-  file: content/fr/pages/equipe/_index.html
+  children: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
+- title: Partenaires
+  target: "/fr/equipe/partenaires/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/organizations"
+  file: content/fr/organizations/_index.html
 - title: Programmes
   target: "/fr/programmes/"
   kind: page
   new_tab: false
-  children:
-  - title: Lindda
-    target: "/fr/programmes-2/lindda/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/programmes-2/lindda"
-    file: content/fr/pages/programmes-2/lindda/_index.html
-  - title: Eco² Schools
-    target: "/fr/programmes-2/eco-schools/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/programmes-2/eco-schools"
-    file: content/fr/pages/programmes-2/eco-schools/_index.html
+  children: []
   path: "/projects"
   file: content/fr/projects/_index.html
 - title: Publications
@@ -57,11 +36,11 @@ items:
   children: []
   path: "/publications"
   file: content/fr/publications/_index.html
-- title: Outils
-  target: "/fr/ressources/outils/"
-  kind: category
+- title: Ressources
+  target: "/fr/ressources/"
+  kind: page
   new_tab: false
   children: []
-  path: "/posts_categories/outils"
-  file: content/fr/posts_categories/outils/_index.html
+  path: "/posts"
+  file: content/fr/posts/_index.html
 

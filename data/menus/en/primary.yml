@@ -8,34 +8,20 @@ items:
   children: []
   path: "/pages/about"
   file: content/en/pages/about/_index.html
-- title: Team
-  target: "/en/team/"
-  kind: page
-  new_tab: false
-  children:
-  - title: Members
-    target: "/en/team/members/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/persons"
-    file: content/en/persons/_index.html
-  - title: Partners
-    target: "/en/team/partners/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/organizations"
-    file: content/en/organizations/_index.html
-  path: "/pages/team"
-  file: content/en/pages/team/_index.html
-- title: Programs
-  target: "/en/programs/"
+- title: Members
+  target: "/en/team/members/"
   kind: page
   new_tab: false
   children: []
-  path: "/projects"
-  file: content/en/projects/_index.html
+  path: "/persons"
+  file: content/en/persons/_index.html
+- title: Partners
+  target: "/en/team/partners/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/organizations"
+  file: content/en/organizations/_index.html
 - title: Publications
   target: "/en/publications/"
   kind: page
@@ -43,11 +29,4 @@ items:
   children: []
   path: "/publications"
   file: content/en/publications/_index.html
-- title: Tools
-  target: "/en/resources/tools/"
-  kind: category
-  new_tab: false
-  children: []
-  path: "/posts_categories/tools"
-  file: content/en/posts_categories/tools/_index.html
 
