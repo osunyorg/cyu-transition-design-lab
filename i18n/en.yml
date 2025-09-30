@@ -2,27 +2,27 @@ commons:
   credit: A low impact website designed by <a href="https://anthonyferretti.fr/" title="Anthony Ferretti - lien externe" target="_blank" rel="noreferrer">Anthony Ferretti</a> and crafted with <a href="https://www.osuny.org/" title="Osuny - lien externe" target="_blank" rel="noreferrer">Osuny</a>
 blocks:
   posts:
-    title: Ressources
+    title: Resources
 categories:
-  no_post: Aucune ressource dans cette catégorie
+  no_post: No resources in this category
   type:
-    posts_categories: Catégories des ressources
+    posts_categories: Resource categories
 pages:
-  posts: Ressources
+  posts: Resources
 persons:
   backlinks:
-    events: Événements avec
-    posts: Ressources avec
-    projects: Programmes avec
+    events: Events width
+    posts: Resources width
+    projects: Programs width
   posts:
-    recent: Dernières ressources
-    all: Voir toutes les ressources avec {{ .author }}
+    recent: Latest resources
+    all: View all resources width {{ .author }}
 posts:
-  see_all: Voir toutes les ressources
-  see_all_in_program: Voir toutes les ressources liées à la formation
-  see_all_in_category: Voir toutes les ressources “{{ .Title }}”
-  title: Ressources
+  see_all: View all resources
+  see_all_in_program: View all resources related to the program
+  see_all_in_category: View all resources in “{{ .Title }}”
+  title: Resources
 programs:
-  posts: Ressources
+  posts: Resources
   toc:
-    related: Ressources
+    related: Resources
