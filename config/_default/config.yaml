@@ -40,19 +40,22 @@ params:
         position: hero # content | hero | none
 
   organizations:
+    index:
+      taxonomies: false
     single:
       backlinks: true
 
   persons:
     index:
       layout: grid # grid | list
+      taxonomies: false
     single:
       backlinks: true
       taxonomies:
         position: hero # content | hero | none
 
   posts:
-    date_format: ":date_long"
+    date_format: "02/01/2006"
     index:
       layout: list # grid | list
       options:
