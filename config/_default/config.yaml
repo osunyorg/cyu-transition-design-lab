@@ -39,6 +39,10 @@ params:
       taxonomies:
         position: hero # content | hero | none
 
+  organizations:
+    single:
+      backlinks: true
+
   persons:
     index:
       layout: grid # grid | list
