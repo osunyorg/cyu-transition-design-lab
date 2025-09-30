@@ -30,7 +30,7 @@ items:
   path: "/pages/team"
   file: content/en/pages/team/_index.html
 - title: Programs
-  target: "/en/programs-2/"
+  target: "/en/programs/"
   kind: page
   new_tab: false
   children:
@@ -48,8 +48,8 @@ items:
     children: []
     path: "/pages/programs-2/eco-schools"
     file: content/en/pages/programs-2/eco-schools/_index.html
-  path: "/pages/programs-2"
-  file: content/en/pages/programs-2/_index.html
+  path: "/projects"
+  file: content/en/projects/_index.html
 - title: Publications
   target: "/en/publications/"
   kind: page
