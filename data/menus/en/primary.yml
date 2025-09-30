@@ -21,12 +21,12 @@ items:
     path: "/persons"
     file: content/en/persons/_index.html
   - title: Partners
-    target: "/en/team/partners-2/"
+    target: "/en/team/partners/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/team/partners-2"
-    file: content/en/pages/team/partners-2/_index.html
+    path: "/organizations"
+    file: content/en/organizations/_index.html
   path: "/pages/team"
   file: content/en/pages/team/_index.html
 - title: Programs
