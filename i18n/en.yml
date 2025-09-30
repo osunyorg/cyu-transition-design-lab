@@ -12,7 +12,8 @@ pages:
 persons:
   backlinks:
     events: Events width
-    posts: Resources width
+    pages: Pages mentioning
+    posts: Resources mentioning
     projects: Programs width
   posts:
     recent: Latest resources

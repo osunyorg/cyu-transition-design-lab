@@ -12,7 +12,8 @@ pages:
 persons:
   backlinks:
     events: Événements avec
-    posts: Ressources avec
+    pages: Pages mentionnant
+    posts: Ressources mentionnant
     projects: Programmes avec
   posts:
     recent: Dernières ressources
