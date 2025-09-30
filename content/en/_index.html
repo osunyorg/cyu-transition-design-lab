@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/en/"
 slug: ""
 date: 2024-04-27T07:36:25+02:00
-lastmod: 2025-09-30T15:52:06+02:00
+lastmod: 2025-09-30T16:38:32+02:00
 meta:
   hugo:
     permalink: "/en/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2024-04-29T17:36:09+02:00
-    updated_at: 2025-09-30T15:52:06+02:00
+    updated_at: 2025-09-30T16:38:32+02:00
     published_at: 2024-04-27T07:36:25+02:00
 search:
   id: "ebf298fc-cdab-4c61-8068-a4f386098b5c"
@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>We are a team of multidisciplinary researcher, all believing in the importance of moving toward a sustainable transition.</p>
   body: >-
-    <p>Research programs </p>  <p> Latest publications </p>  <p> Latest tools </p>
+    <p>Research programs </p>  <p> Latest publications  <br>Our research produces interdisciplinary viewpoints on transition design.</p>  <p>View publications <br>/en/publications/</p>  <p> Latest tools </p>
 
 breadcrumbs:
   - title: >-
@@ -78,7 +78,7 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 2
+  seconds: 5
   text: >-
     less than a minute
 contents:
@@ -138,7 +138,7 @@ contents:
 
 
   - kind: block
-    template: pages
+    template: call_to_action
     title: >-
       Latest publications
     slug: >-
@@ -152,29 +152,32 @@ contents:
         value: >-
           Latest publications
         heading: 2
-        link: "/en/publications/"
       description: >-
         <p>Our research produces interdisciplinary viewpoints on transition design.</p>
     data:
-      page:
-        permalink: "/en/publications/"
-        path: "/publications"
-        slug: "publications"
-        file: "content/en/publications/_index.html"
-      options:
-        image: true
-        categories: false
-        main_summary: true
-        summary: true
+      layout: accent_background
+      text: >-
+        <p>Our research produces interdisciplinary viewpoints on transition design.</p>
 
-      layout: list
-      pages:
 
-      quantity: 0
+      alt: >-
+        
+
+      credit: >-
+        
+
+      buttons:
+        - title: >-
+            View publications
+
+          url: >-
+            /en/publications/
+
+          target_blank: false
 
 
   - kind: block
-    template: projects
+    template: posts
     title: >-
       Latest tools
     slug: >-
@@ -182,27 +185,43 @@ contents:
     ranks:
       base: 2
       self: 2
+      children: 3
     top:
       active: true
       title: 
         value: >-
           Latest tools
         heading: 2
-        link: "/en/tools/"
+        link: "/en/resources/tools/"
     data:
-      mode: all
-      all: true
+      mode: category
+      category: "tools"
       layout: grid
       options:
+        author: false
         categories: false
+        date: false
         image: true
+        reading_time: false
         subtitle: false
         summary: true
-        year: true
 
-      projects:
+      posts:
+        - permalink: "/en/resources/2024-02-01-quadractic-voting-plateform/"
+          path: "/posts/2024/2024-02-01-quadractic-voting-plateform"
+          slug: "quadractic-voting-plateform"
+          file: "content/en/posts/2024/2024-02-01-quadractic-voting-plateform.html"
+          name: >-
+            Quadratic Voting Plateform
+        - permalink: "/en/resources/2023-09-30-all-csr-fresco/"
+          path: "/posts/2023/2023-09-30-all-csr-fresco"
+          slug: "all-csr-fresco"
+          file: "content/en/posts/2023/2023-09-30-all-csr-fresco.html"
+          name: >-
+            All CSR fresco
 
-      quantity: 0
+      quantity: 2
+
 
 
 ---

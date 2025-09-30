@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/fr/"
 slug: ""
 date: 2024-04-27T07:36:25+02:00
-lastmod: 2025-09-30T15:43:00+02:00
+lastmod: 2025-09-30T16:39:54+02:00
 meta:
   hugo:
     permalink: "/fr/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2024-04-27T07:36:25+02:00
-    updated_at: 2025-09-30T15:43:00+02:00
+    updated_at: 2025-09-30T16:39:54+02:00
     published_at: 2024-04-27T07:36:25+02:00
 search:
   id: "d19bff81-c486-4454-8ba5-125b4cbf4f65"
@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>Nous sommes une équipe de chercheurs multidisciplinaires convaincus de l’importance d’avancer vers une transition durable.</p>
   body: >-
-    <p>Programmes de recherche </p>  <p> Publications  <br>Notre recherche produit des points de vue interdisciplinaires sur le design de la transition. Les publications ne peuvent être consultées que lorsque le site est en anglais. Elles seront très bientôt disponibles dans la version française du site.</p>  <p>Voir les publications <br>/en/publications/</p>  <p>En savoir plus <br>/fr/publications/</p>  <p> Derniers outils </p>
+    <p>Programmes de recherche </p>  <p> Dernières publications  <br>Notre recherche produit des points de vue interdisciplinaires sur le design de la transition. Les publications ne peuvent être consultées que lorsque le site est en anglais. Elles seront très bientôt disponibles dans la version française du site.</p>  <p>Voir les publications <br>/en/publications/</p>  <p> Derniers outils </p>
 
 breadcrumbs:
   - title: >-
@@ -83,7 +83,7 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 15
+  seconds: 14
   text: >-
     moins d'une minute
 contents:
@@ -145,9 +145,9 @@ contents:
   - kind: block
     template: call_to_action
     title: >-
-      Publications
+      Dernières publications
     slug: >-
-      publications
+      dernieres-publications
     ranks:
       base: 2
       self: 2
@@ -155,7 +155,7 @@ contents:
       active: true
       title: 
         value: >-
-          Publications
+          Dernières publications
         heading: 2
       description: >-
         <p>Notre recherche produit des points de vue interdisciplinaires sur le design de la transition.<br><br><i>Les publications ne peuvent être consultées que lorsque le site est en anglais. Elles seront très bientôt disponibles dans la version française du site.</i></p>
@@ -179,17 +179,10 @@ contents:
             /en/publications/
 
           target_blank: false
-        - title: >-
-            En savoir plus
-
-          url: >-
-            /fr/publications/
-
-          target_blank: false
 
 
   - kind: block
-    template: projects
+    template: posts
     title: >-
       Derniers outils
     slug: >-
@@ -197,27 +190,43 @@ contents:
     ranks:
       base: 2
       self: 2
+      children: 3
     top:
       active: true
       title: 
         value: >-
           Derniers outils
         heading: 2
-        link: "/fr/productions/"
+        link: "/fr/ressources/outils/"
     data:
-      mode: all
-      all: true
+      mode: category
+      category: "outils"
       layout: grid
       options:
+        author: false
         categories: false
+        date: false
         image: true
+        reading_time: false
         subtitle: false
         summary: true
-        year: true
 
-      projects:
+      posts:
+        - permalink: "/fr/ressources/2025-09-30-fresque-tous-rse/"
+          path: "/posts/2025/2025-09-30-fresque-tous-rse"
+          slug: "fresque-tous-rse"
+          file: "content/fr/posts/2025/2025-09-30-fresque-tous-rse.html"
+          name: >-
+            Fresque tous RSE
+        - permalink: "/fr/ressources/2024-02-01-plateforme-vote-quadratique/"
+          path: "/posts/2024/2024-02-01-plateforme-vote-quadratique"
+          slug: "plateforme-vote-quadratique"
+          file: "content/fr/posts/2024/2024-02-01-plateforme-vote-quadratique.html"
+          name: >-
+            Plateforme de vote quadratique
 
-      quantity: 0
+      quantity: 2
+
 
 
 ---
