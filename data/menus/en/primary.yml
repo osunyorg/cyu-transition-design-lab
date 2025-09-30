@@ -18,8 +18,8 @@ items:
     kind: page
     new_tab: false
     children: []
-    path: "/pages/team/members"
-    file: content/en/pages/team/members/_index.html
+    path: "/persons"
+    file: content/en/persons/_index.html
   - title: Partners
     target: "/en/team/partners/"
     kind: page
