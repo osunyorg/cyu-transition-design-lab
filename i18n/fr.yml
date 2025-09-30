@@ -1,0 +1,28 @@
+commons:
+  credit: Un site éco-conçu par <a href="https://anthonyferretti.fr/" title="Anthony Ferretti - lien externe" target="_blank" rel="noreferrer">Anthony Ferretti</a> avec <a href="https://www.osuny.org/" title="Osuny - lien externe" target="_blank" rel="noreferrer">Osuny</a>
+blocks:
+  posts:
+    title: Ressources
+categories:
+  no_post: Aucune ressource dans cette catégorie
+  type:
+    posts_categories: Catégories des ressources
+pages:
+  posts: Ressources
+persons:
+  backlinks:
+    events: Événements avec
+    posts: Ressources avec
+    projects: Programmes avec
+  posts:
+    recent: Dernières ressources
+    all: Voir toutes les ressources avec {{ .author }}
+posts:
+  see_all: Voir toutes les ressources
+  see_all_in_program: Voir toutes les ressources liées à la formation
+  see_all_in_category: Voir toutes les ressources “{{ .Title }}”
+  title: Ressources
+programs:
+  posts: Ressources
+  toc:
+    related: Ressources
