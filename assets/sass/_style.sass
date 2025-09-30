@@ -402,16 +402,19 @@ figcaption
   @include media-breakpoint-up(desktop)
     min-height: pxToRem(218)
 
-.projects__page:not(.full-width) .block-siblings-navigation .container .block-content
-  @include media-breakpoint-up(desktop)
-    padding-left: calc( calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 3 - 1 )) + var(--grid-gutter)) !important
+.projects__page:not(.full-width),
+.posts__page:not(.full-width),
+  & .block-siblings-navigation .container .block-content
+    @include media-breakpoint-up(desktop)
+      padding-left: calc( calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 3 - 1 )) + var(--grid-gutter)) !important
 
 .publications__page main > .container
   padding-right: 0 !important
   padding-left: 0 !important
 
-.projects__page main
-  .document-content .block-siblings-navigation .container
+.projects__page main,
+.posts__page main,
+  & .document-content .block-siblings-navigation .container
     padding-right: 0
     padding-left: 0
 
