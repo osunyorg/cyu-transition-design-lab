@@ -44,6 +44,8 @@ params:
       taxonomies: false
     single:
       backlinks: true
+      taxonomies:
+        position: none # content | hero | none
 
   persons:
     index:
@@ -52,7 +54,7 @@ params:
     single:
       backlinks: true
       taxonomies:
-        position: hero # content | hero | none
+        position: none # content | hero | none
 
   posts:
     date_format: "02/01/2006"
