@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/en/"
 slug: ""
 date: 2024-04-27T07:36:25+02:00
-lastmod: 2025-09-30T19:20:43+02:00
+lastmod: 2025-09-30T19:28:11+02:00
 meta:
   hugo:
     permalink: "/en/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2024-04-29T17:36:09+02:00
-    updated_at: 2025-09-30T19:20:43+02:00
+    updated_at: 2025-09-30T19:28:11+02:00
     published_at: 2024-04-27T07:36:25+02:00
 search:
   id: "ebf298fc-cdab-4c61-8068-a4f386098b5c"
@@ -87,7 +87,7 @@ contents_reading_time:
     less than a minute
 contents:
   - kind: block
-    template: pages
+    template: projects
     title: >-
       Research programs
     slug: >-
@@ -95,24 +95,46 @@ contents:
     ranks:
       base: 2
       self: 2
+      children: 3
     top:
       active: true
       title: 
         value: >-
           Research programs
         heading: 2
+        link: "/en/programs/"
     data:
+      mode: all
+      all: true
+      layout: list
       options:
+        categories: true
         image: true
-        categories: false
-        main_summary: true
+        subtitle: false
         summary: true
+        year: false
 
-      layout: large
-      pages:
+      projects:
+        - permalink: "/en/programs/2024-decision-design/"
+          path: "/projects/2024-decision-design"
+          slug: "decision-design"
+          file: "content/en/projects/2024-decision-design.html"
+          name: >-
+            Decision design
+        - permalink: "/en/programs/2024-eco-schools/"
+          path: "/projects/2024-eco-schools"
+          slug: "eco-schools"
+          file: "content/en/projects/2024-eco-schools.html"
+          name: >-
+            Eco² Schools
+        - permalink: "/en/programs/2024-lindda/"
+          path: "/projects/2024-lindda"
+          slug: "lindda"
+          file: "content/en/projects/2024-lindda.html"
+          name: >-
+            LINDDA
 
-      quantity: 0
-
+      quantity: 3
 
   - kind: block
     template: call_to_action
@@ -173,7 +195,7 @@ contents:
     data:
       mode: category
       category: "tools"
-      layout: grid
+      layout: list
       options:
         author: false
         categories: false
