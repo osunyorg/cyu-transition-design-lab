@@ -16,3 +16,70 @@ params:
     single:
       taxonomies:
         show_name: false
+
+  # DESIGN SYSTEM
+
+  share_links:
+    enabled: true
+    email: true
+    facebook: false
+    linkedin: true
+    mastodon: false
+    telegram: false
+    twitter: false
+    whatsapp: false
+
+  # SECTIONS
+
+  pages:
+    index:
+      layout: list # grid | list
+      truncate_description: 300 # Set to 0 to disable truncate
+    single:
+      taxonomies:
+        position: hero # content | hero | none
+
+  persons:
+    index:
+      layout: grid # grid | list
+    single:
+      backlinks: true
+      taxonomies:
+        position: hero # content | hero | none
+
+  posts:
+    date_format: ":date_long"
+    index:
+      layout: list # grid | list
+      options:
+        author: true
+        categories: true
+        date: true
+        image: true
+        reading_time: false
+        summary: true
+        subtitle: false
+      truncate_description: 300 # Set to 0 to disable truncate
+    single:
+      options:
+        authors: true
+        reading_time: false
+        signature: false
+        updated_at: false
+
+  projects:
+    index:
+      layout: list # alternate | grid | large | list
+      options:
+        categories: true
+        image: true
+        subtitle: false
+        summary: true
+        year: false
+      truncate_description: 300 # Set to 0 to disable truncate
+
+  # BLOCKS
+  blocks:
+    pages:
+      alternate:
+        more: false
