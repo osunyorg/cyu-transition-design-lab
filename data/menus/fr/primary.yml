@@ -65,10 +65,10 @@ items:
   path: "/publications"
   file: content/fr/publications/_index.html
 - title: Outils
-  target: "/fr/productions/"
-  kind: page
+  target: "/fr/ressources/outils/"
+  kind: category
   new_tab: false
   children: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
+  path: "/posts_categories/outils"
+  file: content/fr/posts_categories/outils/_index.html
 
