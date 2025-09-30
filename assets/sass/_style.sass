@@ -272,9 +272,17 @@ header#document-header li
       & .projects-taxonomies
           margin-bottom: 0px !important
 
+.post-categories,
+.project-categories
+  & a
+    color: var(--color-text) !important
+    background-color: var(--color-accent)
+    padding: $category-padding
+    margin-bottom: $spacing-6
+
 li.terms > a
     background: var(--color-accent)
-    text-decoration: none;
+    text-decoration: none
     font-weight: $meta-weight
     font-size: $meta-size-desktop
     padding: $category-padding
@@ -335,6 +343,8 @@ abbr
   padding: calc(var(--grid-gutter)/2) var(--grid-gutter) !important
   color: $color-text-reverse
   & > li > span
+    color: $color-text-alt-reverse !important
+  & .taxonomies-single > li > span
     color: $color-text-alt-reverse !important
 
 .post-infos,
@@ -511,6 +521,12 @@ body:not(.full-width) .block-call_to_action
       padding-left: var(--grid-gutter)
     .container .block-content
       padding-left: calc( calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 4 - 1 )))
+
+// Projects
+
+.projects--list .project-title a:hover
+  color: $color-text
+
 
 // PAGES ------------
 
