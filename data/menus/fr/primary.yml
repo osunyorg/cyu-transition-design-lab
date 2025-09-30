@@ -20,13 +20,6 @@ items:
     children: []
     path: "/persons"
     file: content/fr/persons/_index.html
-  - title: Partenaires
-    target: "/fr/equipe/partenaires/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/equipe/partenaires"
-    file: content/fr/pages/equipe/partenaires/_index.html
   path: "/pages/equipe"
   file: content/fr/pages/equipe/_index.html
 - title: Programmes
