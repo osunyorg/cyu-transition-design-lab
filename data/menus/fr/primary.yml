@@ -34,29 +34,22 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Design de la décision
-    target: "/fr/programmes/design-de-la-decision/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/programmes/design-de-la-decision"
-    file: content/fr/pages/programmes/design-de-la-decision/_index.html
   - title: Lindda
-    target: "/fr/programmes/lindda/"
+    target: "/fr/programmes-2/lindda/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/programmes/lindda"
-    file: content/fr/pages/programmes/lindda/_index.html
+    path: "/pages/programmes-2/lindda"
+    file: content/fr/pages/programmes-2/lindda/_index.html
   - title: Eco² Schools
-    target: "/fr/programmes/eco-schools/"
+    target: "/fr/programmes-2/eco-schools/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/programmes/eco-schools"
-    file: content/fr/pages/programmes/eco-schools/_index.html
-  path: "/pages/programmes"
-  file: content/fr/pages/programmes/_index.html
+    path: "/pages/programmes-2/eco-schools"
+    file: content/fr/pages/programmes-2/eco-schools/_index.html
+  path: "/projects"
+  file: content/fr/projects/_index.html
 - title: Publications
   target: "/fr/publications/"
   kind: page

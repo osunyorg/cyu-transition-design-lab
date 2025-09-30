@@ -30,33 +30,26 @@ items:
   path: "/pages/team"
   file: content/en/pages/team/_index.html
 - title: Programs
-  target: "/en/programs/"
+  target: "/en/programs-2/"
   kind: page
   new_tab: false
   children:
-  - title: Decision design
-    target: "/en/programs/decision-design/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/programs/decision-design"
-    file: content/en/pages/programs/decision-design/_index.html
   - title: Lindda
-    target: "/en/programs/lindda/"
+    target: "/en/programs-2/lindda/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/programs/lindda"
-    file: content/en/pages/programs/lindda/_index.html
+    path: "/pages/programs-2/lindda"
+    file: content/en/pages/programs-2/lindda/_index.html
   - title: Eco² Schools
-    target: "/en/programs/eco-schools/"
+    target: "/en/programs-2/eco-schools/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/programs/eco-schools"
-    file: content/en/pages/programs/eco-schools/_index.html
-  path: "/pages/programs"
-  file: content/en/pages/programs/_index.html
+    path: "/pages/programs-2/eco-schools"
+    file: content/en/pages/programs-2/eco-schools/_index.html
+  path: "/pages/programs-2"
+  file: content/en/pages/programs-2/_index.html
 - title: Publications
   target: "/en/publications/"
   kind: page
