@@ -9,14 +9,14 @@ items:
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Membres
-  target: "/fr/equipe/membres/"
+  target: "/fr/membres/"
   kind: page
   new_tab: false
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Partenaires
-  target: "/fr/equipe/partenaires/"
+  target: "/fr/partenaires/"
   kind: page
   new_tab: false
   children: []
