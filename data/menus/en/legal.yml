@@ -15,13 +15,6 @@ items:
   children: []
   path: "/pages/privacy-policy"
   file: content/en/pages/privacy-policy/_index.html
-- title: Sitemap
-  target: "/en/sitemap/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/sitemap"
-  file: content/en/pages/sitemap/_index.html
 - title: Accessibility
   target: "/en/accessibility/"
   kind: page
@@ -29,4 +22,11 @@ items:
   children: []
   path: "/pages/accessibility"
   file: content/en/pages/accessibility/_index.html
+- title: Sitemap
+  target: "/en/sitemap/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/sitemap"
+  file: content/en/pages/sitemap/_index.html
 
