@@ -94,6 +94,18 @@ params:
         display: false
       truncate_description: 300 # Set to 0 to disable truncate
 
+  events:
+    index:
+      layout: list # grid | list | agenda
+      options:
+        dates: true
+      per_page: 20
+      truncate_description: 300 # Set to 0 to disable truncate
+      years: false
+    single:
+      summary:
+        position: hero # hero | content
+
   # BLOCKS
   blocks:
     pages:
