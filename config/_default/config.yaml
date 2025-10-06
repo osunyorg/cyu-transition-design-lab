@@ -41,7 +41,8 @@ params:
 
   organizations:
     index:
-      taxonomies: false
+      taxonomies:
+        display: false
     single:
       backlinks: true
       taxonomies:
@@ -50,7 +51,8 @@ params:
   persons:
     index:
       layout: grid # grid | list
-      taxonomies: false
+      taxonomies: 
+        display: false
     single:
       backlinks: true
       taxonomies:
@@ -68,7 +70,8 @@ params:
         reading_time: false
         summary: true
         subtitle: false
-      taxonomies: false
+      taxonomies: 
+        display: false
       truncate_description: 300 # Set to 0 to disable truncate
     single:
       options:
@@ -86,7 +89,8 @@ params:
         subtitle: false
         summary: true
         year: false
-      taxonomies: false
+      taxonomies: 
+        display: false
       truncate_description: 300 # Set to 0 to disable truncate
 
   # BLOCKS
