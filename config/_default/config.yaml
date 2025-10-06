@@ -15,6 +15,7 @@ params:
   default:
     single:
       taxonomies:
+        display: true
         show_name: false
 
   # DESIGN SYSTEM
