@@ -230,6 +230,11 @@ header#document-header li
       padding-bottom: $spacing-7
       margin-bottom: 0px
 
+.events__page,
+.exhibitions__page
+  & .hero .hero-text .hero-actions
+    width: auto
+
 // Buttons
 
 .btn
@@ -238,47 +243,40 @@ header#document-header li
 .btn:active,
 .btn:focus
   box-shadow: none
-  background: $color-background-alt-accent
+  background: $color-accent
 
-.projects__page .hero .dropdown-share
-  position: initial
-  display: flex
-  flex-direction: row
-  & button
-    width: 100%
-  & .dropdown-menu
-    border: $border-width solid $color-accent
-    position: initial
-    & a
-      padding: 0.75rem 1.5rem
-    & a:hover
-      color: $color-text
-      opacity: 100%
-      background-color: $color-background-alt-accent
+.projects__page,
+.events__page,
+.posts__page
+  & .hero .dropdown-share
+    display: flex
+    flex-direction: row
+    & button
+      width: -webkit-fill-available
+      &:focus
+        background-color: var(--color-accent)
+    & .dropdown-menu
+      border: $border-width solid var(--color-accent)
+      position: initial
+      & a
+        padding: 0.75rem 1.5rem
+      & a:hover
+        color: $color-text
+        opacity: 100%
+        background-color: var(--color-accent)
 
 // Categories
 
-.document-content .taxonomies-container
-  margin-bottom: 0px !important
-  padding-left: 0
-  @include media-breakpoint-down(desktop)
-  @include in-page-with-sidebar
-    .taxonomies-single
-      padding-top: var(--block-space-y)
-      margin-bottom: 0px !important
-      & .organizations-taxonomies
-      & .pages-taxonomies
-      & .projects-taxonomies
-          margin-bottom: 0px !important
-
 .post-categories,
 .project-categories,
-.event-categories
+.event-categories,
+.events__page .hero .taxonomies-single,
+.exhibitions__page .hero .taxonomies-single
   & a
     color: var(--color-text) !important
     background-color: var(--color-accent)
     padding: $category-padding
-    margin-bottom: $spacing-6
+    // margin-bottom: $spacing-6
 
 li.terms > a
     background: var(--color-accent)
@@ -296,6 +294,38 @@ li.terms > a
 .organizations_categories__term
   .document-content .container
     padding-top: $spacing-5
+
+// Taxonomies
+
+.document-content .taxonomies-container
+  margin-bottom: 0px !important
+  padding-left: 0
+  @include media-breakpoint-down(desktop)
+  @include in-page-with-sidebar
+    .taxonomies-single
+      padding-top: var(--block-space-y)
+      margin-bottom: 0px !important
+      & .organizations-taxonomies
+      & .pages-taxonomies
+      & .projects-taxonomies
+          margin-bottom: 0px !important
+
+// Infos
+
+.post-infos,
+.project-infos
+  margin-top: 0px !important
+  padding: calc(var(--grid-gutter)/2) var(--grid-gutter) !important
+  color: $color-text-reverse
+  & > li > span
+    color: $color-text-alt-reverse !important
+  & .taxonomies-single > li > span
+    color: $color-text-alt-reverse !important
+
+.post-infos,
+.project-infos
+  .toc-container
+    width: calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 4 - 1 ))
   
 // Files
 
@@ -333,24 +363,6 @@ abbr
 .pages:not(.publications__sections) .document-content > .container
   @include in-page-without-sidebar
     padding-top: var(--grid-gutter)
-
-
-// Infos
-
-.post-infos,
-.project-infos
-  margin-top: 0px !important
-  padding: calc(var(--grid-gutter)/2) var(--grid-gutter) !important
-  color: $color-text-reverse
-  & > li > span
-    color: $color-text-alt-reverse !important
-  & .taxonomies-single > li > span
-    color: $color-text-alt-reverse !important
-
-.post-infos,
-.project-infos
-  .toc-container
-    width: calc( (var(--column-width) * 4) + var(--grid-gutter) * ( 4 - 1 ))
   
 // Table of content
 
@@ -499,6 +511,20 @@ footer#document-footer .footer-i18n
 
 // SECTIONS ------------
 
+.page__home,
+.persons__section,
+.organizations__section
+  @include in-page-without-sidebar
+  .blocks > .block:first-child:not(.block-call_to_action)
+    padding-top: var(--grid-gutter)
+
+.projects__section,
+.events__section
+  @include in-page-without-sidebar
+  .projects,
+  .events
+    &:first-child
+      padding-top: var(--grid-gutter)
   
 // Person & organization
 
@@ -537,24 +563,10 @@ body:not(.full-width) .block-call_to_action
   color: $color-text
 
 
-// PAGES ------------
-
-  // Main
+// SINGLES ------------
 
 main.page-with-blocks
   padding-bottom: 0px !important
-
-.page__home,
-.persons__section,
-.organizations__section
-  @include in-page-without-sidebar
-  .blocks > .block:first-child:not(.block-call_to_action)
-    padding-top: var(--grid-gutter)
-
-.projects__section
-  @include in-page-without-sidebar
-  .projects:first-child
-    padding-top: var(--grid-gutter)
 
 .projects__page
   @include in-page-without-sidebar
@@ -581,11 +593,37 @@ main.page-with-blocks
   .block:last-child
     margin-bottom: 0
 
+// Event
+
+.events__page .document-content,
+.exhibitions__page .document-content
+  margin-top: 0
+
+.event-access
+  padding: 0
+  background: $color-background-reverse
+  color: $color-text-reverse
+  & > div
+    padding: 0 var(--grid-gutter)
+
+.events__page .event-access .event-practicals,
+.exhibitions__page .event-access .event-practicals,
+.events__page .event-access .event-slots,
+.exhibitions__page .event-access .event-slots
+  & h2
+    color: $color-text-alt-reverse
 
 .block:last-child:not(.block-links, .logos-partners, .block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures, .block-siblings-navigation, .block-siblings-navigation)
   padding-bottom: $spacing-5
 
-// LOGOS PARTNERS (NEW STYLE)
+// Event
+
+.event
+  @include in-page-without-sidebar
+  &-dates
+    color: $color-text-alt
+
+// Logos partners
 
 .hero,
 .footer-logo
