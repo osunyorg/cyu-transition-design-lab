@@ -205,7 +205,7 @@ header#document-header li
       .content figure
         width: calc( (var(--column-width) * 6) + var(--grid-gutter) * ( 5 - 1 ))
   @include media-breakpoint-down(desktop)
-    padding-bottom: 0
+      margin-bottom: 0
 
 .hero-text .has-lead a, .link
   color: $color-text-reverse !important
@@ -233,13 +233,14 @@ header#document-header li
       padding-bottom: $spacing-7
       margin-bottom: 0px
 
+.projects__page,
 .events__page,
 .exhibitions__page
   & .hero .hero-text .hero-actions
-    width: auto
+    width: 100%
 
 .hero .content .hero-actions
-  @include media-breakpoint-down(desktop) 
+  @include media-breakpoint-up(desktop) 
     margin-top: $spacing-5
 
 .hero--image-portrait:where(:not(.has-breadcrumb-hero-end)),
@@ -262,21 +263,22 @@ header#document-header li
 .events__page,
 .posts__page
   & .hero .dropdown-share
-    display: flex
-    flex-direction: row
-    & button
-      width: -webkit-fill-available
-      &:focus
-        background-color: var(--color-accent)
-    & .dropdown-menu
-      border: $border-width solid var(--color-accent)
-      position: initial
-      & a
-        padding: 0.75rem 1.5rem
-      & a:hover
-        color: $color-text
-        opacity: 100%
-        background-color: var(--color-accent)
+    @include media-breakpoint-up(desktop)
+      display: flex
+      flex-direction: row
+      & button
+        width: -webkit-fill-available
+        &:focus
+          background-color: var(--color-accent)
+      & .dropdown-menu
+        border: $border-width solid var(--color-accent)
+        position: initial
+        & a
+          padding: 0.75rem 1.5rem
+        & a:hover
+          color: $color-text
+          opacity: 100%
+          background-color: var(--color-accent)
 
 // Categories
 
@@ -428,6 +430,7 @@ figcaption
 .siblings-navigation ul
   & .previous,
   & .next
+    transition: all 0.3s ease
     &:hover
       background: var(--color-accent)
 
@@ -454,13 +457,14 @@ figcaption
 .siblings-navigation
   background: $color-background-alt
 
-.publications__page,
 .projects__page,
 .posts__page
-  main
-    padding-bottom: 0
   .block-siblings-navigation
     margin: 0
+
+.publications__page
+  .block-siblings-navigation
+    margin-bottom: 0
 
 .siblings-navigation ul
   padding-top: 0
@@ -554,6 +558,10 @@ footer#document-footer .footer-i18n
 .organization
   transition: all 0.3s ease
 
+.person .avatar,
+.organization .media
+  transition: all 0.3s ease
+
 .person:hover .avatar,
 .organization:hover .media
   box-shadow: 0px 0px 0px $border-width $color-accent
@@ -586,6 +594,12 @@ body:not(.full-width) .block-call_to_action
 
 
 // SINGLES ------------
+
+.projects__page,
+.posts__page,
+.publications__page
+  main
+    padding-bottom: 0
 
 main.page-with-blocks
   padding-bottom: 0px !important
