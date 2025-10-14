@@ -237,7 +237,10 @@ header#document-header li
 .events__page,
 .exhibitions__page
   & .hero .hero-text .hero-actions
-    width: 100%
+    @include media-breakpoint-up(desktop)
+      width: auto
+    @include media-breakpoint-down(desktop)
+      width: 100%
 
 .hero .content .hero-actions
   @include media-breakpoint-up(desktop) 
