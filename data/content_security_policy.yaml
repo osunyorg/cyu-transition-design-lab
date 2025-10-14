@@ -11,3 +11,4 @@ allowed_domains:
   - "youtu.be"
   - "youtube-nocookie.com"
   - "www.youtube-nocookie.com"
+  - "docs.google.com"
