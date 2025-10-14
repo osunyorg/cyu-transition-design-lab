@@ -283,6 +283,16 @@ header#document-header li
           opacity: 100%
           background-color: var(--color-accent)
 
+.events__page .event-access .event-practicals,
+.exhibitions__page .event-access .event-practicals
+  & a.btn
+    color: $color-text
+    &:hover
+      background: none
+  & a.disabled.btn
+    color: $color-text-alt-reverse
+    border: $border-width solid $color-text-alt-reverse
+
 // Categories
 
 .post-categories,
