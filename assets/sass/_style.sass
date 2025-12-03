@@ -56,7 +56,7 @@
   @include grid(3)
   @include in-page-without-sidebar
   @include media-breakpoint-down(desktop)
-    .cards .card
+    .pages .page
       & .more
         display: none
       & .page-title a
@@ -71,7 +71,7 @@
   @include grid(3)
   @include in-page-without-sidebar
   @include media-breakpoint-up(desktop)
-    .cards .card
+    .pages .page
       & .more
         display: none
       & .page-title a
@@ -804,6 +804,14 @@ main.page-with-blocks
     display: flex
     flex-direction: column
     gap: $spacing-2
+
+.posts--list
+  .post-content
+    hgroup,
+    > .post-title
+      order: -2
+    .post-categories
+      order: -1
 
 // ILLUSTRATION
 
