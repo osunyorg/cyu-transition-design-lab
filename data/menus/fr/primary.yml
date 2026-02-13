@@ -2,52 +2,66 @@
 title: Menu principal
 items:
 - title: À propos
+  slug: a-propos
   target: "/fr/a-propos/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Membres
+  slug: membres
   target: "/fr/membres/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Partenaires
+  slug: partenaires
   target: "/fr/partenaires/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Programmes
+  slug: programmes
   target: "/fr/programmes/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
 - title: Publications
+  slug: publications
   target: "/fr/publications/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/publications"
   file: content/fr/publications/_index.html
 - title: Ressources
+  slug: ressources
   target: "/fr/ressources/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Événements
+  slug: evenements
   target: "/fr/evenements/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 
