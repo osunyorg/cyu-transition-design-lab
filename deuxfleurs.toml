@@ -13,3 +13,3304 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/projets/publications/2011-making-sense-of-constellations-of-objects-a-case-study-of-computer-aided-writing-practices-in-theatr/index.html"
+to = "/en/publications/2011-making-sense-of-constellations-of-objects-a-case-study-of-computer-aided-writing-practices-in-theatr/"
+
+[[redirects]]
+from = "/programmes/index.html"
+to = "/fr/programmes/"
+
+[[redirects]]
+from = "/fr/publications/2015-fiction-du-reel-reel-du-fictionnel-quand-le-design-critique/index.html"
+to = "/en/publications/2015-fiction-du-reel-reel-du-fictionnel-quand-le-design-critique/"
+
+[[redirects]]
+from = "/en/team-1/partners/index.html"
+to = "/en/partners/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/categories/field-actors/index.html"
+to = "/fr/partenaires/categories/partenaires-experts-terrain/"
+
+[[redirects]]
+from = "/publications/2023-dynamique-dispositive-et-structure-temporelle-de-la-co-conception-une-analyse-du-travail-de-design-e/index.html"
+to = "/en/publications/2023-dynamique-dispositive-et-structure-temporelle-de-la-co-conception-une-analyse-du-travail-de-design-e/"
+
+[[redirects]]
+from = "/fr/organisations/programme-et-equipements-prioritaires-de-recherche-france-2030-agroecologie-et-numerique/index.html"
+to = "/fr/partenaires/programme-et-equipements-prioritaires-de-recherche-france-2030-agroecologie-et-numerique/"
+
+[[redirects]]
+from = "/projets/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design-1/index.html"
+to = "/en/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design-1/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/ellinogermaniki-agogi/index.html"
+to = "/fr/partenaires/ellinogermaniki-agogi/"
+
+[[redirects]]
+from = "/projets/publications/2022-traductibilite-et-design-explorer-les-parametres-generatifs-du-brief/index.html"
+to = "/en/publications/2022-traductibilite-et-design-explorer-les-parametres-generatifs-du-brief/"
+
+[[redirects]]
+from = "/publications/2013-looking-through-tools-and-situations-investigating-how-writing-tools-reconfigure-meaning-in-contempo/index.html"
+to = "/en/publications/2013-looking-through-tools-and-situations-investigating-how-writing-tools-reconfigure-meaning-in-contempo/"
+
+[[redirects]]
+from = "/projets/publications/2019-la-creation-epistemologique-rencontres-autour-des-travaux-d-anne-francoise-schmid-introduction-gener/index.html"
+to = "/en/publications/2019-la-creation-epistemologique-rencontres-autour-des-travaux-d-anne-francoise-schmid-introduction-gener/"
+
+[[redirects]]
+from = "/en/team/people/anthony-ferretti/publications/index.html"
+to = "/en/members/anthony-ferretti/publications/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/g-eau-gestion-de-leau-acteurs-usages/index.html"
+to = "/fr/partenaires/g-eau-gestion-de-l-eau-acteurs-usages/"
+
+[[redirects]]
+from = "/publications/2017-social-class-school-and-visual-impairments-reflections-from-the-field/index.html"
+to = "/en/publications/2017-social-class-school-and-visual-impairments-reflections-from-the-field/"
+
+[[redirects]]
+from = "/publications/2012-nouveaux-medias-aux-musees-le-visiteur-equipe/index.html"
+to = "/en/publications/2012-nouveaux-medias-aux-musees-le-visiteur-equipe/"
+
+[[redirects]]
+from = "/productions/publications/2018-la-conception-ancree-comme-mode-d-articulation-de-l-imaginaire-et-du-monde-contemporain-des-personas/index.html"
+to = "/en/publications/2018-la-conception-ancree-comme-mode-d-articulation-de-l-imaginaire-et-du-monde-contemporain-des-personas/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/research-partners/index.html"
+to = "/fr/partenaires/categories/partenaires-academiques/"
+
+[[redirects]]
+from = "/equipe/partenaires/index.html"
+to = "/fr/partenaires/"
+
+[[redirects]]
+from = "/en/organizations/ecole-deconomie-de-paris-pse/index.html"
+to = "/en/partners/ecole-d-economie-de-paris-pse/"
+
+[[redirects]]
+from = "/productions/publications/2017-from-ant-to-material-agency-a-design-and-science-research-workshop/index.html"
+to = "/en/publications/2017-from-ant-to-material-agency-a-design-and-science-research-workshop/"
+
+[[redirects]]
+from = "/fr/organisations/ciencia-viva-science-center/index.html"
+to = "/fr/partenaires/ciencia-viva-science-center/"
+
+[[redirects]]
+from = "/en/team/organizations/lab-sncf-impact/index.html"
+to = "/en/partners/lab-sncf-impact/"
+
+[[redirects]]
+from = "/productions/publications/2013-looking-through-tools-and-situations-investigating-how-writing-tools-reconfigure-meaning-in-contempo/index.html"
+to = "/en/publications/2013-looking-through-tools-and-situations-investigating-how-writing-tools-reconfigure-meaning-in-contempo/"
+
+[[redirects]]
+from = "/fr/organisations/institut-national-de-recherche-pour-l-agriculture-l-alimentation-et-l-environnement/index.html"
+to = "/fr/partenaires/institut-national-de-recherche-pour-l-agriculture-l-alimentation-et-l-environnement/"
+
+[[redirects]]
+from = "/projets/publications/2015-critical-design/index.html"
+to = "/en/publications/2015-critical-design/"
+
+[[redirects]]
+from = "/agenda/index.html"
+to = "/fr/evenements/"
+
+[[redirects]]
+from = "/fr/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias/index.html"
+to = "/en/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias/"
+
+[[redirects]]
+from = "/projets/publications/2013-looking-through-tools-and-situations-investigating-how-writing-tools-reconfigure-meaning-in-contempo/index.html"
+to = "/en/publications/2013-looking-through-tools-and-situations-investigating-how-writing-tools-reconfigure-meaning-in-contempo/"
+
+[[redirects]]
+from = "/projets/publications/2023-dynamique-dispositive-et-structure-temporelle-de-la-co-conception-une-analyse-du-travail-de-design-e/index.html"
+to = "/en/publications/2023-dynamique-dispositive-et-structure-temporelle-de-la-co-conception-une-analyse-du-travail-de-design-e/"
+
+[[redirects]]
+from = "/en/organizations/research-partners/index.html"
+to = "/en/partners/categories/research-partners/"
+
+[[redirects]]
+from = "/fr/equipe/membres/annie-gentes/publications/index.html"
+to = "/fr/membres/annie-gentes/publications/"
+
+[[redirects]]
+from = "/en/members/team/justine-peneau/index.html"
+to = "/en/members/justine-peneau/"
+
+[[redirects]]
+from = "/en/organizations/saint-germain-en-laye/index.html"
+to = "/en/partners/saint-germain-en-laye/"
+
+[[redirects]]
+from = "/outils/index.html"
+to = "/fr/programmes/"
+
+[[redirects]]
+from = "/en/team-1/members/justine-peneau/index.html"
+to = "/en/members/justine-peneau/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/lab-sncf-impact/index.html"
+to = "/fr/partenaires/lab-sncf-impact/"
+
+[[redirects]]
+from = "/productions/publications/2019-l-exposition-au-design-amorcer-la-pratique-du-design-par-la-documentalisation-des-objets/index.html"
+to = "/en/publications/2019-l-exposition-au-design-amorcer-la-pratique-du-design-par-la-documentalisation-des-objets/"
+
+[[redirects]]
+from = "/fr/publications/2017-the-in-discipline-of-design-bridging-the-gap-between-engineering-and-the-humanities/index.html"
+to = "/en/publications/2017-the-in-discipline-of-design-bridging-the-gap-between-engineering-and-the-humanities/"
+
+[[redirects]]
+from = "/fr/personnes/anthony-ferretti/index.html"
+to = "/fr/membres/anthony-ferretti/"
+
+[[redirects]]
+from = "/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design-1/index.html"
+to = "/en/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design-1/"
+
+[[redirects]]
+from = "/fr/publications/2010-etude-sur-les-enjeux-des-dispositifs-numeriques-pour-l-exposition-monet/index.html"
+to = "/en/publications/2010-etude-sur-les-enjeux-des-dispositifs-numeriques-pour-l-exposition-monet/"
+
+[[redirects]]
+from = "/en/team/organizations/ecole-d-economie-de-paris-pse/index.html"
+to = "/en/partners/ecole-d-economie-de-paris-pse/"
+
+[[redirects]]
+from = "/fr/equipe/justine-peneau/index.html"
+to = "/fr/membres/justine-peneau/"
+
+[[redirects]]
+from = "/fr/publications/2009-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility-1/index.html"
+to = "/en/publications/2009-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility-1/"
+
+[[redirects]]
+from = "/fr/organisations/index.html"
+to = "/fr/partenaires/"
+
+[[redirects]]
+from = "/productions/publications/2022-pour-une-theorie-media-centree-du-design/index.html"
+to = "/en/publications/2022-pour-une-theorie-media-centree-du-design/"
+
+[[redirects]]
+from = "/projets/publications/index.html"
+to = "/fr/publications/"
+
+[[redirects]]
+from = "/en/organizations/french-national-research-agency/index.html"
+to = "/en/partners/french-national-research-agency/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/ucc-university-college-of-cork/index.html"
+to = "/fr/partenaires/ucc-university-college-of-cork/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/soutenabilite-transition-environnement-economie-biophysique-et-politiques-locales/index.html"
+to = "/fr/partenaires/soutenabilite-transition-environnement-economie-biophysique-et-politiques-locales/"
+
+[[redirects]]
+from = "/fr/personnes/ines-garmon/index.html"
+to = "/fr/membres/ines-garmon/"
+
+[[redirects]]
+from = "/equipe/membres/index.html"
+to = "/fr/membres/equipe-recherche/"
+
+[[redirects]]
+from = "/publications/2019-openness-graphic-design-and-visual-practices-of-science-exploration-to-promote-innovation/index.html"
+to = "/en/publications/2019-openness-graphic-design-and-visual-practices-of-science-exploration-to-promote-innovation/"
+
+[[redirects]]
+from = "/fr/personnes/anthony-ferretti/publications/index.html"
+to = "/fr/membres/anthony-ferretti/publications/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/ellinogermaniki-agogi/index.html"
+to = "/fr/partenaires/ellinogermaniki-agogi/"
+
+[[redirects]]
+from = "/fr/equipe/membres/anthony-ferretti/publications/index.html"
+to = "/fr/membres/anthony-ferretti/publications/"
+
+[[redirects]]
+from = "/fr/organisations/cnam/index.html"
+to = "/fr/partenaires/conservatoire-national-des-arts-et-metiers/"
+
+[[redirects]]
+from = "/projets/publications/2023-the-forgotten-legacy-of-schon-from-materials-to-mediums-in-the-design-activity/index.html"
+to = "/en/publications/2023-the-forgotten-legacy-of-schon-from-materials-to-mediums-in-the-design-activity/"
+
+[[redirects]]
+from = "/fr/publications/2019-openness-graphic-design-and-visual-practices-of-science-exploration-to-promote-innovation/index.html"
+to = "/en/publications/2019-openness-graphic-design-and-visual-practices-of-science-exploration-to-promote-innovation/"
+
+[[redirects]]
+from = "/en/team/members/anthony-ferretti/index.html"
+to = "/en/members/anthony-ferretti/"
+
+[[redirects]]
+from = "/equipe/justine-peneau/publications/index.html"
+to = "/fr/membres/justine-peneau/publications/"
+
+[[redirects]]
+from = "/projets/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-1/index.html"
+to = "/en/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-1/"
+
+[[redirects]]
+from = "/fr/publications/2013-beyond-rhetoric-to-poetics-in-it-invention-1/index.html"
+to = "/en/publications/2013-beyond-rhetoric-to-poetics-in-it-invention-1/"
+
+[[redirects]]
+from = "/en/calendar/index.html"
+to = "/en/events/"
+
+[[redirects]]
+from = "/productions/publications/2009-pervasive-gaming-testing-future-context-aware-applications/index.html"
+to = "/en/publications/2009-pervasive-gaming-testing-future-context-aware-applications/"
+
+[[redirects]]
+from = "/publications/2010-gaming-on-the-move-urban-experience-as-a-new-paradigm-for-mobile-pervasive-game-design/index.html"
+to = "/en/publications/2010-gaming-on-the-move-urban-experience-as-a-new-paradigm-for-mobile-pervasive-game-design/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/agence-national-de-la-recherche/index.html"
+to = "/fr/partenaires/agence-national-de-la-recherche/"
+
+[[redirects]]
+from = "/publications/2012-virtual-empathy-designing-for-togertherness-in-the-context-of-e-learning/index.html"
+to = "/en/publications/2012-virtual-empathy-designing-for-togertherness-in-the-context-of-e-learning/"
+
+[[redirects]]
+from = "/en/team/organizations/sustainability-transition-environment-biophysical-economics-and-local-policies/index.html"
+to = "/en/partners/sustainability-transition-environment-biophysical-economics-and-local-policies/"
+
+[[redirects]]
+from = "/fr/equipe/membres/stephanie-hemon/publications/index.html"
+to = "/fr/membres/stephanie-hemon/publications/"
+
+[[redirects]]
+from = "/productions/publications/2013-is-there-a-anyone-out-there-how-to-involve-the-user-in-the-invention-of-it/index.html"
+to = "/en/publications/2013-is-there-a-anyone-out-there-how-to-involve-the-user-in-the-invention-of-it/"
+
+[[redirects]]
+from = "/fr/publications/2019-annie-gentes-the-indiscipline-of-design-bridging-the-gap-between-humanities-and-engineering/index.html"
+to = "/en/publications/2019-annie-gentes-the-indiscipline-of-design-bridging-the-gap-between-humanities-and-engineering/"
+
+[[redirects]]
+from = "/productions/publications/2023-the-forgotten-legacy-of-schon-from-materials-to-mediums-in-the-design-activity/index.html"
+to = "/en/publications/2023-the-forgotten-legacy-of-schon-from-materials-to-mediums-in-the-design-activity/"
+
+[[redirects]]
+from = "/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias-1/index.html"
+to = "/en/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias-1/"
+
+[[redirects]]
+from = "/fr/publications/2012-nouveaux-medias-au-musee-le-visiteur-equipe/index.html"
+to = "/en/publications/2012-nouveaux-medias-au-musee-le-visiteur-equipe/"
+
+[[redirects]]
+from = "/fr/organisations/artem-information-et-strategies/index.html"
+to = "/fr/partenaires/artem-information-et-strategies/"
+
+[[redirects]]
+from = "/en/people/eva-ohayon/publications/index.html"
+to = "/en/members/eva-ohayon/publications/"
+
+[[redirects]]
+from = "/publications/2016-design-and-interdisciplinarity-the-improbable-introduction-of-fundamental-physics-in-a-design-school/index.html"
+to = "/en/publications/2016-design-and-interdisciplinarity-the-improbable-introduction-of-fundamental-physics-in-a-design-school/"
+
+[[redirects]]
+from = "/fr/equipe/membres/index.html"
+to = "/fr/membres/"
+
+[[redirects]]
+from = "/productions/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias/index.html"
+to = "/en/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias/"
+
+[[redirects]]
+from = "/fr/publications/2013-the-co-si-card-method-how-to-refine-and-validate-concepts-through-a-scenario-generator-framework/index.html"
+to = "/en/publications/2013-the-co-si-card-method-how-to-refine-and-validate-concepts-through-a-scenario-generator-framework/"
+
+[[redirects]]
+from = "/en/organizations/learning-planet-institute/index.html"
+to = "/en/partners/learning-planet-institute/"
+
+[[redirects]]
+from = "/agenda/archives/index.html"
+to = "/fr/evenements/archives/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/g-eau-gestion-de-l-eau-acteurs-usages/index.html"
+to = "/fr/partenaires/g-eau-gestion-de-l-eau-acteurs-usages/"
+
+[[redirects]]
+from = "/publications/2010-etude-sur-les-enjeux-des-dispositifs-numeriques-pour-l-exposition-monet/index.html"
+to = "/en/publications/2010-etude-sur-les-enjeux-des-dispositifs-numeriques-pour-l-exposition-monet/"
+
+[[redirects]]
+from = "/en/team/members/giulia-marcocchia/index.html"
+to = "/en/members/giulia-marcocchia/"
+
+[[redirects]]
+from = "/projets/publications/2012-nouveaux-medias-aux-musees-le-visiteur-equipe/index.html"
+to = "/en/publications/2012-nouveaux-medias-aux-musees-le-visiteur-equipe/"
+
+[[redirects]]
+from = "/en/organizations/g-eau-water-management-actors-uses/index.html"
+to = "/en/partners/g-eau-water-management-actors-uses/"
+
+[[redirects]]
+from = "/fr/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid-1/index.html"
+to = "/en/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid-1/"
+
+[[redirects]]
+from = "/en/people/justine-peneau/publications/index.html"
+to = "/en/members/justine-peneau/publications/"
+
+[[redirects]]
+from = "/projets/publications/2013-the-co-si-card-method-how-to-refine-and-validate-concepts-through-a-scenario-generator-framework/index.html"
+to = "/en/publications/2013-the-co-si-card-method-how-to-refine-and-validate-concepts-through-a-scenario-generator-framework/"
+
+[[redirects]]
+from = "/publications/index.html"
+to = "/fr/publications/"
+
+[[redirects]]
+from = "/publications/2007-l-intime-a-l-epreuve-du-reseau/index.html"
+to = "/en/publications/2007-l-intime-a-l-epreuve-du-reseau/"
+
+[[redirects]]
+from = "/en/team/members/index.html"
+to = "/en/members/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/agence-national-de-la-recherche/index.html"
+to = "/fr/partenaires/agence-national-de-la-recherche/"
+
+[[redirects]]
+from = "/fr/publications/2022-traductibilite-et-design-explorer-les-parametres-generatifs-du-brief/index.html"
+to = "/en/publications/2022-traductibilite-et-design-explorer-les-parametres-generatifs-du-brief/"
+
+[[redirects]]
+from = "/publications/2013-communications-et-strategies/index.html"
+to = "/en/publications/2013-communications-et-strategies/"
+
+[[redirects]]
+from = "/fr/outils/index.html"
+to = "/fr/programmes/"
+
+[[redirects]]
+from = "/en/team/partners/field-actors/index.html"
+to = "/en/partners/categories/field-actors/"
+
+[[redirects]]
+from = "/projets/publications/2013-communications-et-strategies/index.html"
+to = "/en/publications/2013-communications-et-strategies/"
+
+[[redirects]]
+from = "/fr/personnes/justine-peneau/publications/index.html"
+to = "/fr/membres/justine-peneau/publications/"
+
+[[redirects]]
+from = "/en/team-1/join-us/index.html"
+to = "/en/team/join-us/"
+
+[[redirects]]
+from = "/en/people/researchers/index.html"
+to = "/en/members/researchers/"
+
+[[redirects]]
+from = "/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment-1/index.html"
+to = "/en/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment-1/"
+
+[[redirects]]
+from = "/en/people/pauline-oger/index.html"
+to = "/en/members/pauline-oger/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/sncf/index.html"
+to = "/fr/partenaires/sncf/"
+
+[[redirects]]
+from = "/projets/publications/2012-virtual-empathy-designing-for-togetherness-in-the-context-of-e-learning/index.html"
+to = "/en/publications/2012-virtual-empathy-designing-for-togetherness-in-the-context-of-e-learning/"
+
+[[redirects]]
+from = "/projets/publications/2010-rfid-based-distributed-shared-memory-for-pervasive-games/index.html"
+to = "/en/publications/2010-rfid-based-distributed-shared-memory-for-pervasive-games/"
+
+[[redirects]]
+from = "/publications/2011-the-design-of-emotions-how-the-digital-is-making-us-more-emotional/index.html"
+to = "/en/publications/2011-the-design-of-emotions-how-the-digital-is-making-us-more-emotional/"
+
+[[redirects]]
+from = "/fr/equipe-1/membres/annie-gentes/index.html"
+to = "/fr/membres/annie-gentes/"
+
+[[redirects]]
+from = "/projets/publications/2015-fiction-du-reel-reel-du-fictionnel-quand-le-design-critique/index.html"
+to = "/en/publications/2015-fiction-du-reel-reel-du-fictionnel-quand-le-design-critique/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/occitanum/index.html"
+to = "/fr/partenaires/occitanum/"
+
+[[redirects]]
+from = "/en/team-index/stephanie-hemon/index.html"
+to = "/en/members/stephanie-hemon/"
+
+[[redirects]]
+from = "/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid-1/index.html"
+to = "/en/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid-1/"
+
+[[redirects]]
+from = "/en/people/anthony-ferretti/news/index.html"
+to = "/en/members/anthony-ferretti/resources/"
+
+[[redirects]]
+from = "/projets/publications/2019-l-exposition-au-design-amorcer-la-pratique-du-design-par-la-documentalisation-des-objets/index.html"
+to = "/en/publications/2019-l-exposition-au-design-amorcer-la-pratique-du-design-par-la-documentalisation-des-objets/"
+
+[[redirects]]
+from = "/projets/publications/2013-beyond-rhetoric-to-poetics-in-it-invention-1/index.html"
+to = "/en/publications/2013-beyond-rhetoric-to-poetics-in-it-invention-1/"
+
+[[redirects]]
+from = "/en/organizations/index.html"
+to = "/en/partners/"
+
+[[redirects]]
+from = "/publications/2013-design-meaning-making-and-constructive-fixation-conceptualizing-semiotic-conditions-to-the-process-o/index.html"
+to = "/en/publications/2013-design-meaning-making-and-constructive-fixation-conceptualizing-semiotic-conditions-to-the-process-o/"
+
+[[redirects]]
+from = "/productions/publications/2013-contradictory-semiotic-analysis-to-bridge-literacies-and-activities-in-design-practice/index.html"
+to = "/en/publications/2013-contradictory-semiotic-analysis-to-bridge-literacies-and-activities-in-design-practice/"
+
+[[redirects]]
+from = "/fr/personnes/delphine-leger/index.html"
+to = "/fr/membres/delphine-leger/"
+
+[[redirects]]
+from = "/publications/2018-la-conception-ancree-comme-mode-d-articulation-de-l-imaginaire-et-du-monde-contemporain-des-personas/index.html"
+to = "/en/publications/2018-la-conception-ancree-comme-mode-d-articulation-de-l-imaginaire-et-du-monde-contemporain-des-personas/"
+
+[[redirects]]
+from = "/fr/ressources/2025-09-30-fresque-tous-rse/index.html"
+to = "/fr/ressources/2023-09-30-fresque-tous-rse/"
+
+[[redirects]]
+from = "/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france/index.html"
+to = "/en/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france/"
+
+[[redirects]]
+from = "/fr/publications/2010-de-la-traduction-comme-mediation-et-creation-interlinguistique-des-interactions-humaines/index.html"
+to = "/en/publications/2010-de-la-traduction-comme-mediation-et-creation-interlinguistique-des-interactions-humaines/"
+
+[[redirects]]
+from = "/en/team/partners/ellinogermaniki-agogi/index.html"
+to = "/en/partners/ellinogermaniki-agogi/"
+
+[[redirects]]
+from = "/fr/publications/2008-multimodal-human-machine-interaction-in-virtual-reality/index.html"
+to = "/en/publications/2008-multimodal-human-machine-interaction-in-virtual-reality/"
+
+[[redirects]]
+from = "/about/index.html"
+to = "/en/about/"
+
+[[redirects]]
+from = "/productions/publications/2009-visiteur-ou-joueur-les-multiples-facettes-de-la-technologie-rfid/index.html"
+to = "/en/publications/2009-visiteur-ou-joueur-les-multiples-facettes-de-la-technologie-rfid/"
+
+[[redirects]]
+from = "/publications/2012-designing-interpretation-making-sense-of-a-constellation-of-texts/index.html"
+to = "/en/publications/2012-designing-interpretation-making-sense-of-a-constellation-of-texts/"
+
+[[redirects]]
+from = "/productions/publications/2009-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility-1/index.html"
+to = "/en/publications/2009-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility-1/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/initiative-for-design-in-agrifood-systems/index.html"
+to = "/fr/partenaires/initiative-for-design-in-agrifood-systems/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/ecole-d-economie-de-paris-pse/index.html"
+to = "/fr/partenaires/ecole-d-economie-de-paris-pse/"
+
+[[redirects]]
+from = "/projets/publications/2014-poesie-et-recherche-en-tic-contribution-des-sciences-de-l-information-et-de-la-communication/index.html"
+to = "/en/publications/2014-poesie-et-recherche-en-tic-contribution-des-sciences-de-l-information-et-de-la-communication/"
+
+[[redirects]]
+from = "/fr/publications/2020-figures-de-la-science-dans-des-contextes-de-conception/index.html"
+to = "/en/publications/2020-figures-de-la-science-dans-des-contextes-de-conception/"
+
+[[redirects]]
+from = "/fr/publications/2016-a-method-story-about-brainstorming-with-visually-impaired-people-for-designing-an-accessible-route-c/index.html"
+to = "/en/publications/2016-a-method-story-about-brainstorming-with-visually-impaired-people-for-designing-an-accessible-route-c/"
+
+[[redirects]]
+from = "/en/team/partners/artem-information-et-strategies/index.html"
+to = "/en/partners/artem-information-et-strategies/"
+
+[[redirects]]
+from = "/productions/publications/2012-nouveaux-medias-au-musee-le-visiteur-equipe/index.html"
+to = "/en/publications/2012-nouveaux-medias-au-musee-le-visiteur-equipe/"
+
+[[redirects]]
+from = "/fr/publications/2012-designing-interpretation-making-sense-of-a-constellation-of-texts/index.html"
+to = "/en/publications/2012-designing-interpretation-making-sense-of-a-constellation-of-texts/"
+
+[[redirects]]
+from = "/fr/membres/partenaires/index.html"
+to = "/fr/partenaires/"
+
+[[redirects]]
+from = "/en/team/people/pauline-oger/publications/index.html"
+to = "/en/members/pauline-oger/publications/"
+
+[[redirects]]
+from = "/en/team-1/members/annie-gentes/index.html"
+to = "/en/members/annie-gentes/"
+
+[[redirects]]
+from = "/publications/2009-rfid-technology-fostering-human-interactions/index.html"
+to = "/en/publications/2009-rfid-technology-fostering-human-interactions/"
+
+[[redirects]]
+from = "/en/team/organizations/lab-110-bis-ministere-de-l-education-nationale/index.html"
+to = "/en/partners/lab-110-bis-ministere-de-l-education-nationale/"
+
+[[redirects]]
+from = "/en/join-us/index.html"
+to = "/en/team/join-us/"
+
+[[redirects]]
+from = "/en/team/organizations/french-national-research-agency/index.html"
+to = "/en/partners/french-national-research-agency/"
+
+[[redirects]]
+from = "/fr/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france/index.html"
+to = "/en/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france/"
+
+[[redirects]]
+from = "/publications/2009-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility-1/index.html"
+to = "/en/publications/2009-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility-1/"
+
+[[redirects]]
+from = "/fr/publications/2009-rfid-technology-fostering-human-interactions-1/index.html"
+to = "/en/publications/2009-rfid-technology-fostering-human-interactions-1/"
+
+[[redirects]]
+from = "/fr/publications/2012-the-game-mechanics-of-pervasive-applications-visiting-the-uncanny/index.html"
+to = "/en/publications/2012-the-game-mechanics-of-pervasive-applications-visiting-the-uncanny/"
+
+[[redirects]]
+from = "/en/team/editors/index.html"
+to = "/en/members/editors/"
+
+[[redirects]]
+from = "/fr/publications/2013-the-three-paradigms-of-it-design-function-aesthetics-literacy/index.html"
+to = "/en/publications/2013-the-three-paradigms-of-it-design-function-aesthetics-literacy/"
+
+[[redirects]]
+from = "/publications/2014-design-in-research-re-thinking-design-contribution-to-science/index.html"
+to = "/en/publications/2014-design-in-research-re-thinking-design-contribution-to-science/"
+
+[[redirects]]
+from = "/fr/personnes/anthony-ferretti/ressources/index.html"
+to = "/fr/membres/anthony-ferretti/ressources/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/occitanum/index.html"
+to = "/fr/partenaires/occitanum/"
+
+[[redirects]]
+from = "/en/organizations/maif/index.html"
+to = "/en/partners/maif/"
+
+[[redirects]]
+from = "/productions/publications/2009-rfid-technology-fostering-human-interactions-1/index.html"
+to = "/en/publications/2009-rfid-technology-fostering-human-interactions-1/"
+
+[[redirects]]
+from = "/publications/2013-the-co-si-card-method-how-to-refine-and-validate-concepts-through-a-scenario-generator-framework/index.html"
+to = "/en/publications/2013-the-co-si-card-method-how-to-refine-and-validate-concepts-through-a-scenario-generator-framework/"
+
+[[redirects]]
+from = "/fr/publications/2023-le-design-a-l-epreuve-du-territoire-pratiques-exploratoires-et-metiers-emergents/index.html"
+to = "/en/publications/2023-le-design-a-l-epreuve-du-territoire-pratiques-exploratoires-et-metiers-emergents/"
+
+[[redirects]]
+from = "/productions/publications/2012-building-on-possible-worlds-meaning-making-interpretation-and-organizational-processes-in-design-pro/index.html"
+to = "/en/publications/2012-building-on-possible-worlds-meaning-making-interpretation-and-organizational-processes-in-design-pro/"
+
+[[redirects]]
+from = "/fr/organisations/institut-national-de-recherche-en-sciences-et-technologies-du-numerique/index.html"
+to = "/fr/partenaires/institut-national-de-recherche-en-sciences-et-technologies-du-numerique/"
+
+[[redirects]]
+from = "/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-1/index.html"
+to = "/en/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-1/"
+
+[[redirects]]
+from = "/en/team/members/stephanie-hemon/publications/index.html"
+to = "/en/members/stephanie-hemon/publications/"
+
+[[redirects]]
+from = "/fr/equipe/membres/stephanie-hemon/index.html"
+to = "/fr/membres/stephanie-hemon/"
+
+[[redirects]]
+from = "/en/team/members/ines-garmon/publications/index.html"
+to = "/en/members/ines-garmon/publications/"
+
+[[redirects]]
+from = "/fr/publications/2013-beyond-rhetoric-to-poetics-in-it-invention/index.html"
+to = "/en/publications/2013-beyond-rhetoric-to-poetics-in-it-invention/"
+
+[[redirects]]
+from = "/projets/publications/2019-l-aventure-epistemologique-contemporaine/index.html"
+to = "/en/publications/2019-l-aventure-epistemologique-contemporaine/"
+
+[[redirects]]
+from = "/en/team/anthony-ferretti/publications/index.html"
+to = "/en/members/anthony-ferretti/publications/"
+
+[[redirects]]
+from = "/publications/2008-multimodal-human-machine-interaction-in-virtual-reality/index.html"
+to = "/en/publications/2008-multimodal-human-machine-interaction-in-virtual-reality/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/programme-et-equipements-prioritaires-de-recherche-france-2030-agroecologie-et-numerique/index.html"
+to = "/fr/partenaires/programme-et-equipements-prioritaires-de-recherche-france-2030-agroecologie-et-numerique/"
+
+[[redirects]]
+from = "/projets/publications/2019-openness-graphic-design-and-visual-practices-of-science-exploration-to-promote-innovation/index.html"
+to = "/en/publications/2019-openness-graphic-design-and-visual-practices-of-science-exploration-to-promote-innovation/"
+
+[[redirects]]
+from = "/publications/2012-virtual-empathy-designing-for-togetherness-in-the-context-of-e-learning/index.html"
+to = "/en/publications/2012-virtual-empathy-designing-for-togetherness-in-the-context-of-e-learning/"
+
+[[redirects]]
+from = "/en/team/people/stephanie-hemon/index.html"
+to = "/en/members/stephanie-hemon/"
+
+[[redirects]]
+from = "/publications/2015-identifier-les-besoins-des-enfants-en-situation-de-deficience-visuelle-etat-de-l-art-et-etude-de-ter/index.html"
+to = "/en/publications/2015-identifier-les-besoins-des-enfants-en-situation-de-deficience-visuelle-etat-de-l-art-et-etude-de-ter/"
+
+[[redirects]]
+from = "/en/organizations/eco2-campus-microville-durable/index.html"
+to = "/en/partners/eco2-campus-microville-durable/"
+
+[[redirects]]
+from = "/projets/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design/index.html"
+to = "/en/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design/"
+
+[[redirects]]
+from = "/publications/2015-fiction-du-reel-reel-du-fictionnel-quand-le-design-critique/index.html"
+to = "/en/publications/2015-fiction-du-reel-reel-du-fictionnel-quand-le-design-critique/"
+
+[[redirects]]
+from = "/en/team/organizations/national-conservatory-of-arts-and-crafts/index.html"
+to = "/en/partners/national-conservatory-of-arts-and-crafts/"
+
+[[redirects]]
+from = "/projets/publications/2014-design-in-research-re-thinking-design-contribution-to-science/index.html"
+to = "/en/publications/2014-design-in-research-re-thinking-design-contribution-to-science/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/ecole-d-economie-de-paris-pse/index.html"
+to = "/fr/partenaires/ecole-d-economie-de-paris-pse/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/artem-information-et-strategies/index.html"
+to = "/fr/partenaires/artem-information-et-strategies/"
+
+[[redirects]]
+from = "/fr/organisations/maif/index.html"
+to = "/fr/partenaires/maif/"
+
+[[redirects]]
+from = "/en/members/team/annie-gentes/index.html"
+to = "/en/members/annie-gentes/"
+
+[[redirects]]
+from = "/en/team-index/associes/index.html"
+to = "/en/members/categories/associes/"
+
+[[redirects]]
+from = "/fr/publications/2019-invention-technique-et-objet-integratif/index.html"
+to = "/en/publications/2019-invention-technique-et-objet-integratif/"
+
+[[redirects]]
+from = "/productions/publications/2023-dynamique-dispositive-et-structure-temporelle-de-la-co-conception-une-analyse-du-travail-de-design-e/index.html"
+to = "/en/publications/2023-dynamique-dispositive-et-structure-temporelle-de-la-co-conception-une-analyse-du-travail-de-design-e/"
+
+[[redirects]]
+from = "/en/team/people/jean-louis-soubret/publications/index.html"
+to = "/en/members/jean-louis-soubret/publications/"
+
+[[redirects]]
+from = "/publications/2016-a-method-story-about-brainstorming-with-visually-impaired-people-for-designing-an-accessible-route-c/index.html"
+to = "/en/publications/2016-a-method-story-about-brainstorming-with-visually-impaired-people-for-designing-an-accessible-route-c/"
+
+[[redirects]]
+from = "/en/team/members/associes/index.html"
+to = "/en/members/categories/associes/"
+
+[[redirects]]
+from = "/en/team/people/giulia-marcocchia/publications/index.html"
+to = "/en/members/giulia-marcocchia/publications/"
+
+[[redirects]]
+from = "/projets/publications/2012-building-on-possible-worlds-meaning-making-interpretation-and-organizational-processes-in-design-pro/index.html"
+to = "/en/publications/2012-building-on-possible-worlds-meaning-making-interpretation-and-organizational-processes-in-design-pro/"
+
+[[redirects]]
+from = "/productions/publications/2010-rfid-based-distributed-shared-memory-for-pervasive-games/index.html"
+to = "/en/publications/2010-rfid-based-distributed-shared-memory-for-pervasive-games/"
+
+[[redirects]]
+from = "/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design/index.html"
+to = "/en/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design/"
+
+[[redirects]]
+from = "/projets/publications/2009-systemes-d-interaction-emotionnelle/index.html"
+to = "/en/publications/2009-systemes-d-interaction-emotionnelle/"
+
+[[redirects]]
+from = "/productions/publications/2015-critical-design/index.html"
+to = "/en/publications/2015-critical-design/"
+
+[[redirects]]
+from = "/fr/publications/2008-das-unheimliche-of-ubiquitous-games-for-museum-visitors/index.html"
+to = "/en/publications/2008-das-unheimliche-of-ubiquitous-games-for-museum-visitors/"
+
+[[redirects]]
+from = "/fr/organisations/ecole-deconomie-de-paris-pse/index.html"
+to = "/fr/partenaires/ecole-d-economie-de-paris-pse/"
+
+[[redirects]]
+from = "/productions/publications/2015-fiction-du-reel-reel-du-fictionnel-quand-le-design-critique/index.html"
+to = "/en/publications/2015-fiction-du-reel-reel-du-fictionnel-quand-le-design-critique/"
+
+[[redirects]]
+from = "/en/team/partners/eco2-campus-microville-durable/index.html"
+to = "/en/partners/eco2-campus-microville-durable/"
+
+[[redirects]]
+from = "/fr/personnes/giulia-marcocchia/index.html"
+to = "/fr/membres/giulia-marcocchia/"
+
+[[redirects]]
+from = "/en/team/people/jean-louis-soubret/index.html"
+to = "/en/members/jean-louis-soubret/"
+
+[[redirects]]
+from = "/en/team/associes/index.html"
+to = "/en/members/categories/associes/"
+
+[[redirects]]
+from = "/projets/publications/2012-nouveaux-medias-au-musee-le-visiteur-equipe/index.html"
+to = "/en/publications/2012-nouveaux-medias-au-musee-le-visiteur-equipe/"
+
+[[redirects]]
+from = "/productions/publications/2020-figures-de-la-science-dans-des-contextes-de-conception/index.html"
+to = "/en/publications/2020-figures-de-la-science-dans-des-contextes-de-conception/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/good-planet-belgium/index.html"
+to = "/fr/partenaires/good-planet-belgium/"
+
+[[redirects]]
+from = "/en/team/partners/institut-national-de-recherche-en-sciences-et-technologies-du-numerique/index.html"
+to = "/en/partners/institut-national-de-recherche-en-sciences-et-technologies-du-numerique/"
+
+[[redirects]]
+from = "/productions/publications/2010-etude-sur-les-enjeux-des-dispositifs-numeriques-pour-l-exposition-monet/index.html"
+to = "/en/publications/2010-etude-sur-les-enjeux-des-dispositifs-numeriques-pour-l-exposition-monet/"
+
+[[redirects]]
+from = "/en/team/organizations/artem-information-et-strategies/index.html"
+to = "/en/partners/artem-information-et-strategies/"
+
+[[redirects]]
+from = "/projets/publications/2012-virtual-empathy-designing-for-togertherness-in-the-context-of-e-learning/index.html"
+to = "/en/publications/2012-virtual-empathy-designing-for-togertherness-in-the-context-of-e-learning/"
+
+[[redirects]]
+from = "/fr/equipe-1/partenaires/index.html"
+to = "/fr/partenaires/"
+
+[[redirects]]
+from = "/fr/publications/2012-building-on-possible-worlds-meaning-making-interpretation-and-organizational-processes-in-design-pro/index.html"
+to = "/en/publications/2012-building-on-possible-worlds-meaning-making-interpretation-and-organizational-processes-in-design-pro/"
+
+[[redirects]]
+from = "/en/people/chercheurs/index.html"
+to = "/en/members/categories/chercheurs/"
+
+[[redirects]]
+from = "/productions/publications/2011-traduction-et-recherche-technique/index.html"
+to = "/en/publications/2011-traduction-et-recherche-technique/"
+
+[[redirects]]
+from = "/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-2/index.html"
+to = "/en/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-2/"
+
+[[redirects]]
+from = "/fr/publications/2013-design-meaning-making-and-constructive-fixation-conceptualizing-semiotic-conditions-to-the-process-o/index.html"
+to = "/en/publications/2013-design-meaning-making-and-constructive-fixation-conceptualizing-semiotic-conditions-to-the-process-o/"
+
+[[redirects]]
+from = "/en/team/partners/ciencia-viva-science-center/index.html"
+to = "/en/partners/ciencia-viva-science-center/"
+
+[[redirects]]
+from = "/fr/publications/2022-le-traduire-comme-paradigme-de-la-pratique-du-design/index.html"
+to = "/en/publications/2022-le-traduire-comme-paradigme-de-la-pratique-du-design/"
+
+[[redirects]]
+from = "/equipe/partenaires/signe-de-sens/index.html"
+to = "/fr/partenaires/signes-de-sens/"
+
+[[redirects]]
+from = "/productions/publications/2007-second-life-une-mise-en-jeu-des-medias/index.html"
+to = "/en/publications/2007-second-life-une-mise-en-jeu-des-medias/"
+
+[[redirects]]
+from = "/projets/publications/2023-approche-critique-du-design-empathique-le-cas-du-design-sprint-au-sein-d-une-agence-digitale/index.html"
+to = "/en/publications/2023-approche-critique-du-design-empathique-le-cas-du-design-sprint-au-sein-d-une-agence-digitale/"
+
+[[redirects]]
+from = "/en/organizations/categories/research-partners/index.html"
+to = "/en/partners/categories/research-partners/"
+
+[[redirects]]
+from = "/en/team/members/eva-ohayon/publications/index.html"
+to = "/en/members/eva-ohayon/publications/"
+
+[[redirects]]
+from = "/productions/publications/2016-a-method-story-about-brainstorming-with-visually-impaired-people-for-designing-an-accessible-route-c/index.html"
+to = "/en/publications/2016-a-method-story-about-brainstorming-with-visually-impaired-people-for-designing-an-accessible-route-c/"
+
+[[redirects]]
+from = "/fr/publications/2023-dynamique-dispositive-et-structure-temporelle-de-la-co-conception-une-analyse-du-travail-de-design-e/index.html"
+to = "/en/publications/2023-dynamique-dispositive-et-structure-temporelle-de-la-co-conception-une-analyse-du-travail-de-design-e/"
+
+[[redirects]]
+from = "/fr/equipe/annie-gentes/index.html"
+to = "/fr/membres/annie-gentes/"
+
+[[redirects]]
+from = "/publications/2002-ecritures-en-ligne-pratiques-et-communautes-sous-la-dir-de-brigitte-chapelain-485-p/index.html"
+to = "/en/publications/2002-ecritures-en-ligne-pratiques-et-communautes-sous-la-dir-de-brigitte-chapelain-485-p/"
+
+[[redirects]]
+from = "/publications/2013-beyond-rhetoric-to-poetics-in-it-invention-1/index.html"
+to = "/en/publications/2013-beyond-rhetoric-to-poetics-in-it-invention-1/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/cnam/index.html"
+to = "/fr/partenaires/conservatoire-national-des-arts-et-metiers/"
+
+[[redirects]]
+from = "/equipe/justine-peneau/index.html"
+to = "/fr/membres/justine-peneau/"
+
+[[redirects]]
+from = "/projets/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid-1/index.html"
+to = "/en/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid-1/"
+
+[[redirects]]
+from = "/en/team/members/delphine-leger/resources/index.html"
+to = "/en/members/delphine-leger/resources/"
+
+[[redirects]]
+from = "/en/team-index/delphine-leger/index.html"
+to = "/en/members/delphine-leger/"
+
+[[redirects]]
+from = "/fr/personnes/pauline-oger/index.html"
+to = "/fr/membres/pauline-oger/"
+
+[[redirects]]
+from = "/projets/publications/2002-ecritures-en-ligne-pratiques-et-communautes-sous-la-dir-de-brigitte-chapelain-485-p/index.html"
+to = "/en/publications/2002-ecritures-en-ligne-pratiques-et-communautes-sous-la-dir-de-brigitte-chapelain-485-p/"
+
+[[redirects]]
+from = "/en/team/people/giulia-marcocchia/index.html"
+to = "/en/members/giulia-marcocchia/"
+
+[[redirects]]
+from = "/productions/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum/index.html"
+to = "/en/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum/"
+
+[[redirects]]
+from = "/fr/equipe-1/membres/justine-peneau/index.html"
+to = "/fr/membres/justine-peneau/"
+
+[[redirects]]
+from = "/en/team/partners/agence-national-de-la-recherche/index.html"
+to = "/en/partners/french-national-research-agency/"
+
+[[redirects]]
+from = "/fr/publications/2013-looking-through-tools-and-situations-investigating-how-writing-tools-reconfigure-meaning-in-contempo/index.html"
+to = "/en/publications/2013-looking-through-tools-and-situations-investigating-how-writing-tools-reconfigure-meaning-in-contempo/"
+
+[[redirects]]
+from = "/en/team/members/chercheurs/index.html"
+to = "/en/members/categories/chercheurs/"
+
+[[redirects]]
+from = "/en/team/members/jean-louis-soubret/index.html"
+to = "/en/members/jean-louis-soubret/"
+
+[[redirects]]
+from = "/projets/publications/2012-how-to-create-a-new-media-from-the-artefact-to-the-program/index.html"
+to = "/en/publications/2012-how-to-create-a-new-media-from-the-artefact-to-the-program/"
+
+[[redirects]]
+from = "/en/events/2025/ai-decision-design/index.html"
+to = "/en/events/2026/ai-decision-design/"
+
+[[redirects]]
+from = "/productions/publications/2008-das-unheimliche-of-ubiquitous-games-for-museum-visitors/index.html"
+to = "/en/publications/2008-das-unheimliche-of-ubiquitous-games-for-museum-visitors/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/ciencia-viva-science-center/index.html"
+to = "/fr/partenaires/ciencia-viva-science-center/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/ecole-deconomie-de-paris-pse/index.html"
+to = "/fr/partenaires/ecole-d-economie-de-paris-pse/"
+
+[[redirects]]
+from = "/productions/publications/2012-nouveaux-medias-aux-musees-le-visiteur-equipe/index.html"
+to = "/en/publications/2012-nouveaux-medias-aux-musees-le-visiteur-equipe/"
+
+[[redirects]]
+from = "/projets/publications/2014-the-rhetoric-of-design-for-debate-triggering-conversation-with-an-uncanny-enough-artefact/index.html"
+to = "/en/publications/2014-the-rhetoric-of-design-for-debate-triggering-conversation-with-an-uncanny-enough-artefact/"
+
+[[redirects]]
+from = "/projets/index.html"
+to = "/fr/programmes/"
+
+[[redirects]]
+from = "/en/team-index/justine-peneau/index.html"
+to = "/en/members/justine-peneau/"
+
+[[redirects]]
+from = "/en/team/anthony-ferretti/index.html"
+to = "/en/members/anthony-ferretti/"
+
+[[redirects]]
+from = "/publications/2011-making-sense-of-constellations-of-objects-a-case-study-of-computer-aided-writing-practices-in-theatr/index.html"
+to = "/en/publications/2011-making-sense-of-constellations-of-objects-a-case-study-of-computer-aided-writing-practices-in-theatr/"
+
+[[redirects]]
+from = "/equipe/equipe-de-recherche/index.html"
+to = "/fr/membres/equipe-recherche/"
+
+[[redirects]]
+from = "/publications/2013-place-and-non-place-a-model-for-the-strategic-design-of-place-centered-services/index.html"
+to = "/en/publications/2013-place-and-non-place-a-model-for-the-strategic-design-of-place-centered-services/"
+
+[[redirects]]
+from = "/projets/publications/2018-la-conception-ancree-comme-mode-d-articulation-de-l-imaginaire-et-du-monde-contemporain-des-personas/index.html"
+to = "/en/publications/2018-la-conception-ancree-comme-mode-d-articulation-de-l-imaginaire-et-du-monde-contemporain-des-personas/"
+
+[[redirects]]
+from = "/projets/publications/2017-from-ant-to-material-agency-a-design-and-science-research-workshop/index.html"
+to = "/en/publications/2017-from-ant-to-material-agency-a-design-and-science-research-workshop/"
+
+[[redirects]]
+from = "/en/team/partners/maif/index.html"
+to = "/en/partners/maif/"
+
+[[redirects]]
+from = "/projets/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias/index.html"
+to = "/en/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias/"
+
+[[redirects]]
+from = "/fr/organisations/federation-nationale-des-cuma/index.html"
+to = "/fr/partenaires/federation-nationale-des-cuma/"
+
+[[redirects]]
+from = "/en/team/people/eva-ohayon/index.html"
+to = "/en/members/eva-ohayon/"
+
+[[redirects]]
+from = "/fr/publications/2018-la-conception-ancree-comme-mode-d-articulation-de-l-imaginaire-et-du-monde-contemporain-des-personas/index.html"
+to = "/en/publications/2018-la-conception-ancree-comme-mode-d-articulation-de-l-imaginaire-et-du-monde-contemporain-des-personas/"
+
+[[redirects]]
+from = "/fr/equipe/membres/giulia-marcocchia/index.html"
+to = "/fr/membres/giulia-marcocchia/"
+
+[[redirects]]
+from = "/fr/personnes/chercheurs/index.html"
+to = "/fr/membres/categories/chercheurs/"
+
+[[redirects]]
+from = "/fr/personnes/ines-garmon/publications/index.html"
+to = "/fr/membres/ines-garmon/publications/"
+
+[[redirects]]
+from = "/en/organizations/federation-nationale-des-cuma/index.html"
+to = "/en/partners/federation-nationale-des-cuma/"
+
+[[redirects]]
+from = "/projets/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias-1/index.html"
+to = "/en/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias-1/"
+
+[[redirects]]
+from = "/fr/programmes-1/index.html"
+to = "/fr/programmes/"
+
+[[redirects]]
+from = "/productions/publications/2012-les-alternatives-aux-reseaux-sociaux-l-architecture-distribuee-et-le-design-de-media/index.html"
+to = "/en/publications/2012-les-alternatives-aux-reseaux-sociaux-l-architecture-distribuee-et-le-design-de-media/"
+
+[[redirects]]
+from = "/publications/2019-la-creation-epistemologique-rencontres-autour-des-travaux-d-anne-francoise-schmid-introduction-gener/index.html"
+to = "/en/publications/2019-la-creation-epistemologique-rencontres-autour-des-travaux-d-anne-francoise-schmid-introduction-gener/"
+
+[[redirects]]
+from = "/en/people/ines-garmon/index.html"
+to = "/en/members/ines-garmon/"
+
+[[redirects]]
+from = "/en/team/organizations/categories/field-actors/index.html"
+to = "/en/partners/categories/field-actors/"
+
+[[redirects]]
+from = "/publications/2007-second-life-une-mise-en-jeu-des-medias/index.html"
+to = "/en/publications/2007-second-life-une-mise-en-jeu-des-medias/"
+
+[[redirects]]
+from = "/en/team/people/ines-garmon/index.html"
+to = "/en/members/ines-garmon/"
+
+[[redirects]]
+from = "/productions/publications/2012-designing-interpretation-making-sense-of-a-constellation-of-texts/index.html"
+to = "/en/publications/2012-designing-interpretation-making-sense-of-a-constellation-of-texts/"
+
+[[redirects]]
+from = "/productions/publications/2011-making-sense-of-constellations-of-objects-a-case-study-of-computer-aided-writing-practices-in-theatr/index.html"
+to = "/en/publications/2011-making-sense-of-constellations-of-objects-a-case-study-of-computer-aided-writing-practices-in-theatr/"
+
+[[redirects]]
+from = "/fr/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france-32-etudiants-de-master-design-4-prof/index.html"
+to = "/en/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france-32-etudiants-de-master-design-4-prof/"
+
+[[redirects]]
+from = "/fr/equipe-1/nous-rejoindre/index.html"
+to = "/fr/equipe/nous-rejoindre/"
+
+[[redirects]]
+from = "/fr/personnes/ophelie-baribaud/index.html"
+to = "/fr/membres/ophelie-baribaud/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/saint-germain-en-laye/index.html"
+to = "/fr/partenaires/saint-germain-en-laye/"
+
+[[redirects]]
+from = "/projets/publications/2022-le-traduire-comme-paradigme-de-la-pratique-du-design/index.html"
+to = "/en/publications/2022-le-traduire-comme-paradigme-de-la-pratique-du-design/"
+
+[[redirects]]
+from = "/projets/publications/2011-the-design-of-emotions-how-the-digital-is-making-us-more-emotional/index.html"
+to = "/en/publications/2011-the-design-of-emotions-how-the-digital-is-making-us-more-emotional/"
+
+[[redirects]]
+from = "/fr/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design-1/index.html"
+to = "/en/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design-1/"
+
+[[redirects]]
+from = "/en/team/partners/sustainability-transition-environment-biophysical-economics-and-local-policies/index.html"
+to = "/en/partners/sustainability-transition-environment-biophysical-economics-and-local-policies/"
+
+[[redirects]]
+from = "/en/tools/index.html"
+to = "/en/programs/"
+
+[[redirects]]
+from = "/publications/2010-rfid-based-distributed-shared-memory-for-pervasive-games/index.html"
+to = "/en/publications/2010-rfid-based-distributed-shared-memory-for-pervasive-games/"
+
+[[redirects]]
+from = "/fr/organisations/lab-110-bis-ministere-de-l-education-nationale/index.html"
+to = "/fr/partenaires/lab-110-bis-ministere-de-l-education-nationale/"
+
+[[redirects]]
+from = "/fr/publications/2010-gaming-on-the-move-urban-experience-as-a-new-paradigm-for-mobile-pervasive-game-design/index.html"
+to = "/en/publications/2010-gaming-on-the-move-urban-experience-as-a-new-paradigm-for-mobile-pervasive-game-design/"
+
+[[redirects]]
+from = "/en/team/nous-rejoindre/index.html"
+to = "/en/team/join-us/"
+
+[[redirects]]
+from = "/fr/publications/2014-poesie-et-recherche-en-tic-contribution-des-sciences-de-l-information-et-de-la-communication/index.html"
+to = "/en/publications/2014-poesie-et-recherche-en-tic-contribution-des-sciences-de-l-information-et-de-la-communication/"
+
+[[redirects]]
+from = "/en/team/organizations/eco2-school-as-new-european-bauhaus-labs/index.html"
+to = "/en/partners/eco2-school-as-new-european-bauhaus-labs/"
+
+[[redirects]]
+from = "/en/team/members/ines-garmon/index.html"
+to = "/en/members/ines-garmon/"
+
+[[redirects]]
+from = "/fr/equipe/membres/jean-louis-soubret/publications/index.html"
+to = "/fr/membres/jean-louis-soubret/publications/"
+
+[[redirects]]
+from = "/productions/publications/2008-multimodal-human-machine-interaction-in-virtual-reality/index.html"
+to = "/en/publications/2008-multimodal-human-machine-interaction-in-virtual-reality/"
+
+[[redirects]]
+from = "/projets/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment-1/index.html"
+to = "/en/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment-1/"
+
+[[redirects]]
+from = "/publications/2023-le-design-a-l-epreuve-du-territoire-pratiques-exploratoires-et-metiers-emergents/index.html"
+to = "/en/publications/2023-le-design-a-l-epreuve-du-territoire-pratiques-exploratoires-et-metiers-emergents/"
+
+[[redirects]]
+from = "/productions/publications/2015-identifier-les-besoins-des-enfants-en-situation-de-deficience-visuelle-etat-de-l-art-et-etude-de-ter/index.html"
+to = "/en/publications/2015-identifier-les-besoins-des-enfants-en-situation-de-deficience-visuelle-etat-de-l-art-et-etude-de-ter/"
+
+[[redirects]]
+from = "/fr/equipe/membres/annie-gentes/index.html"
+to = "/fr/membres/annie-gentes/"
+
+[[redirects]]
+from = "/accessibilite/index.html"
+to = "/fr/accessibilite/"
+
+[[redirects]]
+from = "/en/team/organizations/categories/partenaires-academiques/index.html"
+to = "/en/partners/categories/field-actors/"
+
+[[redirects]]
+from = "/productions/publications/2013-beyond-rhetoric-to-poetics-in-it-invention/index.html"
+to = "/en/publications/2013-beyond-rhetoric-to-poetics-in-it-invention/"
+
+[[redirects]]
+from = "/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum/index.html"
+to = "/en/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum/"
+
+[[redirects]]
+from = "/en/team/people/justine-peneau/publications/index.html"
+to = "/en/members/justine-peneau/publications/"
+
+[[redirects]]
+from = "/publications/2017-how-to-frame-the-un-known-the-odd-alliance-of-design-and-fundamental-physics-in-a-design-school/index.html"
+to = "/en/publications/2017-how-to-frame-the-un-known-the-odd-alliance-of-design-and-fundamental-physics-in-a-design-school/"
+
+[[redirects]]
+from = "/fr/personnes/eva-ohayon/index.html"
+to = "/fr/membres/eva-ohayon/"
+
+[[redirects]]
+from = "/en/team-index/chercheurs/index.html"
+to = "/en/members/categories/chercheurs/"
+
+[[redirects]]
+from = "/en/team/partners/research-partners/index.html"
+to = "/en/partners/categories/research-partners/"
+
+[[redirects]]
+from = "/projets/publications/2023-le-design-a-l-epreuve-du-territoire-pratiques-exploratoires-et-metiers-emergents/index.html"
+to = "/en/publications/2023-le-design-a-l-epreuve-du-territoire-pratiques-exploratoires-et-metiers-emergents/"
+
+[[redirects]]
+from = "/en/team/members/annie-gentes/index.html"
+to = "/en/members/annie-gentes/"
+
+[[redirects]]
+from = "/fr/publications/2008-design-et-mediation-creative-dans-les-technologies-de-l-information/index.html"
+to = "/en/publications/2008-design-et-mediation-creative-dans-les-technologies-de-l-information/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/saint-germain-en-laye/index.html"
+to = "/fr/partenaires/saint-germain-en-laye/"
+
+[[redirects]]
+from = "/publications/2019-qu-est-ce-que-le-bon-design/index.html"
+to = "/en/publications/2019-qu-est-ce-que-le-bon-design/"
+
+[[redirects]]
+from = "/en/team/members/anthony-ferretti/resources/index.html"
+to = "/en/members/anthony-ferretti/resources/"
+
+[[redirects]]
+from = "/productions/publications/2019-qu-est-ce-que-le-bon-design/index.html"
+to = "/en/publications/2019-qu-est-ce-que-le-bon-design/"
+
+[[redirects]]
+from = "/publications/2013-science-fiction-scenarios-narratifs-et-visuels-dans-les-projets-d-ingenierie-des-tic/index.html"
+to = "/en/publications/2013-science-fiction-scenarios-narratifs-et-visuels-dans-les-projets-d-ingenierie-des-tic/"
+
+[[redirects]]
+from = "/en/people/delphine-leger/index.html"
+to = "/en/members/delphine-leger/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/signes-de-sens/index.html"
+to = "/fr/partenaires/signes-de-sens/"
+
+[[redirects]]
+from = "/fr/organisations/soutenabilite-transition-environnement-economie-biophysique-et-politiques-locales/index.html"
+to = "/fr/partenaires/soutenabilite-transition-environnement-economie-biophysique-et-politiques-locales/"
+
+[[redirects]]
+from = "/projets/publications/2012-design-de-serious-game-la-question-de-la-convergence/index.html"
+to = "/en/publications/2012-design-de-serious-game-la-question-de-la-convergence/"
+
+[[redirects]]
+from = "/fr/membres/nous-rejoindre/index.html"
+to = "/fr/equipe/nous-rejoindre/"
+
+[[redirects]]
+from = "/en/agenda/index.html"
+to = "/en/events/"
+
+[[redirects]]
+from = "/productions/publications/2009-multimodal-human-machine-interactions-in-virtual-and-augmented-reality/index.html"
+to = "/en/publications/2009-multimodal-human-machine-interactions-in-virtual-and-augmented-reality/"
+
+[[redirects]]
+from = "/en/team/people/stephanie-hemon/publications/index.html"
+to = "/en/members/stephanie-hemon/publications/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/learning-planet-institute/index.html"
+to = "/fr/partenaires/learning-planet-institute/"
+
+[[redirects]]
+from = "/fr/personnes/stephanie-hemon/publications/index.html"
+to = "/fr/membres/stephanie-hemon/publications/"
+
+[[redirects]]
+from = "/fr/evenements/2025/ia-design-de-la-decision/index.html"
+to = "/fr/evenements/2026/ia-design-de-la-decision/"
+
+[[redirects]]
+from = "/productions/publications/2018-an-exploratory-study-of-the-uses-of-a-multisensory-map-with-visually-impaired-children/index.html"
+to = "/en/publications/2018-an-exploratory-study-of-the-uses-of-a-multisensory-map-with-visually-impaired-children/"
+
+[[redirects]]
+from = "/en/team/annie-gentes/index.html"
+to = "/en/members/annie-gentes/"
+
+[[redirects]]
+from = "/en/team-index/jean-louis-soubret/index.html"
+to = "/en/members/jean-louis-soubret/"
+
+[[redirects]]
+from = "/publications/2023-the-forgotten-legacy-of-schon-from-materials-to-mediums-in-the-design-activity/index.html"
+to = "/en/publications/2023-the-forgotten-legacy-of-schon-from-materials-to-mediums-in-the-design-activity/"
+
+[[redirects]]
+from = "/en/people/jean-louis-soubret/publications/index.html"
+to = "/en/members/jean-louis-soubret/publications/"
+
+[[redirects]]
+from = "/productions/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-1/index.html"
+to = "/en/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-1/"
+
+[[redirects]]
+from = "/fr/personnes/annie-gentes/index.html"
+to = "/fr/membres/annie-gentes/"
+
+[[redirects]]
+from = "/projets/publications/2020-figures-de-la-science-dans-des-contextes-de-conception/index.html"
+to = "/en/publications/2020-figures-de-la-science-dans-des-contextes-de-conception/"
+
+[[redirects]]
+from = "/productions/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-2/index.html"
+to = "/en/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-2/"
+
+[[redirects]]
+from = "/productions/publications/2022-traductibilite-et-design-explorer-les-parametres-generatifs-du-brief/index.html"
+to = "/en/publications/2022-traductibilite-et-design-explorer-les-parametres-generatifs-du-brief/"
+
+[[redirects]]
+from = "/productions/publications/2013-beyond-rhetoric-to-poetics-in-it-invention-1/index.html"
+to = "/en/publications/2013-beyond-rhetoric-to-poetics-in-it-invention-1/"
+
+[[redirects]]
+from = "/fr/equipe/membres/ines-garmon/publications/index.html"
+to = "/fr/membres/ines-garmon/publications/"
+
+[[redirects]]
+from = "/equipe/organisations/index.html"
+to = "/fr/partenaires/"
+
+[[redirects]]
+from = "/en/team/members/justine-peneau/resources/index.html"
+to = "/en/members/justine-peneau/resources/"
+
+[[redirects]]
+from = "/productions/publications/2012-les-alternatives-aux-reseaux-sociaux-larchitecture-distribuee-et-le-design-de-media/index.html"
+to = "/en/publications/2012-les-alternatives-aux-reseaux-sociaux-larchitecture-distribuee-et-le-design-de-media/"
+
+[[redirects]]
+from = "/en/calendar/archives/index.html"
+to = "/en/events/archives/"
+
+[[redirects]]
+from = "/en/team/organizations/sncf/index.html"
+to = "/en/partners/sncf/"
+
+[[redirects]]
+from = "/en/team/annie-gentes/publications/index.html"
+to = "/en/members/annie-gentes/publications/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/index.html"
+to = "/fr/partenaires/"
+
+[[redirects]]
+from = "/publications/2008-art-sur-le-web-citation-echantillon-et-jeu/index.html"
+to = "/en/publications/2008-art-sur-le-web-citation-echantillon-et-jeu/"
+
+[[redirects]]
+from = "/fr/publications/2013-science-fiction-scenarios-narratifs-et-visuels-dans-les-projets-d-ingenierie-des-tic/index.html"
+to = "/en/publications/2013-science-fiction-scenarios-narratifs-et-visuels-dans-les-projets-d-ingenierie-des-tic/"
+
+[[redirects]]
+from = "/publications/2009-systemes-d-interaction-emotionnelle/index.html"
+to = "/en/publications/2009-systemes-d-interaction-emotionnelle/"
+
+[[redirects]]
+from = "/productions/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias-1/index.html"
+to = "/en/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias-1/"
+
+[[redirects]]
+from = "/fr/organisations/research-partners/index.html"
+to = "/fr/partenaires/categories/partenaires-academiques/"
+
+[[redirects]]
+from = "/en/team/partners/signe-de-sens/index.html"
+to = "/en/partners/signe-de-sens/"
+
+[[redirects]]
+from = "/fr/publications/2013-communications-et-strategies/index.html"
+to = "/en/publications/2013-communications-et-strategies/"
+
+[[redirects]]
+from = "/en/team/members/stephanie-hemon/index.html"
+to = "/en/members/stephanie-hemon/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/lab-sncf-impact/index.html"
+to = "/fr/partenaires/lab-sncf-impact/"
+
+[[redirects]]
+from = "/fr/publications/2015-critical-design/index.html"
+to = "/en/publications/2015-critical-design/"
+
+[[redirects]]
+from = "/projets/publications/2012-les-alternatives-aux-reseaux-sociaux-larchitecture-distribuee-et-le-design-de-media/index.html"
+to = "/en/publications/2012-les-alternatives-aux-reseaux-sociaux-larchitecture-distribuee-et-le-design-de-media/"
+
+[[redirects]]
+from = "/en/team/giulia-marcocchia/index.html"
+to = "/en/members/giulia-marcocchia/"
+
+[[redirects]]
+from = "/projets/publications/2013-is-there-a-anyone-out-there-how-to-involve-the-user-in-the-invention-of-it/index.html"
+to = "/en/publications/2013-is-there-a-anyone-out-there-how-to-involve-the-user-in-the-invention-of-it/"
+
+[[redirects]]
+from = "/fr/personnes/pauline-oger/publications/index.html"
+to = "/fr/membres/pauline-oger/publications/"
+
+[[redirects]]
+from = "/productions/publications/2010-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility/index.html"
+to = "/en/publications/2010-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility/"
+
+[[redirects]]
+from = "/fr/productions/2024-chaire-recherche-design-decision/index.html"
+to = "/fr/programmes/2024-design-decision/"
+
+[[redirects]]
+from = "/publications/2012-les-alternatives-aux-reseaux-sociaux-l-architecture-distribuee-et-le-design-de-media/index.html"
+to = "/en/publications/2012-les-alternatives-aux-reseaux-sociaux-l-architecture-distribuee-et-le-design-de-media/"
+
+[[redirects]]
+from = "/fr/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design/index.html"
+to = "/en/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design/"
+
+[[redirects]]
+from = "/membres/index.html"
+to = "/fr/membres/equipe-recherche/"
+
+[[redirects]]
+from = "/projets/publications/2016-a-method-story-about-brainstorming-with-visually-impaired-people-for-designing-an-accessible-route-c/index.html"
+to = "/en/publications/2016-a-method-story-about-brainstorming-with-visually-impaired-people-for-designing-an-accessible-route-c/"
+
+[[redirects]]
+from = "/en/team/people/annie-gentes/publications/index.html"
+to = "/en/members/annie-gentes/publications/"
+
+[[redirects]]
+from = "/en/organizations/sncf/index.html"
+to = "/en/partners/sncf/"
+
+[[redirects]]
+from = "/en/resources/outils/index.html"
+to = "/en/resources/tools/"
+
+[[redirects]]
+from = "/projets/publications/2010-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility/index.html"
+to = "/en/publications/2010-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility/"
+
+[[redirects]]
+from = "/fr/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias-1/index.html"
+to = "/en/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias-1/"
+
+[[redirects]]
+from = "/fr/publications/2012-nouveaux-medias-aux-musees-le-visiteur-equipe/index.html"
+to = "/en/publications/2012-nouveaux-medias-aux-musees-le-visiteur-equipe/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/maif/index.html"
+to = "/fr/partenaires/maif/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/federation-nationale-des-cuma/index.html"
+to = "/fr/partenaires/federation-nationale-des-cuma/"
+
+[[redirects]]
+from = "/fr/publications/2017-how-to-frame-the-un-known-the-odd-alliance-of-design-and-fundamental-physics-in-a-design-school/index.html"
+to = "/en/publications/2017-how-to-frame-the-un-known-the-odd-alliance-of-design-and-fundamental-physics-in-a-design-school/"
+
+[[redirects]]
+from = "/fr/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid/index.html"
+to = "/en/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid/"
+
+[[redirects]]
+from = "/en/team/members/giulia-marcocchia/publications/index.html"
+to = "/en/members/giulia-marcocchia/publications/"
+
+[[redirects]]
+from = "/en/team/partners/sigtunaskolan-humanistiska-laroverket/index.html"
+to = "/en/partners/sigtunaskolan-humanistiska-laroverket/"
+
+[[redirects]]
+from = "/fr/personnes/eva-ohayon/publications/index.html"
+to = "/fr/membres/eva-ohayon/publications/"
+
+[[redirects]]
+from = "/en/team/partners/initiative-for-design-in-agrifood-systems/index.html"
+to = "/en/partners/initiative-for-design-in-agrifood-systems/"
+
+[[redirects]]
+from = "/en/organizations/eco2-school-as-new-european-bauhaus-labs/index.html"
+to = "/en/partners/eco2-school-as-new-european-bauhaus-labs/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/signe-de-sens/index.html"
+to = "/fr/partenaires/signes-de-sens/"
+
+[[redirects]]
+from = "/projets/publications/2016-design-and-interdisciplinarity-the-improbable-introduction-of-fundamental-physics-in-a-design-school/index.html"
+to = "/en/publications/2016-design-and-interdisciplinarity-the-improbable-introduction-of-fundamental-physics-in-a-design-school/"
+
+[[redirects]]
+from = "/en/team/eva-ohayon/index.html"
+to = "/en/members/eva-ohayon/"
+
+[[redirects]]
+from = "/en/people/jean-louis-soubret/index.html"
+to = "/en/members/jean-louis-soubret/"
+
+[[redirects]]
+from = "/productions/index.html"
+to = "/fr/programmes/"
+
+[[redirects]]
+from = "/productions/publications/2019-invention-technique-et-objet-integratif/index.html"
+to = "/en/publications/2019-invention-technique-et-objet-integratif/"
+
+[[redirects]]
+from = "/en/team/members/annie-gentes/publications/index.html"
+to = "/en/members/annie-gentes/publications/"
+
+[[redirects]]
+from = "/fr/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment-1/index.html"
+to = "/en/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment-1/"
+
+[[redirects]]
+from = "/en/team/partners/categories/field-actors/index.html"
+to = "/en/partners/categories/field-actors/"
+
+[[redirects]]
+from = "/projets/publications/2008-art-sur-le-web-citation-echantillon-et-jeu/index.html"
+to = "/en/publications/2008-art-sur-le-web-citation-echantillon-et-jeu/"
+
+[[redirects]]
+from = "/en/people/ines-garmon/publications/index.html"
+to = "/en/members/ines-garmon/publications/"
+
+[[redirects]]
+from = "/fr/equipe/membres/giulia-marcocchia/publications/index.html"
+to = "/fr/membres/giulia-marcocchia/publications/"
+
+[[redirects]]
+from = "/en/organizations/french-program-and-priority-research-facilities-france-2030-agroecology-and-digital-technologies/index.html"
+to = "/en/partners/french-program-and-priority-research-facilities-france-2030-agroecology-and-digital-technologies/"
+
+[[redirects]]
+from = "/en/team-index/giulia-marcocchia/index.html"
+to = "/en/members/giulia-marcocchia/"
+
+[[redirects]]
+from = "/projets/publications/2010-de-la-traduction-comme-mediation-et-creation-interlinguistique-des-interactions-humaines/index.html"
+to = "/en/publications/2010-de-la-traduction-comme-mediation-et-creation-interlinguistique-des-interactions-humaines/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/signes-de-sens/index.html"
+to = "/fr/partenaires/signes-de-sens/"
+
+[[redirects]]
+from = "/en/organizations/ellinogermaniki-agogi/index.html"
+to = "/en/partners/ellinogermaniki-agogi/"
+
+[[redirects]]
+from = "/en/organizations/lab-110-bis-ministere-de-l-education-nationale/index.html"
+to = "/en/partners/lab-110-bis-ministere-de-l-education-nationale/"
+
+[[redirects]]
+from = "/fr/equipe/membres/eva-ohayon/publications/index.html"
+to = "/fr/membres/eva-ohayon/publications/"
+
+[[redirects]]
+from = "/en/organizations/occitanum/index.html"
+to = "/en/partners/occitanum/"
+
+[[redirects]]
+from = "/productions/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design/index.html"
+to = "/en/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design/"
+
+[[redirects]]
+from = "/en/team/organizations/saint-germain-en-laye/index.html"
+to = "/en/partners/saint-germain-en-laye/"
+
+[[redirects]]
+from = "/publications/2019-l-exposition-au-design-amorcer-la-pratique-du-design-par-la-documentalisation-des-objets/index.html"
+to = "/en/publications/2019-l-exposition-au-design-amorcer-la-pratique-du-design-par-la-documentalisation-des-objets/"
+
+[[redirects]]
+from = "/people/index.html"
+to = "/en/team/"
+
+[[redirects]]
+from = "/productions/publications/2008-art-sur-le-web-citation-echantillon-et-jeu/index.html"
+to = "/en/publications/2008-art-sur-le-web-citation-echantillon-et-jeu/"
+
+[[redirects]]
+from = "/fr/publications/2018-an-exploratory-study-of-the-uses-of-a-multisensory-map-with-visually-impaired-children/index.html"
+to = "/en/publications/2018-an-exploratory-study-of-the-uses-of-a-multisensory-map-with-visually-impaired-children/"
+
+[[redirects]]
+from = "/en/team/justine-peneau/publications/index.html"
+to = "/en/members/justine-peneau/publications/"
+
+[[redirects]]
+from = "/publications/2012-les-alternatives-aux-reseaux-sociaux-larchitecture-distribuee-et-le-design-de-media/index.html"
+to = "/en/publications/2012-les-alternatives-aux-reseaux-sociaux-larchitecture-distribuee-et-le-design-de-media/"
+
+[[redirects]]
+from = "/en/team/partners/french-national-research-institute-for-agriculture-food-and-the-environment/index.html"
+to = "/en/partners/french-national-research-institute-for-agriculture-food-and-the-environment/"
+
+[[redirects]]
+from = "/fr/equipe/membres/jean-louis-soubret/index.html"
+to = "/fr/membres/jean-louis-soubret/"
+
+[[redirects]]
+from = "/fr/publications/2014-design-in-research-re-thinking-design-contribution-to-science/index.html"
+to = "/en/publications/2014-design-in-research-re-thinking-design-contribution-to-science/"
+
+[[redirects]]
+from = "/en/tools/2024-research-chair-decision-design/index.html"
+to = "/en/programs/2024-decision-design/"
+
+[[redirects]]
+from = "/en/team/partners/g-eau-gestion-de-leau-acteurs-usages/index.html"
+to = "/en/partners/g-eau-water-management-actors-uses/"
+
+[[redirects]]
+from = "/en/team/partners/g-eau-water-management-actors-uses/index.html"
+to = "/en/partners/g-eau-water-management-actors-uses/"
+
+[[redirects]]
+from = "/fr/organisations/signe-de-sens/index.html"
+to = "/fr/partenaires/signes-de-sens/"
+
+[[redirects]]
+from = "/en/team/organizations/ucc-university-college-of-cork/index.html"
+to = "/en/partners/ucc-university-college-of-cork/"
+
+[[redirects]]
+from = "/en/people/categories/associes/index.html"
+to = "/en/members/categories/associes/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/conservatoire-national-des-arts-et-metiers/index.html"
+to = "/fr/partenaires/conservatoire-national-des-arts-et-metiers/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/categories/partenaires-experts-terrain/index.html"
+to = "/fr/partenaires/categories/partenaires-experts-terrain/"
+
+[[redirects]]
+from = "/productions/publications/2011-the-design-of-emotions-how-the-digital-is-making-us-more-emotional/index.html"
+to = "/en/publications/2011-the-design-of-emotions-how-the-digital-is-making-us-more-emotional/"
+
+[[redirects]]
+from = "/projets/publications/2019-qu-est-ce-que-le-bon-design/index.html"
+to = "/en/publications/2019-qu-est-ce-que-le-bon-design/"
+
+[[redirects]]
+from = "/equipe/anthony-ferretti/index.html"
+to = "/fr/membres/anthony-ferretti/"
+
+[[redirects]]
+from = "/projets/publications/2019-invention-technique-et-objet-integratif/index.html"
+to = "/en/publications/2019-invention-technique-et-objet-integratif/"
+
+[[redirects]]
+from = "/fr/equipe-1/membres/nous-rejoindre/index.html"
+to = "/fr/equipe/nous-rejoindre/"
+
+[[redirects]]
+from = "/fr/equipe/membres/eva-ohayon/index.html"
+to = "/fr/membres/eva-ohayon/"
+
+[[redirects]]
+from = "/en/team/members/anthony-ferretti/publications/index.html"
+to = "/en/members/anthony-ferretti/publications/"
+
+[[redirects]]
+from = "/projets/publications/2022-pour-une-theorie-media-centree-du-design/index.html"
+to = "/en/publications/2022-pour-une-theorie-media-centree-du-design/"
+
+[[redirects]]
+from = "/mentions-legales/index.html"
+to = "/fr/mentions-legales/"
+
+[[redirects]]
+from = "/en/projects/index.html"
+to = "/en/programs/"
+
+[[redirects]]
+from = "/en/team/partners/eco2-school-as-new-european-bauhaus-labs/index.html"
+to = "/en/partners/eco2-school-as-new-european-bauhaus-labs/"
+
+[[redirects]]
+from = "/fr/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum/index.html"
+to = "/en/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum/"
+
+[[redirects]]
+from = "/fr/equipe/membres/justine-peneau/publications/index.html"
+to = "/fr/membres/justine-peneau/publications/"
+
+[[redirects]]
+from = "/en/people/categories/chercheurs/index.html"
+to = "/en/members/categories/chercheurs/"
+
+[[redirects]]
+from = "/en/organizations/soutenabilite-transition-environnement-economie-biophysique-et-politiques-locales/index.html"
+to = "/en/partners/sustainability-transition-environment-biophysical-economics-and-local-policies/"
+
+[[redirects]]
+from = "/projets/publications/2013-science-fiction-scenarios-narratifs-et-visuels-dans-les-projets-d-ingenierie-des-tic/index.html"
+to = "/en/publications/2013-science-fiction-scenarios-narratifs-et-visuels-dans-les-projets-d-ingenierie-des-tic/"
+
+[[redirects]]
+from = "/fr/organisations/occitanum/index.html"
+to = "/fr/partenaires/occitanum/"
+
+[[redirects]]
+from = "/en/people/index.html"
+to = "/en/members/"
+
+[[redirects]]
+from = "/en/team/organizations/maif/index.html"
+to = "/en/partners/maif/"
+
+[[redirects]]
+from = "/en/organizations/field-actors/index.html"
+to = "/en/partners/categories/field-actors/"
+
+[[redirects]]
+from = "/productions/publications/2017-how-to-frame-the-un-known-the-odd-alliance-of-design-and-fundamental-physics-in-a-design-school/index.html"
+to = "/en/publications/2017-how-to-frame-the-un-known-the-odd-alliance-of-design-and-fundamental-physics-in-a-design-school/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/institut-national-de-recherche-en-sciences-et-technologies-du-numerique/index.html"
+to = "/fr/partenaires/institut-national-de-recherche-en-sciences-et-technologies-du-numerique/"
+
+[[redirects]]
+from = "/en/organizations/french-national-research-institute-for-agriculture-food-and-the-environment/index.html"
+to = "/en/partners/french-national-research-institute-for-agriculture-food-and-the-environment/"
+
+[[redirects]]
+from = "/en/team/partners/cnam/index.html"
+to = "/en/partners/national-conservatory-of-arts-and-crafts/"
+
+[[redirects]]
+from = "/en/team/organizations/learning-planet-institute/index.html"
+to = "/en/partners/learning-planet-institute/"
+
+[[redirects]]
+from = "/equipe/anthony-ferretti/publications/index.html"
+to = "/fr/membres/anthony-ferretti/publications/"
+
+[[redirects]]
+from = "/fr/organisations/saint-germain-en-laye/index.html"
+to = "/fr/partenaires/saint-germain-en-laye/"
+
+[[redirects]]
+from = "/en/team/partners/index.html"
+to = "/en/partners/"
+
+[[redirects]]
+from = "/publications/2014-poesie-et-recherche-en-tic-contribution-des-sciences-de-l-information-et-de-la-communication/index.html"
+to = "/en/publications/2014-poesie-et-recherche-en-tic-contribution-des-sciences-de-l-information-et-de-la-communication/"
+
+[[redirects]]
+from = "/projets/publications/2015-identifier-les-besoins-des-enfants-en-situation-de-deficience-visuelle-etat-de-l-art-et-etude-de-ter/index.html"
+to = "/en/publications/2015-identifier-les-besoins-des-enfants-en-situation-de-deficience-visuelle-etat-de-l-art-et-etude-de-ter/"
+
+[[redirects]]
+from = "/en/team/organizations/occitanum/index.html"
+to = "/en/partners/occitanum/"
+
+[[redirects]]
+from = "/productions/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment-1/index.html"
+to = "/en/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment-1/"
+
+[[redirects]]
+from = "/fr/organisations/inrae/index.html"
+to = "/fr/partenaires/institut-national-de-recherche-pour-l-agriculture-l-alimentation-et-l-environnement/"
+
+[[redirects]]
+from = "/publications/2019-annie-gentes-the-indiscipline-of-design-bridging-the-gap-between-humanities-and-engineering/index.html"
+to = "/en/publications/2019-annie-gentes-the-indiscipline-of-design-bridging-the-gap-between-humanities-and-engineering/"
+
+[[redirects]]
+from = "/productions/publications/index.html"
+to = "/fr/publications/"
+
+[[redirects]]
+from = "/fr/equipe/membres/ophelie-baribaud/publications/index.html"
+to = "/fr/membres/ophelie-baribaud/publications/"
+
+[[redirects]]
+from = "/en/team/members/ophelie-baribaud/publications/index.html"
+to = "/en/members/ophelie-baribaud/publications/"
+
+[[redirects]]
+from = "/fr/ressources/news/index.html"
+to = "/fr/ressources/actualite/"
+
+[[redirects]]
+from = "/projets/publications/2017-social-class-school-and-visual-impairments-reflections-from-the-field/index.html"
+to = "/en/publications/2017-social-class-school-and-visual-impairments-reflections-from-the-field/"
+
+[[redirects]]
+from = "/en/team/chercheurs/index.html"
+to = "/en/members/categories/chercheurs/"
+
+[[redirects]]
+from = "/en/team-index/anthony-ferretti/index.html"
+to = "/en/members/anthony-ferretti/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/conservatoire-national-des-arts-et-metiers/index.html"
+to = "/fr/partenaires/conservatoire-national-des-arts-et-metiers/"
+
+[[redirects]]
+from = "/projets/publications/2013-the-three-paradigms-of-it-design-function-aesthetics-literacy/index.html"
+to = "/en/publications/2013-the-three-paradigms-of-it-design-function-aesthetics-literacy/"
+
+[[redirects]]
+from = "/en/team/members/categories/chercheurs/index.html"
+to = "/en/members/categories/chercheurs/"
+
+[[redirects]]
+from = "/en/organizations/sustainability-transition-environment-biophysical-economics-and-local-policies/index.html"
+to = "/en/partners/sustainability-transition-environment-biophysical-economics-and-local-policies/"
+
+[[redirects]]
+from = "/en/team/members/eva-ohayon/index.html"
+to = "/en/members/eva-ohayon/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/categories/research-partners/index.html"
+to = "/fr/partenaires/categories/partenaires-academiques/"
+
+[[redirects]]
+from = "/productions/publications/2014-poesie-et-recherche-en-tic-contribution-des-sciences-de-l-information-et-de-la-communication/index.html"
+to = "/en/publications/2014-poesie-et-recherche-en-tic-contribution-des-sciences-de-l-information-et-de-la-communication/"
+
+[[redirects]]
+from = "/publications/2017-the-in-discipline-of-design-bridging-the-gap-between-engineering-and-the-humanities/index.html"
+to = "/en/publications/2017-the-in-discipline-of-design-bridging-the-gap-between-engineering-and-the-humanities/"
+
+[[redirects]]
+from = "/fr/productions/index.html"
+to = "/fr/programmes/"
+
+[[redirects]]
+from = "/productions/publications/2019-la-creation-epistemologique-rencontres-autour-des-travaux-d-anne-francoise-schmid-introduction-gener/index.html"
+to = "/en/publications/2019-la-creation-epistemologique-rencontres-autour-des-travaux-d-anne-francoise-schmid-introduction-gener/"
+
+[[redirects]]
+from = "/productions/publications/2019-annie-gentes-the-indiscipline-of-design-bridging-the-gap-between-humanities-and-engineering/index.html"
+to = "/en/publications/2019-annie-gentes-the-indiscipline-of-design-bridging-the-gap-between-humanities-and-engineering/"
+
+[[redirects]]
+from = "/en/team/organizations/sigtunaskolan-humanistiska-laroverket/index.html"
+to = "/en/partners/sigtunaskolan-humanistiska-laroverket/"
+
+[[redirects]]
+from = "/fr/publications/2019-l-exposition-au-design-amorcer-la-pratique-du-design-par-la-documentalisation-des-objets/index.html"
+to = "/en/publications/2019-l-exposition-au-design-amorcer-la-pratique-du-design-par-la-documentalisation-des-objets/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/categories/field-actors/index.html"
+to = "/fr/partenaires/categories/partenaires-experts-terrain/"
+
+[[redirects]]
+from = "/en/programs-1/2024-research-chair-decision-design/index.html"
+to = "/en/programs/2024-decision-design/"
+
+[[redirects]]
+from = "/en/resources/2024-06-10-design-en-commun/index.html"
+to = "/en/resources/2024-06-10-design-in-common/"
+
+[[redirects]]
+from = "/projets/publications/2009-rfid-technology-fostering-human-interactions-1/index.html"
+to = "/en/publications/2009-rfid-technology-fostering-human-interactions-1/"
+
+[[redirects]]
+from = "/fr/publications/2010-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility/index.html"
+to = "/en/publications/2010-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility/"
+
+[[redirects]]
+from = "/fr/organisations/agence-national-de-la-recherche/index.html"
+to = "/fr/partenaires/agence-national-de-la-recherche/"
+
+[[redirects]]
+from = "/en/people/eva-ohayon/index.html"
+to = "/en/members/eva-ohayon/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/eco2-school-as-new-european-bauhaus-labs/index.html"
+to = "/fr/partenaires/eco2-school-as-new-european-bauhaus-labs/"
+
+[[redirects]]
+from = "/fr/equipe/anthony-ferretti/publications/index.html"
+to = "/fr/membres/anthony-ferretti/publications/"
+
+[[redirects]]
+from = "/projets/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france/index.html"
+to = "/en/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france/"
+
+[[redirects]]
+from = "/fr/equipe/membres/justine-peneau/ressources/index.html"
+to = "/fr/membres/justine-peneau/ressources/"
+
+[[redirects]]
+from = "/publications/2009-visiteur-ou-joueur-les-multiples-facettes-de-la-technologie-rfid/index.html"
+to = "/en/publications/2009-visiteur-ou-joueur-les-multiples-facettes-de-la-technologie-rfid/"
+
+[[redirects]]
+from = "/productions/publications/2019-conclusion-l-aventure-epistemologique-contemporaine/index.html"
+to = "/en/publications/2019-conclusion-l-aventure-epistemologique-contemporaine/"
+
+[[redirects]]
+from = "/fr/organisations/ecole-d-economie-de-paris-pse/index.html"
+to = "/fr/partenaires/ecole-d-economie-de-paris-pse/"
+
+[[redirects]]
+from = "/en/team/people/pauline-oger/index.html"
+to = "/en/members/pauline-oger/"
+
+[[redirects]]
+from = "/en/team/organizations/signe-de-sens/index.html"
+to = "/en/partners/signe-de-sens/"
+
+[[redirects]]
+from = "/en/team-index/pauline-oger/index.html"
+to = "/en/members/pauline-oger/"
+
+[[redirects]]
+from = "/equipe/annie-gentes/publications/index.html"
+to = "/fr/membres/annie-gentes/publications/"
+
+[[redirects]]
+from = "/en/team/partners/french-national-research-agency/index.html"
+to = "/en/partners/french-national-research-agency/"
+
+[[redirects]]
+from = "/fr/publications/2008-art-sur-le-web-citation-echantillon-et-jeu/index.html"
+to = "/en/publications/2008-art-sur-le-web-citation-echantillon-et-jeu/"
+
+[[redirects]]
+from = "/fr/organisations/learning-planet-institute/index.html"
+to = "/fr/partenaires/learning-planet-institute/"
+
+[[redirects]]
+from = "/en/team/organizations/french-program-and-priority-research-facilities-france-2030-agroecology-and-digital-technologies/index.html"
+to = "/en/partners/french-program-and-priority-research-facilities-france-2030-agroecology-and-digital-technologies/"
+
+[[redirects]]
+from = "/en/team/people/ophelie-baribaud/index.html"
+to = "/en/members/ophelie-baribaud/"
+
+[[redirects]]
+from = "/en/people/ophelie-baribaud-2/publications/index.html"
+to = "/en/members/ophelie-baribaud/publications/"
+
+[[redirects]]
+from = "/fr/organisations/initiative-for-design-in-agrifood-systems/index.html"
+to = "/fr/partenaires/initiative-for-design-in-agrifood-systems/"
+
+[[redirects]]
+from = "/fr/publications/2024-le-design-prend-il-soin-du-futur/index.html"
+to = "/en/publications/2024-le-design-prend-il-soin-du-futur/"
+
+[[redirects]]
+from = "/en/team/partners/ecole-d-economie-de-paris-pse/index.html"
+to = "/en/partners/ecole-d-economie-de-paris-pse/"
+
+[[redirects]]
+from = "/productions/publications/2009-systemes-d-interaction-emotionnelle/index.html"
+to = "/en/publications/2009-systemes-d-interaction-emotionnelle/"
+
+[[redirects]]
+from = "/projets/publications/2008-multimodal-human-machine-interaction-in-virtual-reality/index.html"
+to = "/en/publications/2008-multimodal-human-machine-interaction-in-virtual-reality/"
+
+[[redirects]]
+from = "/en/people/stephanie-hemon/publications/index.html"
+to = "/en/members/stephanie-hemon/publications/"
+
+[[redirects]]
+from = "/fr/equipe-1/membres/index.html"
+to = "/fr/membres/"
+
+[[redirects]]
+from = "/projets/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france-32-etudiants-de-master-design-4-prof/index.html"
+to = "/en/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france-32-etudiants-de-master-design-4-prof/"
+
+[[redirects]]
+from = "/publications/2019-conclusion-l-aventure-epistemologique-contemporaine/index.html"
+to = "/en/publications/2019-conclusion-l-aventure-epistemologique-contemporaine/"
+
+[[redirects]]
+from = "/fr/ressources/2024-02-01-quadractic-voting/index.html"
+to = "/fr/ressources/2024-02-01-plateforme-vote-quadratique/"
+
+[[redirects]]
+from = "/en/people/delphine-leger/resources/index.html"
+to = "/en/members/delphine-leger/resources/"
+
+[[redirects]]
+from = "/en/people/associes/index.html"
+to = "/en/members/categories/associes/"
+
+[[redirects]]
+from = "/en/team/partners/sncf/index.html"
+to = "/en/partners/sncf/"
+
+[[redirects]]
+from = "/projets/publications/2012-the-game-mechanics-of-pervasive-applications-visiting-the-uncanny/index.html"
+to = "/en/publications/2012-the-game-mechanics-of-pervasive-applications-visiting-the-uncanny/"
+
+[[redirects]]
+from = "/productions/publications/2008-design-et-mediation-creative-dans-les-technologies-de-l-information/index.html"
+to = "/en/publications/2008-design-et-mediation-creative-dans-les-technologies-de-l-information/"
+
+[[redirects]]
+from = "/fr/publications/2014-the-rhetoric-of-design-for-debate-triggering-conversation-with-an-uncanny-enough-artefact/index.html"
+to = "/en/publications/2014-the-rhetoric-of-design-for-debate-triggering-conversation-with-an-uncanny-enough-artefact/"
+
+[[redirects]]
+from = "/fr/equipe/membres/delphine-leger/index.html"
+to = "/fr/membres/delphine-leger/"
+
+[[redirects]]
+from = "/productions/publications/2013-the-three-paradigms-of-it-design-function-aesthetics-literacy/index.html"
+to = "/en/publications/2013-the-three-paradigms-of-it-design-function-aesthetics-literacy/"
+
+[[redirects]]
+from = "/en/team/partners/lab-110-bis-ministere-de-l-education-nationale/index.html"
+to = "/en/partners/lab-110-bis-ministere-de-l-education-nationale/"
+
+[[redirects]]
+from = "/projets/publications/2010-etude-sur-les-enjeux-des-dispositifs-numeriques-pour-l-exposition-monet/index.html"
+to = "/en/publications/2010-etude-sur-les-enjeux-des-dispositifs-numeriques-pour-l-exposition-monet/"
+
+[[redirects]]
+from = "/equipe/nous-rejoindre/index.html"
+to = "/fr/equipe/nous-rejoindre/"
+
+[[redirects]]
+from = "/fr/organisations/sigtunaskolan-humanistiska-laroverket/index.html"
+to = "/fr/partenaires/sigtunaskolan-humanistiska-laroverket/"
+
+[[redirects]]
+from = "/fr/equipe/membres/pauline-oger/publications/index.html"
+to = "/fr/membres/pauline-oger/publications/"
+
+[[redirects]]
+from = "/fr/equipe/membres/ophelie-baribaud/index.html"
+to = "/fr/membres/ophelie-baribaud/"
+
+[[redirects]]
+from = "/fr/publications/2012-les-alternatives-aux-reseaux-sociaux-larchitecture-distribuee-et-le-design-de-media/index.html"
+to = "/en/publications/2012-les-alternatives-aux-reseaux-sociaux-larchitecture-distribuee-et-le-design-de-media/"
+
+[[redirects]]
+from = "/en/team/partners/national-conservatory-of-arts-and-crafts/index.html"
+to = "/en/partners/national-conservatory-of-arts-and-crafts/"
+
+[[redirects]]
+from = "/fr/publications/2002-ecritures-en-ligne-pratiques-et-communautes-sous-la-dir-de-brigitte-chapelain-485-p/index.html"
+to = "/en/publications/2002-ecritures-en-ligne-pratiques-et-communautes-sous-la-dir-de-brigitte-chapelain-485-p/"
+
+[[redirects]]
+from = "/fr/organisations/lab-sncf-impact/index.html"
+to = "/fr/partenaires/lab-sncf-impact/"
+
+[[redirects]]
+from = "/en/team/partners/france-2030/index.html"
+to = "/en/partners/french-program-and-priority-research-facilities-france-2030-agroecology-and-digital-technologies/"
+
+[[redirects]]
+from = "/equipe/index.html"
+to = "/fr/membres/"
+
+[[redirects]]
+from = "/fr/organisations/field-actors/index.html"
+to = "/fr/partenaires/categories/partenaires-experts-terrain/"
+
+[[redirects]]
+from = "/publications/2008-das-unheimliche-of-ubiquitous-games-for-museum-visitors/index.html"
+to = "/en/publications/2008-das-unheimliche-of-ubiquitous-games-for-museum-visitors/"
+
+[[redirects]]
+from = "/en/people/ophelie-baribaud-2/index.html"
+to = "/en/members/ophelie-baribaud/"
+
+[[redirects]]
+from = "/publications/2008-le-design-de-nos-existences-a-l-epoque-de-l-innovation-ascendante/index.html"
+to = "/en/publications/2008-le-design-de-nos-existences-a-l-epoque-de-l-innovation-ascendante/"
+
+[[redirects]]
+from = "/en/team/partners/saint-germain-en-laye/index.html"
+to = "/en/partners/saint-germain-en-laye/"
+
+[[redirects]]
+from = "/projets/publications/2012-les-alternatives-aux-reseaux-sociaux-l-architecture-distribuee-et-le-design-de-media/index.html"
+to = "/en/publications/2012-les-alternatives-aux-reseaux-sociaux-l-architecture-distribuee-et-le-design-de-media/"
+
+[[redirects]]
+from = "/en/team/members/jean-louis-soubret/publications/index.html"
+to = "/en/members/jean-louis-soubret/publications/"
+
+[[redirects]]
+from = "/projets/publications/2018-an-exploratory-study-of-the-uses-of-a-multisensory-map-with-visually-impaired-children/index.html"
+to = "/en/publications/2018-an-exploratory-study-of-the-uses-of-a-multisensory-map-with-visually-impaired-children/"
+
+[[redirects]]
+from = "/productions/publications/2014-design-in-research-re-thinking-design-contribution-to-science/index.html"
+to = "/en/publications/2014-design-in-research-re-thinking-design-contribution-to-science/"
+
+[[redirects]]
+from = "/productions/publications/2010-gaming-on-the-move-urban-experience-as-a-new-paradigm-for-mobile-pervasive-game-design/index.html"
+to = "/en/publications/2010-gaming-on-the-move-urban-experience-as-a-new-paradigm-for-mobile-pervasive-game-design/"
+
+[[redirects]]
+from = "/productions/publications/2017-the-in-discipline-of-design-bridging-the-gap-between-engineering-and-the-humanities/index.html"
+to = "/en/publications/2017-the-in-discipline-of-design-bridging-the-gap-between-engineering-and-the-humanities/"
+
+[[redirects]]
+from = "/projets/publications/2013-design-meaning-making-and-constructive-fixation-conceptualizing-semiotic-conditions-to-the-process-o/index.html"
+to = "/en/publications/2013-design-meaning-making-and-constructive-fixation-conceptualizing-semiotic-conditions-to-the-process-o/"
+
+[[redirects]]
+from = "/fr/publications/2019-la-creation-epistemologique-rencontres-autour-des-travaux-d-anne-francoise-schmid-introduction-gener/index.html"
+to = "/en/publications/2019-la-creation-epistemologique-rencontres-autour-des-travaux-d-anne-francoise-schmid-introduction-gener/"
+
+[[redirects]]
+from = "/publications/2023-approche-critique-du-design-empathique-le-cas-du-design-sprint-au-sein-d-une-agence-digitale/index.html"
+to = "/en/publications/2023-approche-critique-du-design-empathique-le-cas-du-design-sprint-au-sein-d-une-agence-digitale/"
+
+[[redirects]]
+from = "/projets/publications/2013-place-and-non-place-a-model-for-the-strategic-design-of-place-centered-services/index.html"
+to = "/en/publications/2013-place-and-non-place-a-model-for-the-strategic-design-of-place-centered-services/"
+
+[[redirects]]
+from = "/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france-32-etudiants-de-master-design-4-prof/index.html"
+to = "/en/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france-32-etudiants-de-master-design-4-prof/"
+
+[[redirects]]
+from = "/fr/personnes/categories/associes/index.html"
+to = "/fr/membres/categories/associes/"
+
+[[redirects]]
+from = "/fr/organisations/g-eau-gestion-de-l-eau-acteurs-usages/index.html"
+to = "/fr/partenaires/g-eau-gestion-de-l-eau-acteurs-usages/"
+
+[[redirects]]
+from = "/en/organizations/national-conservatory-of-arts-and-crafts/index.html"
+to = "/en/partners/national-conservatory-of-arts-and-crafts/"
+
+[[redirects]]
+from = "/en/team/partners/categories/research-partners/index.html"
+to = "/en/partners/categories/research-partners/"
+
+[[redirects]]
+from = "/en/people/annie-gentes/index.html"
+to = "/en/members/annie-gentes/"
+
+[[redirects]]
+from = "/publications/2013-beyond-rhetoric-to-poetics-in-it-invention/index.html"
+to = "/en/publications/2013-beyond-rhetoric-to-poetics-in-it-invention/"
+
+[[redirects]]
+from = "/en/organizations/ucc-university-college-of-cork/index.html"
+to = "/en/partners/ucc-university-college-of-cork/"
+
+[[redirects]]
+from = "/en/organizations/cnam/index.html"
+to = "/en/partners/national-conservatory-of-arts-and-crafts/"
+
+[[redirects]]
+from = "/en/team/people/justine-peneau/resources/index.html"
+to = "/en/members/justine-peneau/resources/"
+
+[[redirects]]
+from = "/en/team/members/pauline-oger/publications/index.html"
+to = "/en/members/pauline-oger/publications/"
+
+[[redirects]]
+from = "/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias/index.html"
+to = "/en/publications/2011-experimentation-technique-et-creation-l-implication-des-utilisateurs-dans-l-invention-des-medias/"
+
+[[redirects]]
+from = "/fr/organisations/france-2030/index.html"
+to = "/fr/partenaires/programme-et-equipements-prioritaires-de-recherche-france-2030-agroecologie-et-numerique/"
+
+[[redirects]]
+from = "/fr/programmes-1/2024-chaire-recherche-design-decision/index.html"
+to = "/fr/programmes/2024-design-decision/"
+
+[[redirects]]
+from = "/publications/2022-pour-une-theorie-media-centree-du-design/index.html"
+to = "/en/publications/2022-pour-une-theorie-media-centree-du-design/"
+
+[[redirects]]
+from = "/fr/equipe/membres/pauline-oger/index.html"
+to = "/fr/membres/pauline-oger/"
+
+[[redirects]]
+from = "/en/organizations/lab-110-bis-ministere-de-leducation-nationale/index.html"
+to = "/en/partners/lab-110-bis-ministere-de-l-education-nationale/"
+
+[[redirects]]
+from = "/en/team-1/members/anthony-ferretti/index.html"
+to = "/en/members/anthony-ferretti/"
+
+[[redirects]]
+from = "/fr/organisations/ellinogermaniki-agogi/index.html"
+to = "/fr/partenaires/ellinogermaniki-agogi/"
+
+[[redirects]]
+from = "/en/team/people/delphine-leger/index.html"
+to = "/en/members/delphine-leger/"
+
+[[redirects]]
+from = "/projets/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum/index.html"
+to = "/en/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum/"
+
+[[redirects]]
+from = "/en/team/people/anthony-ferretti/resources/index.html"
+to = "/en/members/anthony-ferretti/resources/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/good-planet-belgium/index.html"
+to = "/fr/partenaires/good-planet-belgium/"
+
+[[redirects]]
+from = "/productions/publications/2022-le-traduire-comme-paradigme-de-la-pratique-du-design/index.html"
+to = "/en/publications/2022-le-traduire-comme-paradigme-de-la-pratique-du-design/"
+
+[[redirects]]
+from = "/fr/publications/2019-conclusion-l-aventure-epistemologique-contemporaine/index.html"
+to = "/en/publications/2019-conclusion-l-aventure-epistemologique-contemporaine/"
+
+[[redirects]]
+from = "/projets/publications/2009-multimodal-human-machine-interactions-in-virtual-and-augmented-reality/index.html"
+to = "/en/publications/2009-multimodal-human-machine-interactions-in-virtual-and-augmented-reality/"
+
+[[redirects]]
+from = "/publications/2018-an-exploratory-study-of-the-uses-of-a-multisensory-map-with-visually-impaired-children/index.html"
+to = "/en/publications/2018-an-exploratory-study-of-the-uses-of-a-multisensory-map-with-visually-impaired-children/"
+
+[[redirects]]
+from = "/en/team/people/index.html"
+to = "/en/members/"
+
+[[redirects]]
+from = "/en/team/members/ophelie-baribaud/index.html"
+to = "/en/members/ophelie-baribaud/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/lab-110-bis-ministere-de-l-education-nationale/index.html"
+to = "/fr/partenaires/lab-110-bis-ministere-de-l-education-nationale/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/artem-information-et-strategies/index.html"
+to = "/fr/partenaires/artem-information-et-strategies/"
+
+[[redirects]]
+from = "/fr/personnes/categories/chercheurs/index.html"
+to = "/fr/membres/categories/chercheurs/"
+
+[[redirects]]
+from = "/fr/equipe/justine-peneau/publications/index.html"
+to = "/fr/membres/justine-peneau/publications/"
+
+[[redirects]]
+from = "/publications/2017-from-ant-to-material-agency-a-design-and-science-research-workshop/index.html"
+to = "/en/publications/2017-from-ant-to-material-agency-a-design-and-science-research-workshop/"
+
+[[redirects]]
+from = "/productions/publications/2012-the-game-mechanics-of-pervasive-applications-visiting-the-uncanny/index.html"
+to = "/en/publications/2012-the-game-mechanics-of-pervasive-applications-visiting-the-uncanny/"
+
+[[redirects]]
+from = "/en/team/eva-ohayon/publications/index.html"
+to = "/en/members/eva-ohayon/publications/"
+
+[[redirects]]
+from = "/productions/publications/2023-le-design-a-l-epreuve-du-territoire-pratiques-exploratoires-et-metiers-emergents/index.html"
+to = "/en/publications/2023-le-design-a-l-epreuve-du-territoire-pratiques-exploratoires-et-metiers-emergents/"
+
+[[redirects]]
+from = "/fr/equipe/membres/delphine-leger/ressources/index.html"
+to = "/fr/membres/delphine-leger/ressources/"
+
+[[redirects]]
+from = "/en/team/people/categories/associes/index.html"
+to = "/en/members/categories/associes/"
+
+[[redirects]]
+from = "/productions/publications/2012-virtual-empathy-designing-for-togetherness-in-the-context-of-e-learning/index.html"
+to = "/en/publications/2012-virtual-empathy-designing-for-togetherness-in-the-context-of-e-learning/"
+
+[[redirects]]
+from = "/en/people/justine-peneau/resources/index.html"
+to = "/en/members/justine-peneau/resources/"
+
+[[redirects]]
+from = "/en/people/anthony-ferretti/resources/index.html"
+to = "/en/members/anthony-ferretti/resources/"
+
+[[redirects]]
+from = "/en/organizations/categories/field-actors/index.html"
+to = "/en/partners/categories/field-actors/"
+
+[[redirects]]
+from = "/en/organizations/agence-national-de-la-recherche/index.html"
+to = "/en/partners/french-national-research-agency/"
+
+[[redirects]]
+from = "/en/team/organizations/good-planet-belgium/index.html"
+to = "/en/partners/good-planet-belgium/"
+
+[[redirects]]
+from = "/productions/publications/2012-virtual-empathy-designing-for-togertherness-in-the-context-of-e-learning/index.html"
+to = "/en/publications/2012-virtual-empathy-designing-for-togertherness-in-the-context-of-e-learning/"
+
+[[redirects]]
+from = "/projets/publications/2009-pervasive-gaming-testing-future-context-aware-applications/index.html"
+to = "/en/publications/2009-pervasive-gaming-testing-future-context-aware-applications/"
+
+[[redirects]]
+from = "/fr/publications/2011-the-design-of-emotions-how-the-digital-is-making-us-more-emotional/index.html"
+to = "/en/publications/2011-the-design-of-emotions-how-the-digital-is-making-us-more-emotional/"
+
+[[redirects]]
+from = "/productions/publications/2008-le-design-de-nos-existences-a-l-epoque-de-l-innovation-ascendante/index.html"
+to = "/en/publications/2008-le-design-de-nos-existences-a-l-epoque-de-l-innovation-ascendante/"
+
+[[redirects]]
+from = "/fr/organisations/signes-de-sens/index.html"
+to = "/fr/partenaires/signes-de-sens/"
+
+[[redirects]]
+from = "/fr/organisations/sncf/index.html"
+to = "/fr/partenaires/sncf/"
+
+[[redirects]]
+from = "/en/team/partners/ucc-university-college-of-cork/index.html"
+to = "/en/partners/ucc-university-college-of-cork/"
+
+[[redirects]]
+from = "/en/organizations/lab-sncf-impact/index.html"
+to = "/en/partners/lab-sncf-impact/"
+
+[[redirects]]
+from = "/projets/publications/2013-beyond-rhetoric-to-poetics-in-it-invention/index.html"
+to = "/en/publications/2013-beyond-rhetoric-to-poetics-in-it-invention/"
+
+[[redirects]]
+from = "/en/team/partners/lab-110-bis-ministere-de-leducation-nationale/index.html"
+to = "/en/partners/lab-110-bis-ministere-de-l-education-nationale/"
+
+[[redirects]]
+from = "/en/people/annie-gentes/publications/index.html"
+to = "/en/members/annie-gentes/publications/"
+
+[[redirects]]
+from = "/fr/organisations/lab-110-bis-ministere-de-leducation-nationale/index.html"
+to = "/fr/partenaires/lab-110-bis-ministere-de-l-education-nationale/"
+
+[[redirects]]
+from = "/fr/publications/2016-design-and-interdisciplinarity-the-improbable-introduction-of-fundamental-physics-in-a-design-school/index.html"
+to = "/en/publications/2016-design-and-interdisciplinarity-the-improbable-introduction-of-fundamental-physics-in-a-design-school/"
+
+[[redirects]]
+from = "/productions/publications/2007-l-intime-a-l-epreuve-du-reseau/index.html"
+to = "/en/publications/2007-l-intime-a-l-epreuve-du-reseau/"
+
+[[redirects]]
+from = "/en/team/stephanie-hemon/index.html"
+to = "/en/members/stephanie-hemon/"
+
+[[redirects]]
+from = "/projets/publications/2013-contradictory-semiotic-analysis-to-bridge-literacies-and-activities-in-design-practice/index.html"
+to = "/en/publications/2013-contradictory-semiotic-analysis-to-bridge-literacies-and-activities-in-design-practice/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/eco2-school-as-new-european-bauhaus-labs/index.html"
+to = "/fr/partenaires/eco2-school-as-new-european-bauhaus-labs/"
+
+[[redirects]]
+from = "/fr/publications/2007-second-life-une-mise-en-jeu-des-medias/index.html"
+to = "/en/publications/2007-second-life-une-mise-en-jeu-des-medias/"
+
+[[redirects]]
+from = "/en/team/partners/ecole-deconomie-de-paris-pse/index.html"
+to = "/en/partners/ecole-d-economie-de-paris-pse/"
+
+[[redirects]]
+from = "/en/organizations/good-planet-belgium/index.html"
+to = "/en/partners/good-planet-belgium/"
+
+[[redirects]]
+from = "/publications/2012-building-on-possible-worlds-meaning-making-interpretation-and-organizational-processes-in-design-pro/index.html"
+to = "/en/publications/2012-building-on-possible-worlds-meaning-making-interpretation-and-organizational-processes-in-design-pro/"
+
+[[redirects]]
+from = "/fr/publications/2012-virtual-empathy-designing-for-togetherness-in-the-context-of-e-learning/index.html"
+to = "/en/publications/2012-virtual-empathy-designing-for-togetherness-in-the-context-of-e-learning/"
+
+[[redirects]]
+from = "/publications/2012-the-game-mechanics-of-pervasive-applications-visiting-the-uncanny/index.html"
+to = "/en/publications/2012-the-game-mechanics-of-pervasive-applications-visiting-the-uncanny/"
+
+[[redirects]]
+from = "/en/team/pauline-oger/publications/index.html"
+to = "/en/members/pauline-oger/publications/"
+
+[[redirects]]
+from = "/en/organizations/sigtunaskolan-humanistiska-laroverket/index.html"
+to = "/en/partners/sigtunaskolan-humanistiska-laroverket/"
+
+[[redirects]]
+from = "/publications/2009-pervasive-gaming-testing-future-context-aware-applications/index.html"
+to = "/en/publications/2009-pervasive-gaming-testing-future-context-aware-applications/"
+
+[[redirects]]
+from = "/en/team/partners/inrae/index.html"
+to = "/en/partners/french-national-research-institute-for-agriculture-food-and-the-environment/"
+
+[[redirects]]
+from = "/productions/publications/2010-de-la-traduction-comme-mediation-et-creation-interlinguistique-des-interactions-humaines/index.html"
+to = "/en/publications/2010-de-la-traduction-comme-mediation-et-creation-interlinguistique-des-interactions-humaines/"
+
+[[redirects]]
+from = "/fr/publications/2012-les-alternatives-aux-reseaux-sociaux-l-architecture-distribuee-et-le-design-de-media/index.html"
+to = "/en/publications/2012-les-alternatives-aux-reseaux-sociaux-l-architecture-distribuee-et-le-design-de-media/"
+
+[[redirects]]
+from = "/fr/equipe/membres/ines-garmon/index.html"
+to = "/fr/membres/ines-garmon/"
+
+[[redirects]]
+from = "/en/people/giulia-marcocchia/publications/index.html"
+to = "/en/members/giulia-marcocchia/publications/"
+
+[[redirects]]
+from = "/en/team-1/members/index.html"
+to = "/en/members/"
+
+[[redirects]]
+from = "/fr/organisations/good-planet-belgium/index.html"
+to = "/fr/partenaires/good-planet-belgium/"
+
+[[redirects]]
+from = "/productions/publications/2013-science-fiction-scenarios-narratifs-et-visuels-dans-les-projets-d-ingenierie-des-tic/index.html"
+to = "/en/publications/2013-science-fiction-scenarios-narratifs-et-visuels-dans-les-projets-d-ingenierie-des-tic/"
+
+[[redirects]]
+from = "/en/team/people/ines-garmon/publications/index.html"
+to = "/en/members/ines-garmon/publications/"
+
+[[redirects]]
+from = "/projets/publications/2019-conclusion-l-aventure-epistemologique-contemporaine/index.html"
+to = "/en/publications/2019-conclusion-l-aventure-epistemologique-contemporaine/"
+
+[[redirects]]
+from = "/en/team/partners/french-program-and-priority-research-facilities-france-2030-agroecology-and-digital-technologies/index.html"
+to = "/en/partners/french-program-and-priority-research-facilities-france-2030-agroecology-and-digital-technologies/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/field-actors/index.html"
+to = "/fr/partenaires/categories/partenaires-experts-terrain/"
+
+[[redirects]]
+from = "/fr/personnes/justine-peneau/ressources/index.html"
+to = "/fr/membres/justine-peneau/ressources/"
+
+[[redirects]]
+from = "/publications/2022-traductibilite-et-design-explorer-les-parametres-generatifs-du-brief/index.html"
+to = "/en/publications/2022-traductibilite-et-design-explorer-les-parametres-generatifs-du-brief/"
+
+[[redirects]]
+from = "/en/team/pauline-oger/index.html"
+to = "/en/members/pauline-oger/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/inrae/index.html"
+to = "/fr/partenaires/institut-national-de-recherche-pour-l-agriculture-l-alimentation-et-l-environnement/"
+
+[[redirects]]
+from = "/publications/2015-critical-design/index.html"
+to = "/en/publications/2015-critical-design/"
+
+[[redirects]]
+from = "/fr/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-1/index.html"
+to = "/en/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-1/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/soutenabilite-transition-environnement-economie-biophysique-et-politiques-locales/index.html"
+to = "/fr/partenaires/soutenabilite-transition-environnement-economie-biophysique-et-politiques-locales/"
+
+[[redirects]]
+from = "/projets/publications/2010-gaming-on-the-move-urban-experience-as-a-new-paradigm-for-mobile-pervasive-game-design/index.html"
+to = "/en/publications/2010-gaming-on-the-move-urban-experience-as-a-new-paradigm-for-mobile-pervasive-game-design/"
+
+[[redirects]]
+from = "/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid/index.html"
+to = "/en/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid/"
+
+[[redirects]]
+from = "/productions/publications/2017-social-class-school-and-visual-impairments-reflections-from-the-field/index.html"
+to = "/en/publications/2017-social-class-school-and-visual-impairments-reflections-from-the-field/"
+
+[[redirects]]
+from = "/fr/publications/2023-the-forgotten-legacy-of-schon-from-materials-to-mediums-in-the-design-activity/index.html"
+to = "/en/publications/2023-the-forgotten-legacy-of-schon-from-materials-to-mediums-in-the-design-activity/"
+
+[[redirects]]
+from = "/projets/publications/2017-the-in-discipline-of-design-bridging-the-gap-between-engineering-and-the-humanities/index.html"
+to = "/en/publications/2017-the-in-discipline-of-design-bridging-the-gap-between-engineering-and-the-humanities/"
+
+[[redirects]]
+from = "/fr/equipe/membres/chercheurs/index.html"
+to = "/fr/membres/categories/chercheurs/"
+
+[[redirects]]
+from = "/publications/2013-contradictory-semiotic-analysis-to-bridge-literacies-and-activities-in-design-practice/index.html"
+to = "/en/publications/2013-contradictory-semiotic-analysis-to-bridge-literacies-and-activities-in-design-practice/"
+
+[[redirects]]
+from = "/projets/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-2/index.html"
+to = "/en/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-2/"
+
+[[redirects]]
+from = "/publications/2012-design-de-serious-game-la-question-de-la-convergence/index.html"
+to = "/en/publications/2012-design-de-serious-game-la-question-de-la-convergence/"
+
+[[redirects]]
+from = "/equipe/annie-gentes/index.html"
+to = "/fr/membres/annie-gentes/"
+
+[[redirects]]
+from = "/fr/publications/2017-social-class-school-and-visual-impairments-reflections-from-the-field/index.html"
+to = "/en/publications/2017-social-class-school-and-visual-impairments-reflections-from-the-field/"
+
+[[redirects]]
+from = "/fr/publications/2013-contradictory-semiotic-analysis-to-bridge-literacies-and-activities-in-design-practice/index.html"
+to = "/en/publications/2013-contradictory-semiotic-analysis-to-bridge-literacies-and-activities-in-design-practice/"
+
+[[redirects]]
+from = "/en/team-1/partners/signe-de-sens/index.html"
+to = "/en/partners/signe-de-sens/"
+
+[[redirects]]
+from = "/fr/organisations/ucc-university-college-of-cork/index.html"
+to = "/fr/partenaires/ucc-university-college-of-cork/"
+
+[[redirects]]
+from = "/plan-du-site/index.html"
+to = "/fr/plan-du-site/"
+
+[[redirects]]
+from = "/fr/organisations/eco2-school-as-new-european-bauhaus-labs/index.html"
+to = "/fr/partenaires/eco2-school-as-new-european-bauhaus-labs/"
+
+[[redirects]]
+from = "/fr/publications/2017-from-ant-to-material-agency-a-design-and-science-research-workshop/index.html"
+to = "/en/publications/2017-from-ant-to-material-agency-a-design-and-science-research-workshop/"
+
+[[redirects]]
+from = "/en/organizations/artem-information-et-strategies/index.html"
+to = "/en/partners/artem-information-et-strategies/"
+
+[[redirects]]
+from = "/projets/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid/index.html"
+to = "/en/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid/"
+
+[[redirects]]
+from = "/fr/personnes/giulia-marcocchia/publications/index.html"
+to = "/fr/membres/giulia-marcocchia/publications/"
+
+[[redirects]]
+from = "/en/team/partners/learning-planet-institute/index.html"
+to = "/en/partners/learning-planet-institute/"
+
+[[redirects]]
+from = "/fr/publications/2009-rfid-technology-fostering-human-interactions/index.html"
+to = "/en/publications/2009-rfid-technology-fostering-human-interactions/"
+
+[[redirects]]
+from = "/en/team/people/ophelie-baribaud/publications/index.html"
+to = "/en/members/ophelie-baribaud/publications/"
+
+[[redirects]]
+from = "/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment/index.html"
+to = "/en/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment/"
+
+[[redirects]]
+from = "/en/organizations/initiative-for-design-in-agrifood-systems/index.html"
+to = "/en/partners/initiative-for-design-in-agrifood-systems/"
+
+[[redirects]]
+from = "/projets/publications/2007-second-life-une-mise-en-jeu-des-medias/index.html"
+to = "/en/publications/2007-second-life-une-mise-en-jeu-des-medias/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/ucc-university-college-of-cork/index.html"
+to = "/fr/partenaires/ucc-university-college-of-cork/"
+
+[[redirects]]
+from = "/en/people/stephanie-hemon/index.html"
+to = "/en/members/stephanie-hemon/"
+
+[[redirects]]
+from = "/publications/2011-traduction-et-recherche-technique/index.html"
+to = "/en/publications/2011-traduction-et-recherche-technique/"
+
+[[redirects]]
+from = "/fr/publications/2010-rfid-based-distributed-shared-memory-for-pervasive-games/index.html"
+to = "/en/publications/2010-rfid-based-distributed-shared-memory-for-pervasive-games/"
+
+[[redirects]]
+from = "/publications/2009-rfid-technology-fostering-human-interactions-1/index.html"
+to = "/en/publications/2009-rfid-technology-fostering-human-interactions-1/"
+
+[[redirects]]
+from = "/en/team/organizations/initiative-for-design-in-agrifood-systems/index.html"
+to = "/en/partners/initiative-for-design-in-agrifood-systems/"
+
+[[redirects]]
+from = "/fr/equipe/anthony-ferretti/index.html"
+to = "/fr/membres/anthony-ferretti/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/institut-national-de-recherche-en-sciences-et-technologies-du-numerique/index.html"
+to = "/fr/partenaires/institut-national-de-recherche-en-sciences-et-technologies-du-numerique/"
+
+[[redirects]]
+from = "/fr/publications/2019-l-aventure-epistemologique-contemporaine/index.html"
+to = "/en/publications/2019-l-aventure-epistemologique-contemporaine/"
+
+[[redirects]]
+from = "/a-propos/index.html"
+to = "/fr/a-propos/"
+
+[[redirects]]
+from = "/en/team/delphine-leger/index.html"
+to = "/en/members/delphine-leger/"
+
+[[redirects]]
+from = "/en/team/organizations/institut-national-de-recherche-en-sciences-et-technologies-du-numerique/index.html"
+to = "/en/partners/institut-national-de-recherche-en-sciences-et-technologies-du-numerique/"
+
+[[redirects]]
+from = "/organisations/index.html"
+to = "/fr/partenaires/"
+
+[[redirects]]
+from = "/fr/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-2/index.html"
+to = "/en/publications/2009-plug-secrets-of-the-museum-a-pervasive-game-taking-place-in-a-museum-2/"
+
+[[redirects]]
+from = "/en/team/people/eva-ohayon/publications/index.html"
+to = "/en/members/eva-ohayon/publications/"
+
+[[redirects]]
+from = "/politique-de-confidentialite/index.html"
+to = "/fr/politique-de-confidentialite/"
+
+[[redirects]]
+from = "/projets/publications/2008-design-et-mediation-creative-dans-les-technologies-de-l-information/index.html"
+to = "/en/publications/2008-design-et-mediation-creative-dans-les-technologies-de-l-information/"
+
+[[redirects]]
+from = "/fr/equipe/membres/categories/associes/index.html"
+to = "/fr/membres/categories/associes/"
+
+[[redirects]]
+from = "/productions/publications/2023-approche-critique-du-design-empathique-le-cas-du-design-sprint-au-sein-d-une-agence-digitale/index.html"
+to = "/en/publications/2023-approche-critique-du-design-empathique-le-cas-du-design-sprint-au-sein-d-une-agence-digitale/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/eco2-campus-microville-durable/index.html"
+to = "/fr/partenaires/eco2-campus-microville-durable/"
+
+[[redirects]]
+from = "/en/organizations/ecole-d-economie-de-paris-pse/index.html"
+to = "/en/partners/ecole-d-economie-de-paris-pse/"
+
+[[redirects]]
+from = "/en/team/partners/good-planet-belgium/index.html"
+to = "/en/partners/good-planet-belgium/"
+
+[[redirects]]
+from = "/en/team-1/partners/saint-germain-en-laye/index.html"
+to = "/en/partners/saint-germain-en-laye/"
+
+[[redirects]]
+from = "/productions/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment/index.html"
+to = "/en/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment/"
+
+[[redirects]]
+from = "/publications/2019-invention-technique-et-objet-integratif/index.html"
+to = "/en/publications/2019-invention-technique-et-objet-integratif/"
+
+[[redirects]]
+from = "/en/team/members/justine-peneau/publications/index.html"
+to = "/en/members/justine-peneau/publications/"
+
+[[redirects]]
+from = "/en/organizations/g-eau-gestion-de-leau-acteurs-usages/index.html"
+to = "/en/partners/g-eau-water-management-actors-uses/"
+
+[[redirects]]
+from = "/en/people/anthony-ferretti/publications/index.html"
+to = "/en/members/anthony-ferretti/publications/"
+
+[[redirects]]
+from = "/equipe-recherche/index.html"
+to = "/fr/membres/equipe-recherche/"
+
+[[redirects]]
+from = "/en/team/justine-peneau/index.html"
+to = "/en/members/justine-peneau/"
+
+[[redirects]]
+from = "/fr/personnes/ophelie-baribaud/publications/index.html"
+to = "/fr/membres/ophelie-baribaud/publications/"
+
+[[redirects]]
+from = "/productions/publications/2024-le-design-prend-il-soin-du-futur/index.html"
+to = "/en/publications/2024-le-design-prend-il-soin-du-futur/"
+
+[[redirects]]
+from = "/en/team/members/pauline-oger/index.html"
+to = "/en/members/pauline-oger/"
+
+[[redirects]]
+from = "/en/team/organizations/french-national-research-institute-for-agriculture-food-and-the-environment/index.html"
+to = "/en/partners/french-national-research-institute-for-agriculture-food-and-the-environment/"
+
+[[redirects]]
+from = "/productions/publications/2013-the-co-si-card-method-how-to-refine-and-validate-concepts-through-a-scenario-generator-framework/index.html"
+to = "/en/publications/2013-the-co-si-card-method-how-to-refine-and-validate-concepts-through-a-scenario-generator-framework/"
+
+[[redirects]]
+from = "/publications/2010-de-la-traduction-comme-mediation-et-creation-interlinguistique-des-interactions-humaines/index.html"
+to = "/en/publications/2010-de-la-traduction-comme-mediation-et-creation-interlinguistique-des-interactions-humaines/"
+
+[[redirects]]
+from = "/en/team/partners/occitanum/index.html"
+to = "/en/partners/occitanum/"
+
+[[redirects]]
+from = "/publications/2009-multimodal-human-machine-interactions-in-virtual-and-augmented-reality/index.html"
+to = "/en/publications/2009-multimodal-human-machine-interactions-in-virtual-and-augmented-reality/"
+
+[[redirects]]
+from = "/en/team/members/justine-peneau/index.html"
+to = "/en/members/justine-peneau/"
+
+[[redirects]]
+from = "/fr/equipe/membres/justine-peneau/index.html"
+to = "/fr/membres/justine-peneau/"
+
+[[redirects]]
+from = "/productions/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france/index.html"
+to = "/en/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france/"
+
+[[redirects]]
+from = "/productions/publications/2014-the-rhetoric-of-design-for-debate-triggering-conversation-with-an-uncanny-enough-artefact/index.html"
+to = "/en/publications/2014-the-rhetoric-of-design-for-debate-triggering-conversation-with-an-uncanny-enough-artefact/"
+
+[[redirects]]
+from = "/en/team/people/justine-peneau/index.html"
+to = "/en/members/justine-peneau/"
+
+[[redirects]]
+from = "/fr/publications/2019-qu-est-ce-que-le-bon-design/index.html"
+to = "/en/publications/2019-qu-est-ce-que-le-bon-design/"
+
+[[redirects]]
+from = "/en/programs-1/index.html"
+to = "/en/programs/"
+
+[[redirects]]
+from = "/publications/2024-le-design-prend-il-soin-du-futur/index.html"
+to = "/en/publications/2024-le-design-prend-il-soin-du-futur/"
+
+[[redirects]]
+from = "/productions/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid/index.html"
+to = "/en/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid/"
+
+[[redirects]]
+from = "/en/team/people/annie-gentes/index.html"
+to = "/en/members/annie-gentes/"
+
+[[redirects]]
+from = "/fr/personnes/justine-peneau/index.html"
+to = "/fr/membres/justine-peneau/"
+
+[[redirects]]
+from = "/projets/publications/2009-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility-1/index.html"
+to = "/en/publications/2009-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility-1/"
+
+[[redirects]]
+from = "/projets/publications/2008-das-unheimliche-of-ubiquitous-games-for-museum-visitors/index.html"
+to = "/en/publications/2008-das-unheimliche-of-ubiquitous-games-for-museum-visitors/"
+
+[[redirects]]
+from = "/fr/publications/2012-design-de-serious-game-la-question-de-la-convergence/index.html"
+to = "/en/publications/2012-design-de-serious-game-la-question-de-la-convergence/"
+
+[[redirects]]
+from = "/fr/publications/2011-traduction-et-recherche-technique/index.html"
+to = "/en/publications/2011-traduction-et-recherche-technique/"
+
+[[redirects]]
+from = "/productions/publications/2019-l-aventure-epistemologique-contemporaine/index.html"
+to = "/en/publications/2019-l-aventure-epistemologique-contemporaine/"
+
+[[redirects]]
+from = "/projets/publications/2007-l-intime-a-l-epreuve-du-reseau/index.html"
+to = "/en/publications/2007-l-intime-a-l-epreuve-du-reseau/"
+
+[[redirects]]
+from = "/fr/programmes/2024-chaire-recherche-design-decision/index.html"
+to = "/fr/programmes/2024-design-decision/"
+
+[[redirects]]
+from = "/equipe/equipe-editoriale/index.html"
+to = "/fr/membres/equipe-editoriale/"
+
+[[redirects]]
+from = "/equipe/organisations/signe-de-sens/index.html"
+to = "/fr/partenaires/signes-de-sens/"
+
+[[redirects]]
+from = "/productions/publications/2013-place-and-non-place-a-model-for-the-strategic-design-of-place-centered-services/index.html"
+to = "/en/publications/2013-place-and-non-place-a-model-for-the-strategic-design-of-place-centered-services/"
+
+[[redirects]]
+from = "/productions/publications/2019-openness-graphic-design-and-visual-practices-of-science-exploration-to-promote-innovation/index.html"
+to = "/en/publications/2019-openness-graphic-design-and-visual-practices-of-science-exploration-to-promote-innovation/"
+
+[[redirects]]
+from = "/fr/equipe/membres/anthony-ferretti/index.html"
+to = "/fr/membres/anthony-ferretti/"
+
+[[redirects]]
+from = "/fr/publications/2013-is-there-a-anyone-out-there-how-to-involve-the-user-in-the-invention-of-it/index.html"
+to = "/en/publications/2013-is-there-a-anyone-out-there-how-to-involve-the-user-in-the-invention-of-it/"
+
+[[redirects]]
+from = "/fr/publications/2012-virtual-empathy-designing-for-togertherness-in-the-context-of-e-learning/index.html"
+to = "/en/publications/2012-virtual-empathy-designing-for-togertherness-in-the-context-of-e-learning/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/learning-planet-institute/index.html"
+to = "/fr/partenaires/learning-planet-institute/"
+
+[[redirects]]
+from = "/projets/publications/2009-rfid-technology-fostering-human-interactions/index.html"
+to = "/en/publications/2009-rfid-technology-fostering-human-interactions/"
+
+[[redirects]]
+from = "/fr/personnes/jean-louis-soubret/publications/index.html"
+to = "/fr/membres/jean-louis-soubret/publications/"
+
+[[redirects]]
+from = "/productions/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france-32-etudiants-de-master-design-4-prof/index.html"
+to = "/en/publications/2019-une-semaine-d-observation-a-la-bibliotheque-nationale-de-france-32-etudiants-de-master-design-4-prof/"
+
+[[redirects]]
+from = "/fr/organisations/eco2-campus-microville-durable/index.html"
+to = "/fr/partenaires/eco2-campus-microville-durable/"
+
+[[redirects]]
+from = "/productions/publications/2016-design-and-interdisciplinarity-the-improbable-introduction-of-fundamental-physics-in-a-design-school/index.html"
+to = "/en/publications/2016-design-and-interdisciplinarity-the-improbable-introduction-of-fundamental-physics-in-a-design-school/"
+
+[[redirects]]
+from = "/en/team/partners/lab-sncf-impact/index.html"
+to = "/en/partners/lab-sncf-impact/"
+
+[[redirects]]
+from = "/projets/publications/2012-designing-interpretation-making-sense-of-a-constellation-of-texts/index.html"
+to = "/en/publications/2012-designing-interpretation-making-sense-of-a-constellation-of-texts/"
+
+[[redirects]]
+from = "/publications/2020-figures-de-la-science-dans-des-contextes-de-conception/index.html"
+to = "/en/publications/2020-figures-de-la-science-dans-des-contextes-de-conception/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/maif/index.html"
+to = "/fr/partenaires/maif/"
+
+[[redirects]]
+from = "/fr/organisations/g-eau-gestion-de-leau-acteurs-usages/index.html"
+to = "/fr/partenaires/g-eau-gestion-de-l-eau-acteurs-usages/"
+
+[[redirects]]
+from = "/productions/publications/2009-rfid-technology-fostering-human-interactions/index.html"
+to = "/en/publications/2009-rfid-technology-fostering-human-interactions/"
+
+[[redirects]]
+from = "/fr/publications/2023-approche-critique-du-design-empathique-le-cas-du-design-sprint-au-sein-d-une-agence-digitale/index.html"
+to = "/en/publications/2023-approche-critique-du-design-empathique-le-cas-du-design-sprint-au-sein-d-une-agence-digitale/"
+
+[[redirects]]
+from = "/publications/2019-l-aventure-epistemologique-contemporaine/index.html"
+to = "/en/publications/2019-l-aventure-epistemologique-contemporaine/"
+
+[[redirects]]
+from = "/en/members/team/anthony-ferretti/index.html"
+to = "/en/members/anthony-ferretti/"
+
+[[redirects]]
+from = "/fr/publications/2008-le-design-de-nos-existences-a-l-epoque-de-l-innovation-ascendante/index.html"
+to = "/en/publications/2008-le-design-de-nos-existences-a-l-epoque-de-l-innovation-ascendante/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/institut-national-de-recherche-pour-l-agriculture-l-alimentation-et-l-environnement/index.html"
+to = "/fr/partenaires/institut-national-de-recherche-pour-l-agriculture-l-alimentation-et-l-environnement/"
+
+[[redirects]]
+from = "/fr/equipe/annie-gentes/publications/index.html"
+to = "/fr/membres/annie-gentes/publications/"
+
+[[redirects]]
+from = "/en/team/organizations/categories/partenaires-experts-terrain/index.html"
+to = "/en/partners/categories/field-actors/"
+
+[[redirects]]
+from = "/en/team/people/delphine-leger/resources/index.html"
+to = "/en/members/delphine-leger/resources/"
+
+[[redirects]]
+from = "/publications/2022-le-traduire-comme-paradigme-de-la-pratique-du-design/index.html"
+to = "/en/publications/2022-le-traduire-comme-paradigme-de-la-pratique-du-design/"
+
+[[redirects]]
+from = "/publications/2014-the-rhetoric-of-design-for-debate-triggering-conversation-with-an-uncanny-enough-artefact/index.html"
+to = "/en/publications/2014-the-rhetoric-of-design-for-debate-triggering-conversation-with-an-uncanny-enough-artefact/"
+
+[[redirects]]
+from = "/en/team/partners/soutenabilite-transition-environnement-economie-biophysique-et-politiques-locales/index.html"
+to = "/en/partners/sustainability-transition-environment-biophysical-economics-and-local-policies/"
+
+[[redirects]]
+from = "/productions/publications/2012-design-de-serious-game-la-question-de-la-convergence/index.html"
+to = "/en/publications/2012-design-de-serious-game-la-question-de-la-convergence/"
+
+[[redirects]]
+from = "/fr/equipe/membres/categories/chercheurs/index.html"
+to = "/fr/membres/categories/chercheurs/"
+
+[[redirects]]
+from = "/projets/publications/2024-le-design-prend-il-soin-du-futur/index.html"
+to = "/en/publications/2024-le-design-prend-il-soin-du-futur/"
+
+[[redirects]]
+from = "/projets/publications/2019-annie-gentes-the-indiscipline-of-design-bridging-the-gap-between-humanities-and-engineering/index.html"
+to = "/en/publications/2019-annie-gentes-the-indiscipline-of-design-bridging-the-gap-between-humanities-and-engineering/"
+
+[[redirects]]
+from = "/en/organizations/ciencia-viva-science-center/index.html"
+to = "/en/partners/ciencia-viva-science-center/"
+
+[[redirects]]
+from = "/en/programs/2024-research-chair-decision-design/index.html"
+to = "/en/programs/2024-decision-design/"
+
+[[redirects]]
+from = "/publications/2008-design-et-mediation-creative-dans-les-technologies-de-l-information/index.html"
+to = "/en/publications/2008-design-et-mediation-creative-dans-les-technologies-de-l-information/"
+
+[[redirects]]
+from = "/en/events/seminaire/index.html"
+to = "/en/events/seminar/"
+
+[[redirects]]
+from = "/fr/personnes/delphine-leger/ressources/index.html"
+to = "/fr/membres/delphine-leger/ressources/"
+
+[[redirects]]
+from = "/productions/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid-1/index.html"
+to = "/en/publications/2019-l-aventure-epistemologique-contemporaine-rencontres-autour-des-travaux-d-anne-francoise-schmid-1/"
+
+[[redirects]]
+from = "/fr/publications/2009-visiteur-ou-joueur-les-multiples-facettes-de-la-technologie-rfid/index.html"
+to = "/en/publications/2009-visiteur-ou-joueur-les-multiples-facettes-de-la-technologie-rfid/"
+
+[[redirects]]
+from = "/en/people/justine-peneau/index.html"
+to = "/en/members/justine-peneau/"
+
+[[redirects]]
+from = "/en/organizations/france-2030/index.html"
+to = "/en/partners/french-program-and-priority-research-facilities-france-2030-agroecology-and-digital-technologies/"
+
+[[redirects]]
+from = "/publications/2013-is-there-a-anyone-out-there-how-to-involve-the-user-in-the-invention-of-it/index.html"
+to = "/en/publications/2013-is-there-a-anyone-out-there-how-to-involve-the-user-in-the-invention-of-it/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/programme-et-equipements-prioritaires-de-recherche-france-2030-agroecologie-et-numerique/index.html"
+to = "/fr/partenaires/programme-et-equipements-prioritaires-de-recherche-france-2030-agroecologie-et-numerique/"
+
+[[redirects]]
+from = "/en/team/members/categories/associes/index.html"
+to = "/en/members/categories/associes/"
+
+[[redirects]]
+from = "/fr/organisations/categories/research-partners/index.html"
+to = "/fr/partenaires/categories/partenaires-academiques/"
+
+[[redirects]]
+from = "/en/team-index/eva-ohayon/index.html"
+to = "/en/members/eva-ohayon/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/france-2030/index.html"
+to = "/fr/partenaires/programme-et-equipements-prioritaires-de-recherche-france-2030-agroecologie-et-numerique/"
+
+[[redirects]]
+from = "/en/team/giulia-marcocchia/publications/index.html"
+to = "/en/members/giulia-marcocchia/publications/"
+
+[[redirects]]
+from = "/fr/publications/2007-l-intime-a-l-epreuve-du-reseau/index.html"
+to = "/en/publications/2007-l-intime-a-l-epreuve-du-reseau/"
+
+[[redirects]]
+from = "/en/people/ophelie-baribaud/publications/index.html"
+to = "/en/members/ophelie-baribaud/publications/"
+
+[[redirects]]
+from = "/fr/equipe-1/membres/anthony-ferretti/index.html"
+to = "/fr/membres/anthony-ferretti/"
+
+[[redirects]]
+from = "/fr/equipe/membres/associes/index.html"
+to = "/fr/membres/categories/associes/"
+
+[[redirects]]
+from = "/fr/organisations/categories/field-actors/index.html"
+to = "/fr/partenaires/categories/partenaires-experts-terrain/"
+
+[[redirects]]
+from = "/fr/publications/2009-pervasive-gaming-testing-future-context-aware-applications/index.html"
+to = "/en/publications/2009-pervasive-gaming-testing-future-context-aware-applications/"
+
+[[redirects]]
+from = "/en/team/organizations/categories/research-partners/index.html"
+to = "/en/partners/categories/research-partners/"
+
+[[redirects]]
+from = "/publications/2013-the-three-paradigms-of-it-design-function-aesthetics-literacy/index.html"
+to = "/en/publications/2013-the-three-paradigms-of-it-design-function-aesthetics-literacy/"
+
+[[redirects]]
+from = "/fr/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment/index.html"
+to = "/en/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment/"
+
+[[redirects]]
+from = "/fr/programmes/research-project/index.html"
+to = "/fr/programmes/projet-recherche/"
+
+[[redirects]]
+from = "/fr/personnes/annie-gentes/publications/index.html"
+to = "/fr/membres/annie-gentes/publications/"
+
+[[redirects]]
+from = "/publications/2012-nouveaux-medias-au-musee-le-visiteur-equipe/index.html"
+to = "/en/publications/2012-nouveaux-medias-au-musee-le-visiteur-equipe/"
+
+[[redirects]]
+from = "/projets/publications/2009-visiteur-ou-joueur-les-multiples-facettes-de-la-technologie-rfid/index.html"
+to = "/en/publications/2009-visiteur-ou-joueur-les-multiples-facettes-de-la-technologie-rfid/"
+
+[[redirects]]
+from = "/en/team/organizations/ellinogermaniki-agogi/index.html"
+to = "/en/partners/ellinogermaniki-agogi/"
+
+[[redirects]]
+from = "/productions/publications/2002-ecritures-en-ligne-pratiques-et-communautes-sous-la-dir-de-brigitte-chapelain-485-p/index.html"
+to = "/en/publications/2002-ecritures-en-ligne-pratiques-et-communautes-sous-la-dir-de-brigitte-chapelain-485-p/"
+
+[[redirects]]
+from = "/en/people/pauline-oger/publications/index.html"
+to = "/en/members/pauline-oger/publications/"
+
+[[redirects]]
+from = "/projets/publications/2017-how-to-frame-the-un-known-the-odd-alliance-of-design-and-fundamental-physics-in-a-design-school/index.html"
+to = "/en/publications/2017-how-to-frame-the-un-known-the-odd-alliance-of-design-and-fundamental-physics-in-a-design-school/"
+
+[[redirects]]
+from = "/projets/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment/index.html"
+to = "/en/publications/2013-designing-empathy-the-role-of-a-control-room-in-an-e-learning-environment/"
+
+[[redirects]]
+from = "/fr/personnes/jean-louis-soubret/index.html"
+to = "/fr/membres/jean-louis-soubret/"
+
+[[redirects]]
+from = "/en/team-index/annie-gentes/index.html"
+to = "/en/members/annie-gentes/"
+
+[[redirects]]
+from = "/fr/publications/2015-identifier-les-besoins-des-enfants-en-situation-de-deficience-visuelle-etat-de-l-art-et-etude-de-ter/index.html"
+to = "/en/publications/2015-identifier-les-besoins-des-enfants-en-situation-de-deficience-visuelle-etat-de-l-art-et-etude-de-ter/"
+
+[[redirects]]
+from = "/fr/equipe/membres/anthony-ferretti/ressources/index.html"
+to = "/fr/membres/anthony-ferretti/ressources/"
+
+[[redirects]]
+from = "/productions/publications/2013-design-meaning-making-and-constructive-fixation-conceptualizing-semiotic-conditions-to-the-process-o/index.html"
+to = "/en/publications/2013-design-meaning-making-and-constructive-fixation-conceptualizing-semiotic-conditions-to-the-process-o/"
+
+[[redirects]]
+from = "/actualites/index.html"
+to = "/fr/ressources/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/institut-national-de-recherche-pour-l-agriculture-l-alimentation-et-l-environnement/index.html"
+to = "/fr/partenaires/institut-national-de-recherche-pour-l-agriculture-l-alimentation-et-l-environnement/"
+
+[[redirects]]
+from = "/productions/publications/2013-communications-et-strategies/index.html"
+to = "/en/publications/2013-communications-et-strategies/"
+
+[[redirects]]
+from = "/en/team/members/delphine-leger/index.html"
+to = "/en/members/delphine-leger/"
+
+[[redirects]]
+from = "/en/organizations/inrae/index.html"
+to = "/en/partners/french-national-research-institute-for-agriculture-food-and-the-environment/"
+
+[[redirects]]
+from = "/en/people/giulia-marcocchia/index.html"
+to = "/en/members/giulia-marcocchia/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/sigtunaskolan-humanistiska-laroverket/index.html"
+to = "/fr/partenaires/sigtunaskolan-humanistiska-laroverket/"
+
+[[redirects]]
+from = "/fr/publications/2009-multimodal-human-machine-interactions-in-virtual-and-augmented-reality/index.html"
+to = "/en/publications/2009-multimodal-human-machine-interactions-in-virtual-and-augmented-reality/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/categories/partenaires-academiques/index.html"
+to = "/fr/partenaires/categories/partenaires-academiques/"
+
+[[redirects]]
+from = "/projets/publications/2011-traduction-et-recherche-technique/index.html"
+to = "/en/publications/2011-traduction-et-recherche-technique/"
+
+[[redirects]]
+from = "/projets/publications/2008-le-design-de-nos-existences-a-l-epoque-de-l-innovation-ascendante/index.html"
+to = "/en/publications/2008-le-design-de-nos-existences-a-l-epoque-de-l-innovation-ascendante/"
+
+[[redirects]]
+from = "/fr/publications/2012-how-to-create-a-new-media-from-the-artefact-to-the-program/index.html"
+to = "/en/publications/2012-how-to-create-a-new-media-from-the-artefact-to-the-program/"
+
+[[redirects]]
+from = "/fr/publications/2009-systemes-d-interaction-emotionnelle/index.html"
+to = "/en/publications/2009-systemes-d-interaction-emotionnelle/"
+
+[[redirects]]
+from = "/fr/personnes/stephanie-hemon/index.html"
+to = "/fr/membres/stephanie-hemon/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/sncf/index.html"
+to = "/fr/partenaires/sncf/"
+
+[[redirects]]
+from = "/fr/publications/2022-pour-une-theorie-media-centree-du-design/index.html"
+to = "/en/publications/2022-pour-une-theorie-media-centree-du-design/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/lab-110-bis-ministere-de-leducation-nationale/index.html"
+to = "/fr/partenaires/lab-110-bis-ministere-de-l-education-nationale/"
+
+[[redirects]]
+from = "/fr/personnes/associes/index.html"
+to = "/fr/membres/categories/associes/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/sigtunaskolan-humanistiska-laroverket/index.html"
+to = "/fr/partenaires/sigtunaskolan-humanistiska-laroverket/"
+
+[[redirects]]
+from = "/en/team/jean-louis-soubret/publications/index.html"
+to = "/en/members/jean-louis-soubret/publications/"
+
+[[redirects]]
+from = "/publications/2012-how-to-create-a-new-media-from-the-artefact-to-the-program/index.html"
+to = "/en/publications/2012-how-to-create-a-new-media-from-the-artefact-to-the-program/"
+
+[[redirects]]
+from = "/en/team/partners/federation-nationale-des-cuma/index.html"
+to = "/en/partners/federation-nationale-des-cuma/"
+
+[[redirects]]
+from = "/publications/2010-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility/index.html"
+to = "/en/publications/2010-designing-mobility-pervasiveness-as-the-enchanting-tool-of-mobility/"
+
+[[redirects]]
+from = "/fr/publications/2013-place-and-non-place-a-model-for-the-strategic-design-of-place-centered-services/index.html"
+to = "/en/publications/2013-place-and-non-place-a-model-for-the-strategic-design-of-place-centered-services/"
+
+[[redirects]]
+from = "/fr/equipe/partenaires/initiative-for-design-in-agrifood-systems/index.html"
+to = "/fr/partenaires/initiative-for-design-in-agrifood-systems/"
+
+[[redirects]]
+from = "/fr/programmes/research-chair/index.html"
+to = "/fr/programmes/chaire-recherche/"
+
+[[redirects]]
+from = "/en/organizations/signe-de-sens/index.html"
+to = "/en/partners/signe-de-sens/"
+
+[[redirects]]
+from = "/en/organizations/institut-national-de-recherche-en-sciences-et-technologies-du-numerique/index.html"
+to = "/en/partners/institut-national-de-recherche-en-sciences-et-technologies-du-numerique/"
+
+[[redirects]]
+from = "/en/team/people/categories/chercheurs/index.html"
+to = "/en/members/categories/chercheurs/"
+
+[[redirects]]
+from = "/en/team/people/anthony-ferretti/index.html"
+to = "/en/members/anthony-ferretti/"
+
+[[redirects]]
+from = "/productions/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design-1/index.html"
+to = "/en/publications/2015-mood-boards-as-a-tool-for-the-in-discipline-of-design-1/"
+
+[[redirects]]
+from = "/fr/organisations/conservatoire-national-des-arts-et-metiers/index.html"
+to = "/fr/partenaires/conservatoire-national-des-arts-et-metiers/"
+
+[[redirects]]
+from = "/productions/publications/2012-how-to-create-a-new-media-from-the-artefact-to-the-program/index.html"
+to = "/en/publications/2012-how-to-create-a-new-media-from-the-artefact-to-the-program/"
+
+[[redirects]]
+from = "/en/people/ophelie-baribaud/index.html"
+to = "/en/members/ophelie-baribaud/"
+
+[[redirects]]
+from = "/fr/publications/2011-making-sense-of-constellations-of-objects-a-case-study-of-computer-aided-writing-practices-in-theatr/index.html"
+to = "/en/publications/2011-making-sense-of-constellations-of-objects-a-case-study-of-computer-aided-writing-practices-in-theatr/"
+
+[[redirects]]
+from = "/en/people/anthony-ferretti/index.html"
+to = "/en/members/anthony-ferretti/"
+
+[[redirects]]
+from = "/en/team/jean-louis-soubret/index.html"
+to = "/en/members/jean-louis-soubret/"
+
+[[redirects]]
+from = "/fr/equipe/organisations/lab-110-bis-ministere-de-l-education-nationale/index.html"
+to = "/fr/partenaires/lab-110-bis-ministere-de-l-education-nationale/"
+
