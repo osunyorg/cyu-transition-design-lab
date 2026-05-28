@@ -75,12 +75,13 @@ params:
         display: false
       truncate_description: 300 # Set to 0 to disable truncate
     single:
+      meta:
+        options:
+          authors: true
+          reading_time: false
+          updated_at: false
       options:
-        authors: true
-        reading_time: false
         signature: false
-        updated_at: false
-      position: hero # content | hero | none
 
   projects:
     index:
