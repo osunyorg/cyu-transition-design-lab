@@ -37,7 +37,7 @@ params:
       layout: list # grid | list
       truncate_description: 300 # Set to 0 to disable truncate
     single:
-      taxonomies:
+      meta:
         position: hero # content | hero | none
 
   organizations:
@@ -46,7 +46,7 @@ params:
         display: false
     single:
       backlinks: true
-      taxonomies:
+      meta:
         position: hero # content | hero | none
 
   persons:
@@ -56,7 +56,7 @@ params:
         display: false
     single:
       backlinks: true
-      taxonomies:
+      meta:
         position: hero # content | hero | none
 
   posts:
