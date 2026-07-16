@@ -38,7 +38,7 @@ params:
       truncate_description: 300 # Set to 0 to disable truncate
     single:
       meta:
-        position: content # content | hero | none
+        position: hero # content | hero | none
 
   organizations:
     index:

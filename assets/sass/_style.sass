@@ -383,8 +383,22 @@ abbr
 
 .section-sidebar
   margin-left: 0 !important
+  @include media-breakpoint-up(desktop)
+    background: $color-background-reverse
   @include media-breakpoint-down(desktop)
     padding: $spacing-4 0 !important
+
+.section-sidebar.person-sidebar.section-sidebar--with-meta,
+.section-sidebar.organization-sidebar.section-sidebar--with-meta
+  background: $color-background
+  a
+    color: $color-text
+    text-decoration-line: $text-decoration-line
+    text-decoration-color: $color-text-alt
+    text-underline-offset: $text-underline-offset
+    text-decoration-thickness: $text-decoration-thickness
+    &:hover
+      text-decoration-color: $color-text
 
 .posts__page:not(.full-width) .post-sidebar,
 .projects__page:not(.full-width) .project-sidebar
@@ -422,6 +436,11 @@ abbr
       text-decoration-thickness: $text-decoration-thickness
       &:hover
         text-decoration-color: $color-accent
+
+.toc-container
+  @include in-page-with-sidebar
+   .toc-content
+     margin-top: 0
 
 // Figcaption
 
@@ -674,6 +693,8 @@ main.page-with-blocks
 .exhibitions__page .event-access .event-slots
   & h2
     color: $color-text-alt-reverse
+    @include media-breakpoint-up(desktop)
+      width: columns(3.5)
 
 .block:last-child:not(.block-links, .logos-partners, .block-call_to_action, .block-chapter--accent_background, .block.chapter--alt-background, .block-timeline--horizontal, .block-pages--cards, .block-key_figures, .block-siblings-navigation, .block-siblings-navigation)
   padding-bottom: $spacing-5
