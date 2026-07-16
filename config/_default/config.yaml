@@ -16,7 +16,7 @@ params:
     single:
       taxonomies:
         display: true
-        show_name: false
+        show_name: true
 
   # DESIGN SYSTEM
 
@@ -47,7 +47,7 @@ params:
     single:
       backlinks: true
       meta:
-        position: hero # content | hero | none
+        position: content # content | hero | none
 
   persons:
     index:
