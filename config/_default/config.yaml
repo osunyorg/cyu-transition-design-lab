@@ -98,6 +98,7 @@ params:
 
   events:
     index:
+      archives: true
       layout: list # grid | list | agenda
       options:
         dates: true
