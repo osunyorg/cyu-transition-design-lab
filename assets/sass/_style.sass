@@ -731,16 +731,18 @@ main.page-with-blocks
   padding-bottom: $spacing-4
   padding-top: $spacing-4
 
-.publications .publication
+.publications__section .publication
   padding-right: var(--grid-gutter)
   padding-left: var(--grid-gutter)
   padding-top: $spacing-4
   padding-bottom: $spacing-4
+
+.publications .publication
   border-bottom: none
   transition: all 0.3s ease
-  &::before
-    right: var(--grid-gutter)
-    color: inherit
+  // &::before
+  //   right: var(--grid-gutter)
+  //   color: inherit
   & .publication-title
     font-size: var(--h4-size)
     line-height: var(--h4-line-height)
@@ -759,6 +761,8 @@ main.page-with-blocks
 
 // Person publication
 
+// Person publication
+
 .persons__page .hero--with-image
   @include media-breakpoint-down(desktop)
     padding-bottom: 0px !important
@@ -766,46 +770,31 @@ main.page-with-blocks
 .persons__page main
   padding-bottom: 0
 
-// Enlever les marges pour le hover des publications
-.persons__page main .document-content > .person-objects
-  margin-top: 0
-  padding-left: 0 !important
-  padding-right: 0 !important
-
 .persons__page main > .document-content > .container:first-child
   padding-top: var(--grid-gutter)
 
 .persons__page #shadow-host-companion
   padding-bottom: 0
 
-.person-publications,
-.person-posts
-  padding-top: $spacing-5
-  & .top
-    margin-bottom: calc(#{$spacing-3} + #{$spacing-2})
-  & .top,
-  & .publication,
-  & .posts,
-  & .more
-    padding-left: var(--grid-gutter)
-    padding-right: var(--grid-gutter)
-  & .publication
-    border-bottom: none
-    padding-top: $spacing-3
-    padding-bottom: $spacing-3
-    transition: all 0.3s ease
-    &::before
-      right: var(--grid-gutter)
-      color: inherit
-    & .publication-title
-      & a
-        color: $color-text
-        font-size: var(--h5-size)
-        font-weight: $heading-font-weight
-        &:hover
-          color: inherit
-    &:hover
-      background: $color-accent
+// Full-bleed du seul container qui enveloppe .person-objects
+.persons__page .document-content > .container:has(> .person-objects)
+  max-width: none
+  padding-left: 0
+  padding-right: 0
+
+.person-publications .publication
+  padding-top: $spacing-3
+  padding-bottom: $spacing-3
+  padding-left: var(--grid-gutter)
+  padding-right: var(--grid-gutter)
+  transition: background 0.15s ease
+  &:hover
+    background: $color-accent
+
+.person-publications-type .top,
+.person-publications > .top
+  padding-left: var(--grid-gutter)
+  padding-right: var(--grid-gutter)
 
 .person-posts .posts .post .post-content
   @include media-breakpoint-up(desktop)
