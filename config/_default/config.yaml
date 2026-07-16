@@ -38,7 +38,7 @@ params:
       truncate_description: 300 # Set to 0 to disable truncate
     single:
       meta:
-        position: hero # content | hero | none
+        position: content # content | hero | none
 
   organizations:
     index:
@@ -57,7 +57,7 @@ params:
     single:
       backlinks: true
       meta:
-        position: hero # content | hero | none
+        position: content # content | hero | none
 
   posts:
     date_format: "02/01/2006"
