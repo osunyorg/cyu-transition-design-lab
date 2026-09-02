@@ -215,6 +215,10 @@ from = "/fr/equipe/organisations/ucc-university-college-of-cork/index.html"
 to = "/fr/partenaires/ucc-university-college-of-cork/"
 
 [[redirects]]
+from = "/fr/2026/charte-graphique-transition-design-labpdf/index.html"
+to = "/fr/fichiers/2026/charte-graphique-transition-design-labpdf/"
+
+[[redirects]]
 from = "/fr/equipe/partenaires/soutenabilite-transition-environnement-economie-biophysique-et-politiques-locales/index.html"
 to = "/fr/partenaires/soutenabilite-transition-environnement-economie-biophysique-et-politiques-locales/"
 
@@ -585,6 +589,10 @@ to = "/en/members/pauline-oger/publications/"
 [[redirects]]
 from = "/en/team-1/members/annie-gentes/index.html"
 to = "/en/members/annie-gentes/"
+
+[[redirects]]
+from = "/fr/2026/20224-05-06-cv-academiquepdf/index.html"
+to = "/fr/fichiers/2026/20224-05-06-cv-academiquepdf/"
 
 [[redirects]]
 from = "/publications/2009-rfid-technology-fostering-human-interactions/index.html"
@@ -2373,6 +2381,10 @@ to = "/en/publications/2009-pervasive-gaming-testing-future-context-aware-applic
 [[redirects]]
 from = "/fr/publications/2011-the-design-of-emotions-how-the-digital-is-making-us-more-emotional/index.html"
 to = "/en/publications/2011-the-design-of-emotions-how-the-digital-is-making-us-more-emotional/"
+
+[[redirects]]
+from = "/fr/2026/transition-design-lab-dossier-presse-vote-quadratiquepdf/index.html"
+to = "/fr/fichiers/2026/transition-design-lab-dossier-presse-vote-quadratiquepdf/"
 
 [[redirects]]
 from = "/productions/publications/2008-le-design-de-nos-existences-a-l-epoque-de-l-innovation-ascendante/index.html"
