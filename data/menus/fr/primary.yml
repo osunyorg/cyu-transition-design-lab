@@ -55,13 +55,4 @@ items:
   descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
-- title: Événements
-  slug: evenements
-  target: "/fr/evenements/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/events"
-  file: content/fr/events/_index.html
 
